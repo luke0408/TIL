@@ -4,7 +4,7 @@
 
 |Directory Name|Content|Note Count|
 |---|---|---:|
-| Bash | Bash Shell Sript에 대한 내용을 정리한다. |1|
+| Bash | Bash Shell Sript에 대한 내용을 정리한다. |__Bash_DIRECTORY_COUNT__|
 
 해당 TIL은 아래의 자료들의 영향을 받았습니다.
 - [jbrnchaud/til](https://github.com/jbranchaud/til)
@@ -38,19 +38,4 @@
 
 ## File Tree
 
-📦 TIL</br>
-┣━ 📂[**Bash**](./Bash)</br>
-┃   ┗━ 📄[test](./Bash/test.md)</br>
-┣━ 📂[**node_modules**](./node_modules)</br>
-┃   ┗━ 📂[**husky**](./node_modules/husky)</br>
-┃       ┣━ 📂[**bin.js**](./node_modules/husky/bin.js)</br>
-┃       ┣━ 📂[**husky**](./node_modules/husky/husky)</br>
-┃       ┣━ 📂[**index.d.ts**](./node_modules/husky/index.d.ts)</br>
-┃       ┣━ 📂[**index.js**](./node_modules/husky/index.js)</br>
-┃       ┣━ 📂[**LICENSE**](./node_modules/husky/LICENSE)</br>
-┃       ┣━ 📂[**package.json**](./node_modules/husky/package.json)</br>
-┃       ┗━ 📄[README](./node_modules/husky/README.md)</br>
-┣━ 📂[**package.json**](./package.json)</br>
-┣━ 📂[**package-lock.json**](./package-lock.json)</br>
-┣━ 📄[README](./README.md)</br>
-┗━ 📂[**XXWxR8WS**](./XXWxR8WS)</br>
+__PROJECT_TREE__
