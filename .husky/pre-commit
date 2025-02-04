@@ -4,7 +4,8 @@ export LANG="UTF-8"
 filepath=$(git rev-parse --show-toplevel)
 
 function generate_project_tree() {
-  tree . -I '+*' -f --dirsfirst --noreport -I '~' |
+  local exclude_patterns=".husky|.idx|node_modules|.gitignore|package-lock.json|package.json|README.md"
+  tree . -I "$exclude_patterns" -f --dirsfirst --noreport -I '~' |
     sed -e 's/[|]-\+/┗/g' |
     sed -e 's/[│]/┃/g' |
     sed -e 's/[└]/┗/g' |
