@@ -37,7 +37,7 @@ function generate_project_tree() {
     sed -e 's/[├]/┣/g' |
     sed -e 's/[─]/━/g' |
     sed -e "s:\(━ \+\)\(\(.*/\)\([^/]\+\)\):\1📂[**\4**](\2)<\/br>:g" |
-    sed -e "s:\[\*\*\(.*\)\.md\*\*\]:📄\[\1\]:g" |
+    sed -e "s:\[\*\*\(.*\)\.md\*\*\]:📄\[**\1\**]:g" |
     sed -e "s=$filepath/=./=g" |
     sed -e "s=$filepath=./TIL</br>=g" |
     sed -e 's/━━/━/g' |

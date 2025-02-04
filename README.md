@@ -40,5 +40,5 @@
 
 📦 TIL</br>
 ┣━ 📂[**Bash**](./Bash)</br>
-┃   ┗━ 📄[test](./Bash/test.md)</br>
-┗━ 📂[**XXbc06co**](./XXbc06co)</br>
+┃   ┗━ 📄[**test**](./Bash/test.md)</br>
+┗━ 📂[**XXArlD49**](./XXArlD49)</br>
