@@ -1,0 +1,11 @@
+{
+    "ignore_files": [
+      ".husky",
+      ".idx",
+      "node_modules",
+      ".gitignore",
+      "package-lock.json",
+      "package.json",
+      "README.md"
+    ]
+  }
