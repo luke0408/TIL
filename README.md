@@ -4,7 +4,7 @@
 
 |Directory|Content|Notes|
 |---|---|---:|
-| Bash | Bash Shell Sript에 대한 내용을 정리한다. |1|
+| Bash | Bash Shell Sript에 대한 내용을 정리한다. |2|
 
 해당 TIL은 아래의 자료들의 영향을 받았습니다.
 - [jbrnchaud/til](https://github.com/jbranchaud/til)
@@ -40,4 +40,6 @@
 
 📦[**TIL**](./)</br>
 ┗━&nbsp;📂[**Bash**](./Bash)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**test**](./Bash/test.md)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Shell**](./Bash/Shell)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**test**](./Bash/Shell/test.md)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**test**](./Bash/test.md)</br>
