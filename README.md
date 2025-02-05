@@ -39,6 +39,5 @@
 ## File Tree
 
 📦 TIL</br>
-┣━ 📂[**Bash**](./Bash)</br>
-┃   ┗━ 📄[**test**](./Bash/test.md)</br>
-┗━ 📂[**XXArlD49**](./XXArlD49)</br>
+┗━ 📂[**Bash**](./Bash)</br>
+    ┗━ 📄[**test**](./Bash/test.md)</br>

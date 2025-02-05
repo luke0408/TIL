@@ -4,45 +4,26 @@ export LANG="UTF-8"
 filepath=$(git rev-parse --show-toplevel)
 exclude_patterns=".husky|.idx|node_modules|.gitignore|package-lock.json|package.json|README.md"
 
-function get_directories_without_md_files() {
-  find . -type d ! -path "$filepath" | while read dir; do
-    if [ -z "$(find "$dir" -type f -name '*.md' -print -quit 2>/dev/null)" ]; then
-      echo "$dir"
-    fi
-  done
-}
-
-function directory_filter() {
-  local dirs_without_md_files=$(get_directories_without_md_files)
-  while read line; do
-    skip=false
-    for dir in $dirs_without_md_files; do
-      if [[ $line == *"$dir"* ]]; then
-        skip=true
-        break
-      fi
-    done
-    if [ "$skip" = false ]; then
-      echo "$line"
-    fi
-  done
-}
-
 function generate_project_tree() {
-  tree . -I "$exclude_patterns" -f --dirsfirst --noreport -I '~' | 
-    directory_filter |
-    sed -e 's/[|]-\+/┗/g' |
-    sed -e 's/[│]/┃/g' |
-    sed -e 's/[└]/┗/g' |
-    sed -e 's/[├]/┣/g' |
-    sed -e 's/[─]/━/g' |
-    sed -e "s:\(━ \+\)\(\(.*/\)\([^/]\+\)\):\1📂[**\4**](\2)<\/br>:g" |
-    sed -e "s:\[\*\*\(.*\)\.md\*\*\]:📄\[**\1\**]:g" |
-    sed -e "s=$filepath/=./=g" |
-    sed -e "s=$filepath=./TIL</br>=g" |
-    sed -e 's/━━/━/g' |
-    sed -e "s=^\.=📦 TIL</br>=" |
-    sed -e 's/📂📄/📄/g'
+  tree . -I "$exclude_patterns" -P "*.md" -f --dirsfirst --noreport --prune -I '~' 
+}
+
+function proejct_tree_formatter() {
+  while IFS= read line; do
+    echo "$line" |
+      sed -e 's/[|]-\+/┗/g' |
+      sed -e 's/[│]/┃/g' |
+      sed -e 's/[└]/┗/g' |
+      sed -e 's/[├]/┣/g' |
+      sed -e 's/[─]/━/g' |
+      sed -e "s:\(━ \+\)\(\(.*/\)\([^/]\+\)\):\1📂[**\4**](\2)<\/br>:g" |
+      sed -e "s:\[\*\*\(.*\)\.md\*\*\]:📄\[**\1\**]:g" |
+      sed -e "s=$filepath/=./=g" |
+      sed -e "s=$filepath=./TIL</br>=g" |
+      sed -e 's/━━/━/g' |
+      sed -e "s=^\.=📦 TIL</br>=" |
+      sed -e 's/📂📄/📄/g'
+  done
 }
 
 function generate_directory_file_counts() {
@@ -60,6 +41,7 @@ function generate_readme() {
   cp -f "$readme_template" "$readme"
 
   generate_project_tree . |
+    proejct_tree_formatter |
     LANG="UTF-8" perl -p0e 's/__PROJECT_TREE__/`cat`/se' -i "$readme"
 
   generate_directory_file_counts
