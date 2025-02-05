@@ -4,7 +4,7 @@ export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export LANG="UTF-8"
 filepath=$(git rev-parse --show-toplevel)
-ignore_files=$(jq -r '.ignore_files | join("|")' "$filepath"/.husky/setting.json)
+ignore_files=$(jq -r '.ignore_files | join("|")' "$filepath"/.husky/readme/setting.json)
 
 function generate_project_tree() {
   tree . -I "$ignore_files" -P "*.md" -f --dirsfirst --noreport --prune -I '~'

@@ -7,7 +7,7 @@ filepath=$(git rev-parse --show-toplevel)
 readme="$filepath/README.md"
 
 function generate_readme() {
-  readme_template="$filepath/.husky/readme_template.md"
+  readme_template="$filepath/.husky/readme/readme_template.md"
   cp -f "$readme_template" "$readme"
 
   generate_project_tree . |

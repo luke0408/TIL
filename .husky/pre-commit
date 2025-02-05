@@ -2,9 +2,9 @@
 
 root=$(git rev-parse --show-toplevel)
 
-source "$root/.husky/tree_generater.sh"
-source "$root/.husky/file_counter.sh"
-source "$root/.husky/readme_generater.sh"
+for script in $root/.husky/readme/*.sh; do
+  source "$script"
+done
 
 generate_readme .
 git add $readme
