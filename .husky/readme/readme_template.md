@@ -3,8 +3,9 @@
 - 매일은 아니더라도 꾸준히 공부한 기록을 남기기 위해 시작했습니다.
 
 |Directory|Content|Notes|
-|---|---|---:|
-| Bash | Bash Shell Sript에 대한 내용을 정리한다. |__Bash_DIRECTORY_COUNT__|
+|---|---|---|
+| Bash | Bash Sript에 대한 내용을 정합니다. |__Bash_DIRECTORY_COUNT__|
+| Java | Java 언어에 대한 내용을 정리합니다. |__Java_DIRECTORY_COUNT__|
 
 해당 TIL은 아래의 자료들의 영향을 받았습니다.
 - [jbrnchaud/til](https://github.com/jbranchaud/til)
