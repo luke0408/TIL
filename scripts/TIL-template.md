@@ -8,11 +8,13 @@ ex) 버블 정렬에 대해 설명하기 위해, Array 자료형을 설명해야
 -->
 
 ## Summary
-A brief overview of the topic.
+<!-- A brief overview of the topic. -->
 
 ## Details
-- Detailed explanation of the topic.
-- Additional information and examples.
+<!--
+  Detailed explanation of the topic.
+  Additional information and examples.
+-->
 
 ## Reference
 <!-- 사용하지 않는 레퍼런스 종류는 삭제 후 업로드 -->
