@@ -2,10 +2,19 @@
 
 - 매일은 아니더라도 꾸준히 공부한 기록을 남기기 위해 시작했습니다.
 
-|Directory|Content|Notes|
-|---|---|---|
-| Bash | Bash Sript에 대한 내용을 정합니다. |2|
-| Java | Java 언어에 대한 내용을 정리합니다. |1|
+| Directory         | Content                              | Count                        |
+| ----------------- | :----------------------------------- | ---------------------------- |
+| AI_ML             | 인공지능과 머신러닝과 관련된 내용       | 0    |
+| Backend           | 백엔드 프레임워크와 관련된 내용         | 0  |
+| Cloud             | 클라우드 컴퓨팅과 관련된 내용           | 0    |
+| DevGeneral        | 디자인 패턴, 방법론 등의 내용          | 1|
+| DevOps            | DevOps와 관련된 내용                  | 0   |
+| Databases         | 데이터베이스와 관련된 내용             | 0|
+| Frontend          | 프론트 프레임워크와 관련된 내용        | 0 |
+| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 1|
+| Networking        | 네트워킹과 관련된 내용                 | 0|
+| OperatingSystems  | 운영 체제와 관련된 내용                | 0|
+| Security          | 보안과 관련된 내용                    | 0|
 
 해당 TIL은 아래의 자료들의 영향을 받았습니다.
 - [jbrnchaud/til](https://github.com/jbranchaud/til)
@@ -40,10 +49,56 @@
 ## File Tree
 
 📦[**TIL**](./)</br>
-┣━&nbsp;📂[**Bash**](./Bash)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Shell**](./Bash/Shell)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**test**](./Bash/Shell/test.md)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📄[**test**](./Bash/test.md)</br>
-┗━&nbsp;📂[**Java**](./Java)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**Effective_Java**](./Java/Effective_Java)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Item&nbsp;&nbsp;01**](./Java/Effective_Java/Item&nbsp;&nbsp;01.md)</br>
+┣━&nbsp;📂[**AI_ML**](./AI_ML)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**ComputerVision**](./AI_ML/ComputerVision)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**DeepLearning**](./AI_ML/DeepLearning)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**MachineLearning**](./AI_ML/MachineLearning)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**NaturalLanguageProcessing**](./AI_ML/NaturalLanguageProcessing)</br>
+┣━&nbsp;📂[**Backend**](./Backend)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**NestJS**](./Backend/NestJS)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**NodeJS**](./Backend/NodeJS)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Spring_boot**](./Backend/Spring_boot)</br>
+┣━&nbsp;📂[**Cloud**](./Cloud)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**AWS**](./Cloud/AWS)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Azure**](./Cloud/Azure)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**GCP**](./Cloud/GCP)</br>
+┣━&nbsp;📂[**Databases**](./Databases)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**GraphQL**](./Databases/GraphQL)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**NoSQL**](./Databases/NoSQL)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**SQL**](./Databases/SQL)</br>
+┣━&nbsp;📂[**DevGeneral**](./DevGeneral)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**DesignPatterns**](./DevGeneral/DesignPatterns)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Static_Factory_Method**](./DevGeneral/DesignPatterns/Static_Factory_Method.md)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Tools**](./DevGeneral/Tools)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Bash**](./DevGeneral/Tools/Bash)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**CPU**](./DevGeneral/Tools/CPU)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**IDEs**](./DevGeneral/Tools/IDEs)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**VersionControl**](./DevGeneral/Tools/VersionControl)</br>
+┣━&nbsp;📂[**DevOps**](./DevOps)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**CI_CD**](./DevOps/CI_CD)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Docker**](./DevOps/Docker)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Kubernetes**](./DevOps/Kubernetes)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Monitoring**](./DevOps/Monitoring)</br>
+┣━&nbsp;📂[**Frontend**](./Frontend)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Android**](./Frontend/Android)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**NextJS**](./Frontend/NextJS)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**React**](./Frontend/React)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**VueJS**](./Frontend/VueJS)</br>
+┣━&nbsp;📂[**Languages**](./Languages)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Java**](./Languages/Java)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📂[**Effective_Java**](./Languages/Java/Effective_Java)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Item&nbsp;&nbsp;01**](./Languages/Java/Effective_Java/Item&nbsp;&nbsp;01.md)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**TypeScript**](./Languages/TypeScript)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**VimScript**](./Languages/VimScript)</br>
+┣━&nbsp;📂[**Networking**](./Networking)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Protocols**](./Networking/Protocols)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Tools**](./Networking/Tools)</br>
+┣━&nbsp;📂[**OperatingSystems**](./OperatingSystems)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Linux**](./OperatingSystems/Linux)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Mac**](./OperatingSystems/Mac)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Unix**](./OperatingSystems/Unix)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Windows**](./OperatingSystems/Windows)</br>
+┗━&nbsp;📂[**Security**](./Security)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**ApplicationSecurity**](./Security/ApplicationSecurity)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Cryptography**](./Security/Cryptography)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**NetworkSecurity**](./Security/NetworkSecurity)</br>
