@@ -86,8 +86,6 @@
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**VueJS**](./Frontend/VueJS)</br>
 ┣━&nbsp;📂[**Languages**](./Languages)</br>
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**Java**](./Languages/Java)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📂[**Effective_Java**](./Languages/Java/Effective_Java)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Item&nbsp;&nbsp;01**](./Languages/Java/Effective_Java/Item&nbsp;&nbsp;01.md)</br>
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**TypeScript**](./Languages/TypeScript)</br>
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**VimScript**](./Languages/VimScript)</br>
 ┣━&nbsp;📂[**Networking**](./Networking)</br>

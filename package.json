@@ -4,7 +4,7 @@
     },
     "scripts": {
         "prepare": "husky",
-        "generate:til": "node scripts/generateTIL.js"
+        "til:note": "node scripts/generateTIL.js"
     },
     "dependencies": {
         "fs": "^0.0.1-security",
