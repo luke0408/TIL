@@ -3,7 +3,8 @@
         "husky": "^9.1.7"
     },
     "scripts": {
-        "prepare": "husky"
+        "prepare": "husky",
+        "generate:til": "node scripts/generateTIL.js"
     },
     "dependencies": {
         "fs": "^0.0.1-security",
