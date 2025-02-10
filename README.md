@@ -7,7 +7,7 @@
 | AI_ML             | 인공지능과 머신러닝과 관련된 내용       | 0    |
 | Backend           | 백엔드 프레임워크와 관련된 내용         | 0  |
 | Cloud             | 클라우드 컴퓨팅과 관련된 내용           | 1    |
-| DevGeneral        | 디자인 패턴, 방법론 등의 내용          | 4|
+| DevGeneral        | 디자인 패턴, 방법론 등의 내용          | 5|
 | DevOps            | DevOps와 관련된 내용                  | 0   |
 | Databases         | 데이터베이스와 관련된 내용             | 0|
 | Frontend          | 프론트 프레임워크와 관련된 내용        | 0 |
@@ -74,7 +74,8 @@
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Two_Hats**](./DevGeneral/Principle/Two_Hats.md)</br>
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**Refactoring**](./DevGeneral/Refactoring)</br>
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Definition_of_Refactoring**](./DevGeneral/Refactoring/Definition_of_Refactoring.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Reasons_for_Refactoring**](./DevGeneral/Refactoring/Reasons_for_Refactoring.md)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Reasons_for_Refactoring**](./DevGeneral/Refactoring/Reasons_for_Refactoring.md)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**When_to_Refactoring**](./DevGeneral/Refactoring/When_to_Refactoring.md)</br>
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**Tools**](./DevGeneral/Tools)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Bash**](./DevGeneral/Tools/Bash)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**CPU**](./DevGeneral/Tools/CPU)</br>
