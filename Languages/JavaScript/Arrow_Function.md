@@ -76,5 +76,5 @@ const arrowFunction = () => {
 **link:** External reference
 - [MDN - Arrow Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
-**authore note** Related note in this repo
+**authore note:** Related note in this repo
 - [JavaScript: Function](./Function.md)
