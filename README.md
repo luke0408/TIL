@@ -11,7 +11,7 @@
 | DevOps            | DevOps와 관련된 내용                  | 0   |
 | Databases         | 데이터베이스와 관련된 내용             | 0|
 | Frontend          | 프론트 프레임워크와 관련된 내용        | 0 |
-| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 0|
+| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 1|
 | Networking        | 네트워킹과 관련된 내용                 | 0|
 | OperatingSystems  | 운영 체제와 관련된 내용                | 0|
 | Security          | 보안과 관련된 내용                    | 0|
@@ -92,6 +92,8 @@
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**VueJS**](./Frontend/VueJS)</br>
 ┣━&nbsp;📂[**Languages**](./Languages)</br>
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**Java**](./Languages/Java)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**JavaScript**](./Languages/JavaScript)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Function**](./Languages/JavaScript/Function.md)</br>
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**TypeScript**](./Languages/TypeScript)</br>
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**VimScript**](./Languages/VimScript)</br>
 ┣━&nbsp;📂[**Networking**](./Networking)</br>
