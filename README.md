@@ -49,64 +49,19 @@
 ## File Tree
 
 📦[**TIL**](./)</br>
-┣━&nbsp;📂[**AI_ML**](./AI_ML)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**ComputerVision**](./AI_ML/ComputerVision)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**DeepLearning**](./AI_ML/DeepLearning)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**MachineLearning**](./AI_ML/MachineLearning)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**NaturalLanguageProcessing**](./AI_ML/NaturalLanguageProcessing)</br>
-┣━&nbsp;📂[**Backend**](./Backend)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**NestJS**](./Backend/NestJS)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**NodeJS**](./Backend/NodeJS)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**Spring_boot**](./Backend/Spring_boot)</br>
 ┣━&nbsp;📂[**Cloud**](./Cloud)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**AWS**](./Cloud/AWS)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**EC2**](./Cloud/AWS/EC2.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Azure**](./Cloud/Azure)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**GCP**](./Cloud/GCP)</br>
-┣━&nbsp;📂[**Databases**](./Databases)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**GraphQL**](./Databases/GraphQL)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**NoSQL**](./Databases/NoSQL)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**SQL**](./Databases/SQL)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**AWS**](./Cloud/AWS)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**EC2**](./Cloud/AWS/EC2.md)</br>
 ┣━&nbsp;📂[**DevGeneral**](./DevGeneral)</br>
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**DesignPatterns**](./DevGeneral/DesignPatterns)</br>
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Static_Factory_Method**](./DevGeneral/DesignPatterns/Static_Factory_Method.md)</br>
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**Principle**](./DevGeneral/Principle)</br>
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Two_Hats**](./DevGeneral/Principle/Two_Hats.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Refactoring**](./DevGeneral/Refactoring)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Definition_of_Refactoring**](./DevGeneral/Refactoring/Definition_of_Refactoring.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Reasons_for_Refactoring**](./DevGeneral/Refactoring/Reasons_for_Refactoring.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**When_to_Refactoring**](./DevGeneral/Refactoring/When_to_Refactoring.md)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**Tools**](./DevGeneral/Tools)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Bash**](./DevGeneral/Tools/Bash)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**CPU**](./DevGeneral/Tools/CPU)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**IDEs**](./DevGeneral/Tools/IDEs)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**VersionControl**](./DevGeneral/Tools/VersionControl)</br>
-┣━&nbsp;📂[**DevOps**](./DevOps)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**CI_CD**](./DevOps/CI_CD)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Docker**](./DevOps/Docker)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Kubernetes**](./DevOps/Kubernetes)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**Monitoring**](./DevOps/Monitoring)</br>
-┣━&nbsp;📂[**Frontend**](./Frontend)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Android**](./Frontend/Android)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**NextJS**](./Frontend/NextJS)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**React**](./Frontend/React)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**VueJS**](./Frontend/VueJS)</br>
-┣━&nbsp;📂[**Languages**](./Languages)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Java**](./Languages/Java)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**JavaScript**](./Languages/JavaScript)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Arrow_Function**](./Languages/JavaScript/Arrow_Function.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Function**](./Languages/JavaScript/Function.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**TypeScript**](./Languages/TypeScript)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**VimScript**](./Languages/VimScript)</br>
-┣━&nbsp;📂[**Networking**](./Networking)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Protocols**](./Networking/Protocols)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**Tools**](./Networking/Tools)</br>
-┣━&nbsp;📂[**OperatingSystems**](./OperatingSystems)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Linux**](./OperatingSystems/Linux)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Mac**](./OperatingSystems/Mac)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Unix**](./OperatingSystems/Unix)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**Windows**](./OperatingSystems/Windows)</br>
-┗━&nbsp;📂[**Security**](./Security)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**ApplicationSecurity**](./Security/ApplicationSecurity)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Cryptography**](./Security/Cryptography)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**NetworkSecurity**](./Security/NetworkSecurity)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Refactoring**](./DevGeneral/Refactoring)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Definition_of_Refactoring**](./DevGeneral/Refactoring/Definition_of_Refactoring.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Reasons_for_Refactoring**](./DevGeneral/Refactoring/Reasons_for_Refactoring.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**When_to_Refactoring**](./DevGeneral/Refactoring/When_to_Refactoring.md)</br>
+┗━&nbsp;📂[**Languages**](./Languages)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**JavaScript**](./Languages/JavaScript)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Arrow_Function**](./Languages/JavaScript/Arrow_Function.md)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Function**](./Languages/JavaScript/Function.md)</br>
