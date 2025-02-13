@@ -42,6 +42,7 @@ console.log(name); // "John"
 **author note:** Related note in this repo
 - [JavaScript - let](./Let.md)
 - [JavaScript - const](./Const.md)
+- [JavaScript - hoisting](./Hoisting.md)
 
 **link:** External reference
 - [var - JavaScript | MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/var)

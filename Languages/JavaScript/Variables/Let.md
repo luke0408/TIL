@@ -37,6 +37,7 @@ let b = 10;
 **author note:** Related note in this repo
 - [JavaScript - var](./Var.md)
 - [JavaScript - const](./Const.md)
+- [JavaScript - hoisting](./Hoisting.md)
 
 **link:** External reference
 - [let - JavaScript | MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/let)
