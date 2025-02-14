@@ -11,7 +11,7 @@
 | DevOps            | DevOps와 관련된 내용                  | 0   |
 | Databases         | 데이터베이스와 관련된 내용             | 0|
 | Frontend          | 프론트 프레임워크와 관련된 내용        | __Frontend_DIRECTORY_COUNT__ |
-| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 8|
+| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 9|
 | Networking        | 네트워킹과 관련된 내용                 | 0|
 | OperatingSystems  | 운영 체제와 관련된 내용                | 0|
 | Security          | 보안과 관련된 내용                    | 0|
@@ -73,4 +73,5 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Const**](./Languages/JavaScript/Variables/Const.md)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Hoisting**](./Languages/JavaScript/Variables/Hoisting.md)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Let**](./Languages/JavaScript/Variables/Let.md)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Scope**](./Languages/JavaScript/Variables/Scope.md)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Var**](./Languages/JavaScript/Variables/Var.md)</br>
