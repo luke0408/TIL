@@ -69,7 +69,7 @@ class MyClass {}
 
 ### 3. Temporal Dead Zone(TDZ)와 호이스팅의 차이
 
-**TDZ(Temporal Dead Zone)**는 변수 선언 전에 변수를 접근하는 것을 방지하는 메커니즘이다.
+**TDZ(Temporal Dead Zone)** 는 변수 선언 전에 변수를 접근하는 것을 방지하는 메커니즘이다.
 
 ```js
 {
