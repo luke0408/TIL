@@ -10,8 +10,8 @@
 | DevGeneral        | 디자인 패턴, 방법론 등의 내용          | 5|
 | DevOps            | DevOps와 관련된 내용                  | 0   |
 | Databases         | 데이터베이스와 관련된 내용             | 0|
-| Frontend          | 프론트 프레임워크와 관련된 내용        | __Frontend_DIRECTORY_COUNT__ |
-| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 10|
+| Frontend          | 프론트 프레임워크와 관련된 내용        | 0 |
+| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 11|
 | Networking        | 네트워킹과 관련된 내용                 | 0|
 | OperatingSystems  | 운영 체제와 관련된 내용                | 0|
 | Security          | 보안과 관련된 내용                    | 0|
@@ -64,7 +64,8 @@
 ┗━&nbsp;📂[**Languages**](./Languages)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**JavaScript**](./Languages/JavaScript)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Engine**](./Languages/JavaScript/Engine)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Introduction_to_JavaScript_Engine**](./Languages/JavaScript/Engine/Introduction_to_JavaScript_Engine.md)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Introduction_to_JavaScript_Engine**](./Languages/JavaScript/Engine/Introduction_to_JavaScript_Engine.md)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**JavaScript_Compilation_Process**](./Languages/JavaScript/Engine/JavaScript_Compilation_Process.md)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Functions**](./Languages/JavaScript/Functions)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Arrow_Function**](./Languages/JavaScript/Functions/Arrow_Function.md)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Function**](./Languages/JavaScript/Functions/Function.md)</br>

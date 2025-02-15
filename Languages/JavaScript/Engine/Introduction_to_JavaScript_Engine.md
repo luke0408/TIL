@@ -32,6 +32,9 @@ JavaScript 엔진은 브라우저 및 다양한 환경에서 동작하며, 대�
 **issue:** Related issue in this repo
 - [JavaScript Engine은 어떻게 동작하는가?](https://github.com/luke0408/TIL/issues/1)
 
+**author note:** Related note in this repo
+- [JavaScript Compilation Process](./JavaScript_Compilation_Process.md)
+
 **link:** External reference
 - [How JavaScript Really Works?](https://dev.to/laxminarayana31/how-javascript-really-works-1p6i)
 - [How Does JavaScript Work Behind the Scenes? JS Engine and Runtime Explained](https://www.freecodecamp.org/news/how-javascript-works-behind-the-scenes/)
