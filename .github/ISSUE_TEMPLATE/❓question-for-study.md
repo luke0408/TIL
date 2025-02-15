@@ -2,8 +2,8 @@
 name: "❓Question for Study"
 about: 질문에 대한 공부 기록 이슈
 title: "{question title}"
-labels: ":question:  question"
-assignees: ''
+labels: ":question:  type/question, ⏳ to-do"
+assignees: luke0408
 
 ---
 
