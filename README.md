@@ -13,7 +13,7 @@
 | Frontend          | 프론트 프레임워크와 관련된 내용        | 0 |
 | Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 17|
 | Networking        | 네트워킹과 관련된 내용                 | 0|
-| OperatingSystems  | 운영 체제와 관련된 내용                | 0|
+| OperatingSystems  | 운영 체제와 관련된 내용                | 1|
 | Security          | 보안과 관련된 내용                    | 0|
 
 해당 TIL은 아래의 자료들의 영향을 받았습니다.
@@ -61,27 +61,30 @@
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Definition_of_Refactoring**](./DevGeneral/Refactoring/Definition_of_Refactoring.md)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Reasons_for_Refactoring**](./DevGeneral/Refactoring/Reasons_for_Refactoring.md)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**When_to_Refactoring**](./DevGeneral/Refactoring/When_to_Refactoring.md)</br>
-┗━&nbsp;📂[**Languages**](./Languages)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**JavaScript**](./Languages/JavaScript)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**DataTypes**](./Languages/JavaScript/DataTypes)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**BigInt**](./Languages/JavaScript/DataTypes/BigInt.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Boolean**](./Languages/JavaScript/DataTypes/Boolean.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Number**](./Languages/JavaScript/DataTypes/Number.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**String**](./Languages/JavaScript/DataTypes/String.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Engine**](./Languages/JavaScript/Engine)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Execution_Context**](./Languages/JavaScript/Engine/Execution_Context.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Introduction_to_JavaScript_Engine**](./Languages/JavaScript/Engine/Introduction_to_JavaScript_Engine.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**JavaScript_Compilation_Process**](./Languages/JavaScript/Engine/JavaScript_Compilation_Process.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Parser_And_AST**](./Languages/JavaScript/Engine/Parser_And_AST.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Functions**](./Languages/JavaScript/Functions)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Arrow_Function**](./Languages/JavaScript/Functions/Arrow_Function.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Function**](./Languages/JavaScript/Functions/Function.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Introdution**](./Languages/JavaScript/Introdution)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**History_of_JavaScript**](./Languages/JavaScript/Introdution/History_of_JavaScript.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**What_is_JavaScript**](./Languages/JavaScript/Introdution/What_is_JavaScript.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**Variables**](./Languages/JavaScript/Variables)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Const**](./Languages/JavaScript/Variables/Const.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Hoisting**](./Languages/JavaScript/Variables/Hoisting.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Let**](./Languages/JavaScript/Variables/Let.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Scope**](./Languages/JavaScript/Variables/Scope.md)</br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Var**](./Languages/JavaScript/Variables/Var.md)</br>
+┣━&nbsp;📂[**Languages**](./Languages)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**JavaScript**](./Languages/JavaScript)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**DataTypes**](./Languages/JavaScript/DataTypes)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**BigInt**](./Languages/JavaScript/DataTypes/BigInt.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Boolean**](./Languages/JavaScript/DataTypes/Boolean.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Number**](./Languages/JavaScript/DataTypes/Number.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**String**](./Languages/JavaScript/DataTypes/String.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Engine**](./Languages/JavaScript/Engine)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Execution_Context**](./Languages/JavaScript/Engine/Execution_Context.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Introduction_to_JavaScript_Engine**](./Languages/JavaScript/Engine/Introduction_to_JavaScript_Engine.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**JavaScript_Compilation_Process**](./Languages/JavaScript/Engine/JavaScript_Compilation_Process.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Parser_And_AST**](./Languages/JavaScript/Engine/Parser_And_AST.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Functions**](./Languages/JavaScript/Functions)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Arrow_Function**](./Languages/JavaScript/Functions/Arrow_Function.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Function**](./Languages/JavaScript/Functions/Function.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Introdution**](./Languages/JavaScript/Introdution)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**History_of_JavaScript**](./Languages/JavaScript/Introdution/History_of_JavaScript.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**What_is_JavaScript**](./Languages/JavaScript/Introdution/What_is_JavaScript.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**Variables**](./Languages/JavaScript/Variables)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Const**](./Languages/JavaScript/Variables/Const.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Hoisting**](./Languages/JavaScript/Variables/Hoisting.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Let**](./Languages/JavaScript/Variables/Let.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Scope**](./Languages/JavaScript/Variables/Scope.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Var**](./Languages/JavaScript/Variables/Var.md)</br>
+┗━&nbsp;📂[**OperatingSystems**](./OperatingSystems)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**Linux**](./OperatingSystems/Linux)</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**tree**](./OperatingSystems/Linux/tree.md)</br>
