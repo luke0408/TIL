@@ -11,7 +11,7 @@
 | DevOps            | DevOps와 관련된 내용                  | 3   |
 | Databases         | 데이터베이스와 관련된 내용             | 0|
 | Frontend          | 프론트 프레임워크와 관련된 내용        | 0 |
-| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 26|
+| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 27|
 | Networking        | 네트워킹과 관련된 내용                 | 0|
 | OperatingSystems  | 운영 체제와 관련된 내용                | 1|
 | Security          | 보안과 관련된 내용                    | 0|
@@ -83,6 +83,7 @@
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Number_Type_Issues**](./Languages/JavaScript/DataTypes/Number_Type_Issues.md)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**String**](./Languages/JavaScript/DataTypes/String.md)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Symbol**](./Languages/JavaScript/DataTypes/Symbol.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Typeof**](./Languages/JavaScript/DataTypes/Typeof.md)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Undefined**](./Languages/JavaScript/DataTypes/Undefined.md)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**Engine**](./Languages/JavaScript/Engine)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Execution_Context**](./Languages/JavaScript/Engine/Execution_Context.md)</br>
