@@ -81,4 +81,4 @@ Object(true);   // Boolean {true}
 - [TutorialsPoint - Explain Typecasting in JavaScript](https://www.tutorialspoint.com/explain-typecasting-in-javascript)
 
 **author note:** Related note in this repo
-- []
+- [JavaScript - Implicit Type Castring](./Implicit_Type_Casting.md)
