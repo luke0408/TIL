@@ -11,7 +11,7 @@
 | DevOps            | DevOps와 관련된 내용                  | 3   |
 | Databases         | 데이터베이스와 관련된 내용             | 0|
 | Frontend          | 프론트 프레임워크와 관련된 내용        | 0 |
-| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 31|
+| Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 32|
 | Networking        | 네트워킹과 관련된 내용                 | 0|
 | OperatingSystems  | 운영 체제와 관련된 내용                | 1|
 | Security          | 보안과 관련된 내용                    | 0|
@@ -76,7 +76,8 @@
 ┣━&nbsp;📂[**Languages**](./Languages)</br>
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**JavaScript**](./Languages/JavaScript)</br>
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**DataStructures**](./Languages/JavaScript/DataStructures)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Json**](./Languages/JavaScript/DataStructures/Json.md)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Json**](./Languages/JavaScript/DataStructures/Json.md)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Map**](./Languages/JavaScript/DataStructures/Map.md)</br>
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**DataTypes**](./Languages/JavaScript/DataTypes)</br>
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**BigInt**](./Languages/JavaScript/DataTypes/BigInt.md)</br>
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Boolean**](./Languages/JavaScript/DataTypes/Boolean.md)</br>
