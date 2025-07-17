@@ -5,7 +5,7 @@
 | Directory         | Content                              | Count                        |
 | ----------------- | :----------------------------------- | ---------------------------- |
 | AI_ML             | 인공지능과 머신러닝과 관련된 내용       | 0    |
-| Backend           | 백엔드 프레임워크와 관련된 내용         | 1  |
+| Backend           | 백엔드 프레임워크와 관련된 내용         | 2  |
 | Cloud             | 클라우드 컴퓨팅과 관련된 내용           | 1    |
 | DevGeneral        | 디자인 패턴, 방법론 등의 내용          | 8|
 | DevOps            | DevOps와 관련된 내용                  | 3   |
@@ -50,8 +50,10 @@
 
 📦[**TIL**](./)</br>
 ┣━&nbsp;📂[**Backend**](./Backend)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**NestJS**](./Backend/NestJS)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Request_Lifecycle**](./Backend/NestJS/Request_Lifecycle.md)</br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**NestJS**](./Backend/NestJS)</br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Request_Lifecycle**](./Backend/NestJS/Request_Lifecycle.md)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**npm**](./Backend/npm)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Semantic_version**](./Backend/npm/Semantic_version.md)</br>
 ┣━&nbsp;📂[**Cloud**](./Cloud)</br>
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**AWS**](./Cloud/AWS)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**EC2**](./Cloud/AWS/EC2.md)</br>
