@@ -53,10 +53,11 @@
 ┃  &nbsp;&nbsp;┣━&nbsp;📂[**NestJS**](./Backend/NestJS)</br>
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Request_Lifecycle**](./Backend/NestJS/Request_Lifecycle.md)</br>
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**npm**](./Backend/npm)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Package_json_dependencies**](./Backend/npm/Package_json_dependencies.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Package_json_env**](./Backend/npm/Package_json_env.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Package_json_export**](./Backend/npm/Package_json_export.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Package_json_metadata**](./Backend/npm/Package_json_metadata.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**package_json**](./Backend/npm/package_json)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**dependencies_flieds**](./Backend/npm/package_json/dependencies_flieds.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**env_publish_fields**](./Backend/npm/package_json/env_publish_fields.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**meta_fields**](./Backend/npm/package_json/meta_fields.md)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**runtime_io_fields**](./Backend/npm/package_json/runtime_io_fields.md)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Semantic_version**](./Backend/npm/Semantic_version.md)</br>
 ┣━&nbsp;📂[**Cloud**](./Cloud)</br>
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**AWS**](./Cloud/AWS)</br>
