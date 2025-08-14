@@ -22,5 +22,10 @@
 
 ## Reference
 
+**author note:** Related note in this repo
+- [리팩터링 정의](./Definition_of_Refactoring.md)
+- [언제 리팩터링해야 할까?](./When_to_Refactoring.md)
+- [두개의 모자](../Principle/Two_Hats.md)
+
 **link:** External reference
 - [리팩터링 (Refactoring) - 마틴 파울러](https://martinfowler.com/books/refactoring.html)`
