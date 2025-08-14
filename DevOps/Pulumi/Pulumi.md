@@ -63,5 +63,10 @@ Pulumi는 다음과 같은 장점을 제공한다.
 | **동적 구성 가능** | 조건문, 반복문, 변수 등을 활용하여 동적 인프라 설정 가능 |
 
 ## Reference
+
+**author note:** Related note in this repo
+- [Pulumi Project](./Project.md)
+- [Pulumi Stack](./Stack.md)
+
 **link:** External reference
 - [Pulumi 공식 문서: How Pulumi Works](https://www.pulumi.com/docs/iac/concepts/how-pulumi-works/)
