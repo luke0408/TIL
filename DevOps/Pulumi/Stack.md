@@ -122,5 +122,9 @@ $ pulumi stack rm dev
 
 ## Reference
 
+**author note:** Related note in this repo
+- [Pulumi](./Pulumi.md)
+- [Pulumi Project](./Project.md)
+
 **link:** External reference
 - [Pulumi 공식 문서: Pulumi Stack](https://www.pulumi.com/docs/iac/concepts/stacks/)
