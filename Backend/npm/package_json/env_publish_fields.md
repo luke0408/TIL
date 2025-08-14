@@ -94,6 +94,11 @@ Node.js 및 npm 버전 제약, 지원 운영체제, private 패키지 설정, �
 
 ## Reference
 
+**author note:** Related note in this repo
+- [package.json – 의존성 필드 정리](./dependencies_flieds.md)
+- [package.json – 기본 메타 필드 정리](./meta_fields.md)
+- [package.json – 실행 및 입출력 필드 정리](./runtime_io_fields.md)
+
 **link:** External reference
 
 * [npm Docs – engines](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#engines)
