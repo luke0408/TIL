@@ -13,4 +13,6 @@ function generate_directory_file_counts() {
     | while read count dir; do
         sed -i "s/__${dir}_DIRECTORY_COUNT__/${count}/g" "$filepath/README.md"
       done
+
+  sed -E -i 's/__[A-Za-z0-9_]+_DIRECTORY_COUNT__/0/g' "$filepath/README.md"
 }
