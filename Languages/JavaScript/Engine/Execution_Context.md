@@ -98,6 +98,8 @@ innerFunc(); // "I'm from outer!"
 
 - [JavaScript Engine Intro](./Introduction_to_JavaScript_Engine.md)
 - [JavaScript Compilation Process](./JavaScript_Compilation_Process.md)
+- [JavaScript Hoisting](../Variables/Hoisting.md)
+- [JavaScript Scope](../Variables/Scope.md)
 
 **link:** External reference
 
