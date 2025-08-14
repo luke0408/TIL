@@ -54,6 +54,7 @@ graph TD;
 **author note:** Related note in this repo
 - [JavaScript Engine Intro](./Introduction_to_JavaScript_Engine.md)
 - [JavaScript Parser and AST](./Parser_And_AST.md)
+- [Execution Context in JavaScript](./Execution_Context.md)
 
 **link:** External reference
 - [How JavaScript Really Works?](https://dev.to/laxminarayana31/how-javascript-really-works-1p6i)
