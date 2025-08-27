@@ -4,17 +4,17 @@
 
 | Directory         | Content                              | Count                        |
 | ----------------- | :----------------------------------- | ---------------------------- |
-| AI_ML             | 인공지능과 머신러닝과 관련된 내용       | __AI_ML_DIRECTORY_COUNT__    |
+| AI_ML             | 인공지능과 머신러닝과 관련된 내용       | 0    |
 | Backend           | 백엔드 프레임워크와 관련된 내용         | 6  |
 | Cloud             | 클라우드 컴퓨팅과 관련된 내용           | 1    |
 | DevGeneral        | 디자인 패턴, 방법론 등의 내용          | 8|
 | DevOps            | DevOps와 관련된 내용                  | 3   |
-| Databases         | 데이터베이스와 관련된 내용             | __Databases_DIRECTORY_COUNT__|
-| Frontend          | 프론트 프레임워크와 관련된 내용        | __Frontend_DIRECTORY_COUNT__ |
+| Databases         | 데이터베이스와 관련된 내용             | 0|
+| Frontend          | 프론트 프레임워크와 관련된 내용        | 0 |
 | Languages         | 다양한 프로그래밍 언어와 관련된 내용    | 32|
-| Networking        | 네트워킹과 관련된 내용                 | __Networking_DIRECTORY_COUNT__|
+| Networking        | 네트워킹과 관련된 내용                 | 1|
 | OperatingSystems  | 운영 체제와 관련된 내용                | 1|
-| Security          | 보안과 관련된 내용                    | __Security_DIRECTORY_COUNT__|
+| Security          | 보안과 관련된 내용                    | 0|
 
 해당 TIL은 아래의 자료들의 영향을 받았습니다.
 - [jbrnchaud/til](https://github.com/jbranchaud/til)
@@ -127,6 +127,9 @@
 ┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Var**](./Languages/JavaScript/Variables/Var.md)</br>
 ┃  &nbsp;&nbsp;┗━&nbsp;📂[**TypeScript**](./Languages/TypeScript)</br>
 ┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Const_Assertion**](./Languages/TypeScript/Const_Assertion.md)</br>
+┣━&nbsp;📂[**Networking**](./Networking)</br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**HTTP**](./Networking/HTTP)</br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**HTTP_Generic_Message**](./Networking/HTTP/HTTP_Generic_Message.md)</br>
 ┗━&nbsp;📂[**OperatingSystems**](./OperatingSystems)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📂[**Linux**](./OperatingSystems/Linux)</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**tree**](./OperatingSystems/Linux/tree.md)</br>
