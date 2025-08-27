@@ -8,3 +8,4 @@ done
 
 generate_readme .
 git add "$readme"
+git commit --amend
