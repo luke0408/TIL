@@ -48,103 +48,103 @@
 
 ## File Tree
 
-📦[**TIL**](./)</br>/docs
-┣━&nbsp;📂[**Backend**](./docs/Backend)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**NestJS**](./docs/Backend/NestJS)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Request_Lifecycle**](./docs/Backend/NestJS/Request_Lifecycle.md)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**npm**](./docs/Backend/npm)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**package_json**](./docs/Backend/npm/package_json)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**dependencies_flieds**](./docs/Backend/npm/package_json/dependencies_flieds.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**env_publish_fields**](./docs/Backend/npm/package_json/env_publish_fields.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**meta_fields**](./docs/Backend/npm/package_json/meta_fields.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**runtime_io_fields**](./docs/Backend/npm/package_json/runtime_io_fields.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Semantic_version**](./docs/Backend/npm/Semantic_version.md)</br>
-┣━&nbsp;📂[**Cloud**](./docs/Cloud)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**AWS**](./docs/Cloud/AWS)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**EC2**](./docs/Cloud/AWS/EC2.md)</br>
-┣━&nbsp;📂[**DevGeneral**](./docs/DevGeneral)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Agile**](./docs/DevGeneral/Agile)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**SoftwareCraftsmanshipManifesto**](./docs/DevGeneral/Agile/SoftwareCraftsmanshipManifesto.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Algorithm**](./docs/DevGeneral/Algorithm)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📂[**Sort**](./docs/DevGeneral/Algorithm/Sort)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Merge_Sort**](./docs/DevGeneral/Algorithm/Sort/Merge_Sort.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**DesignPatterns**](./docs/DevGeneral/DesignPatterns)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Static_Factory_Method**](./docs/DevGeneral/DesignPatterns/Static_Factory_Method.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**IEEE**](./docs/DevGeneral/IEEE)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**IEEE_754_Floating_Point**](./docs/DevGeneral/IEEE/IEEE_754_Floating_Point.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**Principle**](./docs/DevGeneral/Principle)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Two_Hats**](./docs/DevGeneral/Principle/Two_Hats.md)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**Refactoring**](./docs/DevGeneral/Refactoring)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Definition_of_Refactoring**](./docs/DevGeneral/Refactoring/Definition_of_Refactoring.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Reasons_for_Refactoring**](./docs/DevGeneral/Refactoring/Reasons_for_Refactoring.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**When_to_Refactoring**](./docs/DevGeneral/Refactoring/When_to_Refactoring.md)</br>
-┣━&nbsp;📂[**DevOps**](./docs/DevOps)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**Pulumi**](./docs/DevOps/Pulumi)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Project**](./docs/DevOps/Pulumi/Project.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Pulumi**](./docs/DevOps/Pulumi/Pulumi.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Stack**](./docs/DevOps/Pulumi/Stack.md)</br>
-┣━&nbsp;📂[**Languages**](./docs/Languages)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📂[**JavaScript**](./docs/Languages/JavaScript)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**DataStructures**](./docs/Languages/JavaScript/DataStructures)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Json**](./docs/Languages/JavaScript/DataStructures/Json.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Map**](./docs/Languages/JavaScript/DataStructures/Map.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**DataTypes**](./docs/Languages/JavaScript/DataTypes)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**BigInt**](./docs/Languages/JavaScript/DataTypes/BigInt.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Boolean**](./docs/Languages/JavaScript/DataTypes/Boolean.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Null**](./docs/Languages/JavaScript/DataTypes/Null.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Number**](./docs/Languages/JavaScript/DataTypes/Number.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Number_Type_Issues**](./docs/Languages/JavaScript/DataTypes/Number_Type_Issues.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**String**](./docs/Languages/JavaScript/DataTypes/String.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Symbol**](./docs/Languages/JavaScript/DataTypes/Symbol.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Typeof**](./docs/Languages/JavaScript/DataTypes/Typeof.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Undefined**](./docs/Languages/JavaScript/DataTypes/Undefined.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**Engine**](./docs/Languages/JavaScript/Engine)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Execution_Context**](./docs/Languages/JavaScript/Engine/Execution_Context.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Introduction_to_JavaScript_Engine**](./docs/Languages/JavaScript/Engine/Introduction_to_JavaScript_Engine.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**JavaScript_Compilation_Process**](./docs/Languages/JavaScript/Engine/JavaScript_Compilation_Process.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Parser_And_AST**](./docs/Languages/JavaScript/Engine/Parser_And_AST.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**Functions**](./docs/Languages/JavaScript/Functions)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Arrow_Function**](./docs/Languages/JavaScript/Functions/Arrow_Function.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Function**](./docs/Languages/JavaScript/Functions/Function.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**Introdution**](./docs/Languages/JavaScript/Introdution)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**History_of_JavaScript**](./docs/Languages/JavaScript/Introdution/History_of_JavaScript.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**What_is_JavaScript**](./docs/Languages/JavaScript/Introdution/What_is_JavaScript.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**JSDoc**](./docs/Languages/JavaScript/JSDoc)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**JSDoc**](./docs/Languages/JavaScript/JSDoc/JSDoc.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**Object**](./docs/Languages/JavaScript/Object)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Built-in_Object**](./docs/Languages/JavaScript/Object/Built-in_Object.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Object**](./docs/Languages/JavaScript/Object/Object.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**ObjectPrototype**](./docs/Languages/JavaScript/Object/ObjectPrototype.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Prototypal_Inheritance**](./docs/Languages/JavaScript/Object/Prototypal_Inheritance.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**TypeCasting**](./docs/Languages/JavaScript/TypeCasting)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Explicit_Type_Casting**](./docs/Languages/JavaScript/TypeCasting/Explicit_Type_Casting.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Implicit_Type_Casting**](./docs/Languages/JavaScript/TypeCasting/Implicit_Type_Casting.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📂[**Variables**](./docs/Languages/JavaScript/Variables)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Const**](./docs/Languages/JavaScript/Variables/Const.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Hoisting**](./docs/Languages/JavaScript/Variables/Hoisting.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Let**](./docs/Languages/JavaScript/Variables/Let.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Scope**](./docs/Languages/JavaScript/Variables/Scope.md)</br>
-┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Var**](./docs/Languages/JavaScript/Variables/Var.md)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**TypeScript**](./docs/Languages/TypeScript)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Const_Assertion**](./docs/Languages/TypeScript/Const_Assertion.md)</br>
-┣━&nbsp;📂[**Networking**](./docs/Networking)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**HTTP**](./docs/Networking/HTTP)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Chunked_Transfer-Encoding**](./docs/Networking/HTTP/Chunked_Transfer-Encoding.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**HTTP_0.9-to-1.1**](./docs/Networking/HTTP/HTTP_0.9-to-1.1.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**HTTP_Generic_Message**](./docs/Networking/HTTP/HTTP_Generic_Message.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**HTTP_host-header**](./docs/Networking/HTTP/HTTP_host-header.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**HTTP_Keep-Alive**](./docs/Networking/HTTP/HTTP_Keep-Alive.md)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Message_Start_Line**](./docs/Networking/HTTP/Message_Start_Line.md)</br>
-┣━&nbsp;📂[**OperatingSystems**](./docs/OperatingSystems)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📂[**Linux**](./docs/OperatingSystems/Linux)</br>
-┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**tree**](./docs/OperatingSystems/Linux/tree.md)</br>
-┣━&nbsp;📂[**tutorial-basics**](./docs/tutorial-basics)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📄[**congratulations**](./docs/tutorial-basics/congratulations.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📄[**create-a-blog-post**](./docs/tutorial-basics/create-a-blog-post.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📄[**create-a-document**](./docs/tutorial-basics/create-a-document.md)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📄[**create-a-page**](./docs/tutorial-basics/create-a-page.md)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📄[**deploy-your-site**](./docs/tutorial-basics/deploy-your-site.md)</br>
-┣━&nbsp;📂[**tutorial-extras**](./docs/tutorial-extras)</br>
-┃  &nbsp;&nbsp;┣━&nbsp;📄[**manage-docs-versions**](./docs/tutorial-extras/manage-docs-versions.md)</br>
-┃  &nbsp;&nbsp;┗━&nbsp;📄[**translate-your-site**](./docs/tutorial-extras/translate-your-site.md)</br>
-┗━&nbsp;📄[**intro**](./docs/intro.md)</br>
+📦[**TIL**](./docs)</br>
+┣━&nbsp;📂[**Baken**](.Baken)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**NetJS**](.BakenNetJS)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Requet_Lifeyle**](.BakenNetJSRequet_Lifeyle.m)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**npm**](.Bakennpm)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📂[**pakage_jn**](.Bakennpmpakage_jn)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**epenenie_flie**](.Bakennpmpakage_jnepenenie_flie.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**env_publih_fiel**](.Bakennpmpakage_jnenv_publih_fiel.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**meta_fiel**](.Bakennpmpakage_jnmeta_fiel.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**runtime_i_fiel**](.Bakennpmpakage_jnruntime_i_fiel.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Semanti_verin**](.BakennpmSemanti_verin.m)<br>
+┣━&nbsp;📂[**Clu**](.Clu)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**AWS**](.CluAWS)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**EC2**](.CluAWSEC2.m)<br>
+┣━&nbsp;📂[**DevGeneral**](.DevGeneral)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Agile**](.DevGeneralAgile)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**SftwareCraftmanhipManifet**](.DevGeneralAgileSftwareCraftmanhipManifet.m)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Algrithm**](.DevGeneralAlgrithm)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📂[**Srt**](.DevGeneralAlgrithmSrt)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Merge_Srt**](.DevGeneralAlgrithmSrtMerge_Srt.m)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**DeignPattern**](.DevGeneralDeignPattern)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Stati_Fatry_Meth**](.DevGeneralDeignPatternStati_Fatry_Meth.m)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**IEEE**](.DevGeneralIEEE)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**IEEE_754_Flating_Pint**](.DevGeneralIEEEIEEE_754_Flating_Pint.m)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**Priniple**](.DevGeneralPriniple)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Tw_Hat**](.DevGeneralPrinipleTw_Hat.m)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Refatring**](.DevGeneralRefatring)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Definitin_f_Refatring**](.DevGeneralRefatringDefinitin_f_Refatring.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Rean_fr_Refatring**](.DevGeneralRefatringRean_fr_Refatring.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**When_t_Refatring**](.DevGeneralRefatringWhen_t_Refatring.m)<br>
+┣━&nbsp;📂[**DevOp**](.DevOp)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Pulumi**](.DevOpPulumi)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Prjet**](.DevOpPulumiPrjet.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Pulumi**](.DevOpPulumiPulumi.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Stak**](.DevOpPulumiStak.m)<br>
+┣━&nbsp;📂[**Language**](.Language)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📂[**JavaSript**](.LanguageJavaSript)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**DataStruture**](.LanguageJavaSriptDataStruture)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Jn**](.LanguageJavaSriptDataStrutureJn.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Map**](.LanguageJavaSriptDataStrutureMap.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**DataType**](.LanguageJavaSriptDataType)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**BigInt**](.LanguageJavaSriptDataTypeBigInt.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Blean**](.LanguageJavaSriptDataTypeBlean.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Null**](.LanguageJavaSriptDataTypeNull.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Number**](.LanguageJavaSriptDataTypeNumber.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Number_Type_Iue**](.LanguageJavaSriptDataTypeNumber_Type_Iue.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**String**](.LanguageJavaSriptDataTypeString.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Symbl**](.LanguageJavaSriptDataTypeSymbl.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Typef**](.LanguageJavaSriptDataTypeTypef.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Unefine**](.LanguageJavaSriptDataTypeUnefine.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**Engine**](.LanguageJavaSriptEngine)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Exeutin_Cntext**](.LanguageJavaSriptEngineExeutin_Cntext.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Intrutin_t_JavaSript_Engine**](.LanguageJavaSriptEngineIntrutin_t_JavaSript_Engine.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**JavaSript_Cmpilatin_Pre**](.LanguageJavaSriptEngineJavaSript_Cmpilatin_Pre.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Parer_An_AST**](.LanguageJavaSriptEngineParer_An_AST.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**Funtin**](.LanguageJavaSriptFuntin)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Arrw_Funtin**](.LanguageJavaSriptFuntinArrw_Funtin.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Funtin**](.LanguageJavaSriptFuntinFuntin.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**Intrutin**](.LanguageJavaSriptIntrutin)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Hitry_f_JavaSript**](.LanguageJavaSriptIntrutinHitry_f_JavaSript.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**What_i_JavaSript**](.LanguageJavaSriptIntrutinWhat_i_JavaSript.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**JSD**](.LanguageJavaSriptJSD)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**JSD**](.LanguageJavaSriptJSDJSD.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**Objet**](.LanguageJavaSriptObjet)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Built-in_Objet**](.LanguageJavaSriptObjetBuilt-in_Objet.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Objet**](.LanguageJavaSriptObjetObjet.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**ObjetPrttype**](.LanguageJavaSriptObjetObjetPrttype.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Prttypal_Inheritane**](.LanguageJavaSriptObjetPrttypal_Inheritane.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📂[**TypeCating**](.LanguageJavaSriptTypeCating)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┣━&nbsp;📄[**Expliit_Type_Cating**](.LanguageJavaSriptTypeCatingExpliit_Type_Cating.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📄[**Impliit_Type_Cating**](.LanguageJavaSriptTypeCatingImpliit_Type_Cating.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;┗━&nbsp;📂[**Variable**](.LanguageJavaSriptVariable)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Cnt**](.LanguageJavaSriptVariableCnt.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Hiting**](.LanguageJavaSriptVariableHiting.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Let**](.LanguageJavaSriptVariableLet.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Spe**](.LanguageJavaSriptVariableSpe.m)<br>
+┃  &nbsp;&nbsp;┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Var**](.LanguageJavaSriptVariableVar.m)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**TypeSript**](.LanguageTypeSript)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Cnt_Aertin**](.LanguageTypeSriptCnt_Aertin.m)<br>
+┣━&nbsp;📂[**Netwrking**](.Netwrking)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**HTTP**](.NetwrkingHTTP)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**Chunke_Tranfer-Ening**](.NetwrkingHTTPChunke_Tranfer-Ening.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**HTTP_0.9-t-1.1**](.NetwrkingHTTPHTTP_0.9-t-1.1.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**HTTP_Generi_Meage**](.NetwrkingHTTPHTTP_Generi_Meage.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**HTTP_ht-heaer**](.NetwrkingHTTPHTTP_ht-heaer.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┣━&nbsp;📄[**HTTP_Keep-Alive**](.NetwrkingHTTPHTTP_Keep-Alive.m)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**Meage_Start_Line**](.NetwrkingHTTPMeage_Start_Line.m)<br>
+┣━&nbsp;📂[**OperatingSytem**](.OperatingSytem)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📂[**Linux**](.OperatingSytemLinux)<br>
+┃  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;┗━&nbsp;📄[**tree**](.OperatingSytemLinuxtree.m)<br>
+┣━&nbsp;📂[**tutrial-bai**](.tutrial-bai)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📄[**ngratulatin**](.tutrial-baingratulatin.m)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📄[**reate-a-blg-pt**](.tutrial-baireate-a-blg-pt.m)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📄[**reate-a-ument**](.tutrial-baireate-a-ument.m)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📄[**reate-a-page**](.tutrial-baireate-a-page.m)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📄[**eply-yur-ite**](.tutrial-baieply-yur-ite.m)<br>
+┣━&nbsp;📂[**tutrial-extra**](.tutrial-extra)<br>
+┃  &nbsp;&nbsp;┣━&nbsp;📄[**manage--verin**](.tutrial-extramanage--verin.m)<br>
+┃  &nbsp;&nbsp;┗━&nbsp;📄[**tranlate-yur-ite**](.tutrial-extratranlate-yur-ite.m)<br>
+┗━&nbsp;📄[**intr**](.intr.m)<br>

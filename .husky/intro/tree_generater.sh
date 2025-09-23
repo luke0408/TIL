@@ -23,7 +23,8 @@ function proejct_tree_formatter() {
       sed -e "s=$filepath/=./=g" |
       sed -e "s=$filepath=./TIL</br>=g" |
       sed -e 's/━━/━/g' |
-      sed -e "s=^\.=📦[**TIL**](./)</br>=" |
+      sed -e 's/[/docs]//g' |
+      sed -e "s=^\.=📦[**TIL**](./docs)</br>=" |
       sed -e 's/ /\&nbsp;\&nbsp;/g' |
       sed -e 's/&nbsp;📂/📂/g' |
       sed -e 's/📂📄/📄/g'
