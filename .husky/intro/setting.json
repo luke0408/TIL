@@ -1,7 +1,9 @@
 {
     "ignore_files": [
+      ".github",
       ".husky",
       ".idx",
+      ".vscode",
       "node_modules",
       ".gitignore",
       "package-lock.json",
