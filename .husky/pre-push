@@ -2,10 +2,10 @@
 
 root=$(git rev-parse --show-toplevel)
 
-for script in "$root"/.husky/readme/*.sh; do
+for script in "$root"/.husky/intro/*.sh; do
   source "$script"
 done
 
-generate_readme .
-git add "$readme"
+generate_intro .
+git add "$intro"
 git commit --amend
