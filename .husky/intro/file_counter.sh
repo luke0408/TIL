@@ -1,18 +1,29 @@
 #!/bin/bash
 
-export LC_CTYPE=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-export LANG="UTF-8"
+export LC_CTYPE=C.UTF-8
+export LC_ALL=C.UTF-8
+export LANG="C.UTF-8"
 filepath=$(git rev-parse --show-toplevel)
 
 function generate_directory_file_counts() {
-  git ls-files '*.md' \
-    | grep -v '^README.md$' \
-    | cut -d/ -f1 \
-    | sort | uniq -c \
-    | while read count dir; do
-        sed -i "s/__${dir}_DIRECTORY_COUNT__/${count}/g" "$filepath/README.md"
-      done
+  local -a targets=(
+    "$filepath/README.md"
+    "$filepath/docs/intro.md"
+  )
 
-  sed -E -i 's/__[A-Za-z0-9_]+_DIRECTORY_COUNT__/0/g' "$filepath/README.md"
+  while read -r count dir; do
+    for target in "${targets[@]}"; do
+      sed -i "s/__${dir}_DIRECTORY_COUNT__/${count}/g" "$target"
+    done
+  done < <(
+    git ls-files '*.md' \
+      | grep -v '^README.md$' \
+      | cut -d/ -f1 \
+      | sort \
+      | uniq -c
+  )
+
+  for target in "${targets[@]}"; do
+    sed -E -i 's/__[A-Za-z0-9_]+_DIRECTORY_COUNT__/0/g' "$target"
+  done
 }
