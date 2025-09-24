@@ -62,7 +62,7 @@ def render(entries: Iterable[Tuple[str, Path, List[Tuple]]], ancestors: List[boo
         rel_path = node_path.relative_to(ROOT).as_posix()
         label = node_path.stem if kind == "file" else node_path.name
         icon = "📄" if kind == "file" else "📂"
-        line = f"{''.join(parts)}{connector}&nbsp;{icon}[**{label}**](./{rel_path})</br>"
+        line = f"{''.join(parts)}{connector}&nbsp;{icon}[**{label}**](./{rel_path})<br></br>"
         lines.append(line)
 
         if kind == "dir":

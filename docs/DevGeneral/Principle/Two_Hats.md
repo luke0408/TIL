@@ -9,7 +9,7 @@ ex) 버블 정렬에 대해 설명하기 위해, Array 자료형을 설명해야
 
 ## Summary
 
-> As software is developed by making behavioral and structural changes, do not attempt to do both at the same time. <br>
+> As software is developed by making behavioral and structural changes, do not attempt to do both at the same time. <br></br>
 > Wear one hat to add new capabilities (including tests) without changing existing code, then wear the other hat to restructure the code without changing behavior.
 
 ## Details
@@ -19,7 +19,7 @@ ex) 버블 정렬에 대해 설명하기 위해, Array 자료형을 설명해야
 
 또한, 리팩터링을 할 때에는 "리팩터링" 모자를 쓴 다음 **기능 추가는 절대 하지 않기로 다짐한 뒤 오로지 코드 재구성**에만 전념합니다. 이때는 앞 과정에서 놓친 테스트 케이스를 발견한게 아닌 이상 테스트를 추가하지 않는다.
 
-이러한 각각의 작업시간은 10분 미만으로 짧을 수 있다. 그럼에도 마틴 파울러는 그의 저서 [리팩터링]에서 항상 내가 쓰고 있는 모자가 무엇인지와 그에 따른 미묘한 작업 방식의 차이를 분명하게 인지할 것을 권장한다.
+이러한 각각의 작업시간은 10분 미만으로 짧을 수 있다. 그럼에도 마틴 파울러는 그의 저서 [리팩터링](https://product.kyobobook.co.kr/detail/S000001810241)에서 항상 내가 쓰고 있는 모자가 무엇인지와 그에 따른 미묘한 작업 방식의 차이를 분명하게 인지할 것을 권장한다.
 
 ## Reference
 <!-- 사용하지 않는 레퍼런스 종류는 삭제 후 업로드 -->
