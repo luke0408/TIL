@@ -36,6 +36,12 @@ const config: Config = {
     locales: ['ko'],
   },
 
+  // markdown
+  markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
+
   presets: [
     [
       'classic',
@@ -63,6 +69,16 @@ const config: Config = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
+    },
+    mermaid: {
+      SankeyNodeAlignment: 'center',
+      options: {
+        theme: 'neutral',
+        look: 'handDrawn',
+        elk: {
+          mergeEdges: true,
+        }
+      }
     },
     footer: {
       style: 'dark',
