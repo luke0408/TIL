@@ -72,7 +72,7 @@ def render(entries: Iterable[Tuple[str, Path, List[Tuple]]], ancestors: List[boo
 
 def main() -> None:
     entries = collect_entries(ROOT)
-    print("📦[**TIL**](./)</br>")
+    print("📦[**TIL**](./)<br></br>")
     for line in render(entries, []):
         print(line)
 

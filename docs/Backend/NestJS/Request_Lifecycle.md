@@ -114,12 +114,6 @@ NestJS의 요청 수명 주기는 요청이 서버로 들어와 처리된 후 �
 ### 요청 수명 주기 다이어그램
 
 ```mermaid
----
-config:
-  look: handDrawn
-  theme: neutral
----
-
 graph TD
     A[Client Request] -->|Middleware| B[Middleware Processing]
     B -->|Guard| C[Authorization Guard Check]
