@@ -1,11 +1,11 @@
-#!/bin/bash
+# #!/bin/bash
 
-root=$(git rev-parse --show-toplevel)
+# root=$(git rev-parse --show-toplevel)
 
-for script in "$root"/.husky/intro/*.sh; do
-  source "$script"
-done
+# for script in "$root"/.husky/intro/*.sh; do
+#   source "$script"
+# done
 
-generate_intro .
-git add "$intro"
-git commit --amend
+# generate_intro .
+# git add "$intro"
+# git commit --amend
