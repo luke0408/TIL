@@ -12,8 +12,9 @@ JSON은 JavaScript 객체에서 유래한 데이터 형식으로, 사람이 읽�
 - **키-값 쌍**으로 구성된 데이터 구조를 가진다.
 - JavaScript 문법과 유사하지만, JSON은 엄격한 규칙을 따른다.
 
-> [!IMPORTANT]
-> JSON의 key는 반드시 **큰따옴표("")로 감싸야 하며**, value로는 문자열, 숫자, 배열, 객체, boolean, null만 사용할 수 있다.
+:::info
+JSON의 key는 반드시 **큰따옴표("")로 감싸야 하며**, value로는 문자열, 숫자, 배열, 객체, boolean, null만 사용할 수 있다.
+:::
 
 ### JSON과 JavaScript 객체의 차이점
 
@@ -45,8 +46,9 @@ JSON은 JavaScript 객체에서 유래한 데이터 형식으로, 사람이 읽�
 }
 ```
 
-> [!TIP] 
-> .json 파일은 일반 텍스트 형식이며, data.json 같은 파일명으로 저장하여 사용할 수 있다. 많은 API에서 .json 포맷을 응답으로 사용한다.
+:::tip
+.json 파일은 일반 텍스트 형식이며, data.json 같은 파일명으로 저장하여 사용할 수 있다. 많은 API에서 .json 포맷을 응답으로 사용한다.
+:::
 
 ### JSON.stringify()
 JavaScript 객체를 JSON 문자열로 변환할 때 사용한다.
@@ -63,8 +65,9 @@ console.log(jsonString);
 // 출력: {"name":"Alice","age":30,"isMember":true}
 ```
 
-> [!NOTE]
-> `undefined`, 함수, 심볼 등은 JSON.stringify로 변환할 수 없으며, 해당 속성은 누락된다.
+:::note
+`undefined`, 함수, 심볼 등은 JSON.stringify로 변환할 수 없으며, 해당 속성은 누락된다.
+:::
 
 ### JSON.parse()
 JSON 문자열을 JavaScript 객체로 변환할 때 사용한다.
@@ -77,8 +80,9 @@ console.log(userObj.name);
 // 출력: Alice
 ```
 
-> [!CAUTION]
-> 잘못된 JSON 형식을 파싱하려고 하면 `SyntaxError`가 발생하므로, 외부 입력을 파싱할 때는 `try...catch` 문을 사용하는 것이 좋다.
+:::caution
+잘못된 JSON 형식을 파싱하려고 하면 `SyntaxError`가 발생하므로, 외부 입력을 파싱할 때는 `try...catch` 문을 사용하는 것이 좋다.
+:::
 
 ### JSON의 실전 활용
 - 서버에서 받아온 데이터를 처리할 때 API 응답(JSON 형식)을 파싱하여 사용한다.

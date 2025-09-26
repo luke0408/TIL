@@ -35,8 +35,9 @@ ESM(ECMAScript Module) 진입점을 지정한다. Rollup, Webpack 등에서 사�
 }
 ```
 
-> [!IMPORTANT]
-> `exports`를 설정하면 그 외 모든 파일은 외부에서 접근 불가하다. 전체 구조를 명시적으로 통제할 수 있다.
+:::info
+`exports`를 설정하면 그 외 모든 파일은 외부에서 접근 불가하다. 전체 구조를 명시적으로 통제할 수 있다.
+:::
 
 ### browser
 
@@ -111,8 +112,9 @@ TypeScript 또는 DefinitelyTyped에서 사용하는 타입 정의 파일 진입
 "typings": "./dist/index.d.ts"
 ```
 
-> [!NOTE]
-> `types`와 `typings`은 동일한 역할을 하며, `types`가 더 권장되는 표기이다.
+:::note
+`types`와 `typings`은 동일한 역할을 하며, `types`가 더 권장되는 표기이다.
+:::
 
 ### sideEffects
 
@@ -138,8 +140,9 @@ Webpack에서 사용하는 필드로, tree-shaking 시 부수효과가 있는 �
 "type": "module"
 ```
 
-> [!CAUTION]
-> 이 필드가 `"module"`로 설정되면 `.js` 파일도 ESM으로 해석되므로 `import/export` 구문만 허용된다.
+:::caution
+이 필드가 `"module"`로 설정되면 `.js` 파일도 ESM으로 해석되므로 `import/export` 구문만 허용된다.
+:::
 
 ## Reference
 

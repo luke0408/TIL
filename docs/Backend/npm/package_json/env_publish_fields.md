@@ -19,8 +19,9 @@ Node.js 및 npm 버전 제약, 지원 운영체제, private 패키지 설정, �
 }
 ````
 
-> [!IMPORTANT]
-> 기본적으로는 경고만 출력되며, `engineStrict`를 설정하거나 `.npmrc`에서 강제해야 설치 오류로 처리된다.
+:::info
+기본적으로는 경고만 출력되며, `engineStrict`를 설정하거나 `.npmrc`에서 강제해야 설치 오류로 처리된다.
+:::
 
 ### engineStrict
 
@@ -30,8 +31,9 @@ Node.js 및 npm 버전 제약, 지원 운영체제, private 패키지 설정, �
 "engineStrict": true
 ```
 
-> [!CAUTION]
-> 이 필드는 현재 deprecated 상태이며, 대신 `.npmrc`에 `engine-strict=true`를 사용하는 것이 권장된다.
+:::caution
+이 필드는 현재 deprecated 상태이며, 대신 `.npmrc`에 `engine-strict=true`를 사용하는 것이 권장된다.
+:::
 
 ### os
 
@@ -64,8 +66,9 @@ Node.js 및 npm 버전 제약, 지원 운영체제, private 패키지 설정, �
 "private": true
 ```
 
-> [!TIP]
-> 모노레포 루트나 내부용 패키지에서 반드시 사용하는 것이 좋다.
+:::tip
+모노레포 루트나 내부용 패키지에서 반드시 사용하는 것이 좋다.
+:::
 
 ### publishConfig
 

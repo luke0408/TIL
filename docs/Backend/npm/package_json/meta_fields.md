@@ -128,8 +128,9 @@ Semantic Versioning(SemVer)을 따르는 패키지 버전이다.
 }
 ```
 
-> [!TIP]
-> `homepage`, `bugs`, `repository` 필드를 함께 구성하면 npm 레지스트리 페이지에서 자동으로 GitHub 링크가 연결된다.
+:::tip
+`homepage`, `bugs`, `repository` 필드를 함께 구성하면 npm 레지스트리 페이지에서 자동으로 GitHub 링크가 연결된다.
+:::
 
 ## Reference
 

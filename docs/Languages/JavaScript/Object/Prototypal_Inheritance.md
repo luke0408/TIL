@@ -16,8 +16,9 @@ rabbit.__proto__ = animal;
 console.log(rabbit.eats); // true
 ```
 
-> [!NOTE]
-> `__proto__`는 비표준이나 대부분의 환경에서 지원된다. 표준 메서드인 `Object.setPrototypeOf()`와 `Object.getPrototypeOf()` 사용이 권장된다.
+:::note
+`__proto__`는 비표준이나 대부분의 환경에서 지원된다. 표준 메서드인 `Object.setPrototypeOf()`와 `Object.getPrototypeOf()` 사용이 권장된다.
+:::
 
 ### Object.create를 이용한 상속
 `Object.create(proto)`를 사용하면 지정한 프로토타입을 가진 새로운 객체를 생성할 수 있다.
@@ -44,8 +45,9 @@ const rabbit = new Animal('Rabbit');
 console.log(rabbit.eats); // true
 ```
 
-> [!IMPORTANT]
-> `new` 키워드를 사용하면 객체는 해당 생성자의 `prototype`을 `[[Prototype]]`으로 갖는다.
+:::info
+`new` 키워드를 사용하면 객체는 해당 생성자의 `prototype`을 `[[Prototype]]`으로 갖는다.
+:::
 
 ### 클래스와 프로토타입
 ES6의 `class`는 문법적으로는 클래스지만 내부적으로는 프로토타입 기반 상속을 사용한다.
@@ -68,8 +70,9 @@ class Rabbit extends Animal {
 }
 ```
 
-> [!CAUTION]
-> 클래스는 `strict mode`에서만 동작하며, 호이스팅되지 않는다. 클래스 선언 이전에 사용할 수 없다.
+:::caution
+클래스는 `strict mode`에서만 동작하며, 호이스팅되지 않는다. 클래스 선언 이전에 사용할 수 없다.
+:::
 
 ### 메서드 오버라이딩과 super
 자식 객체에서 부모의 메서드를 오버라이드할 수 있으며, `super` 키워드를 사용해 부모 메서드에 접근할 수 있다.

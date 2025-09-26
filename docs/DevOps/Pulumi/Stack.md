@@ -10,9 +10,10 @@ Pulumi Stack(스택)은 **하나의 프로젝트에서 여러 환경(Development
 Pulumi에서 Stack은 프로젝트 내에서 **환경별 배포 단위**를 정의하는 개념이다.  
 각 스택은 **서로 독립적인 설정과 리소스 상태**를 가지며, 동일한 코드베이스에서 다른 환경을 분리하여 관리할 수 있다.
 
-> [!NOTE]  
-> **Stack은 같은 프로젝트 안에서 여러 개를 만들 수 있으며, 서로 독립적으로 관리됩니다.**  
-> 예를 들어, `dev`, `staging`, `prod`와 같은 환경을 각각 스택으로 정의하여 사용할 수 있습니다.
+:::note
+**Stack은 같은 프로젝트 안에서 여러 개를 만들 수 있으며, 서로 독립적으로 관리됩니다.**
+예를 들어, `dev`, `staging`, `prod`와 같은 환경을 각각 스택으로 정의하여 사용할 수 있습니다.
+:::
 
 Pulumi Stack을 사용하면 다음과 같은 작업이 가능하다:
 - 개발(Dev), 테스트(Staging), 운영(Prod) 환경을 **하나의 프로젝트에서 분리하여 관리**
@@ -25,9 +26,10 @@ Pulumi Stack을 사용하면 다음과 같은 작업이 가능하다:
 2. **Stack 별 Config 값 적용 가능**
 3. **Stack 전환이 간편**
 
-> [!IMPORTANT]  
-> **스택 간 리소스가 공유되지 않습니다.**  
-> 즉, `dev` 스택에서 생성된 리소스는 `prod` 스택과 전혀 연관이 없습니다.
+:::info
+**스택 간 리소스가 공유되지 않습니다.**
+즉, `dev` 스택에서 생성된 리소스는 `prod` 스택과 전혀 연관이 없습니다.
+:::
 
 ### Pulumi Stack 생성 및 관리
 
@@ -66,8 +68,9 @@ staging                                   n/a                      n/a
 broomellc/test                            2 weeks ago              121
 ```
 
-> [!NOTE]
-> 스택을 변경하면 해당 스택의 상태(state)와 설정(config)이 적용된다.
+:::note
+스택을 변경하면 해당 스택의 상태(state)와 설정(config)이 적용된다.
+:::
 
 #### 3. Stack 업데이트
 
@@ -94,8 +97,9 @@ Previewing update (dev)
 $ pulumi up
 ```
 
-> [!NOTE]
-> `pulumi up`을 실행하기 전에 항상 `pulumi preview`를 실행하는 습관을 가지자.
+:::note
+`pulumi up`을 실행하기 전에 항상 `pulumi preview`를 실행하는 습관을 가지자.
+:::
 
 #### 4. Stack 삭제 및 리소스 삭제
 
@@ -105,8 +109,9 @@ $ pulumi up
 $ pulumi destroy
 ```
 
-> [!NOTE]
-> `pulumi destory`는 리소스만 삭제하며 스택 자체는 건들지 않는다.
+:::note
+`pulumi destory`는 리소스만 삭제하며 스택 자체는 건들지 않는다.
+:::
 
 현재 Stack에서 특정 리소스를 삭제하려면 `pulumi delete <resource-type>:<resource-name>` 명령어를 사용한다.
 

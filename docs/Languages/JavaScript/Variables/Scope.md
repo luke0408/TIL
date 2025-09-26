@@ -31,9 +31,10 @@ console.log(y); // ReferenceError: y is not defined
 console.log(z); // 5 (블록 외부에서도 접근 가능)
 ```
 
-> [!NOTE]  
-> ES6 이전에는 JavaScript에서 Block Scope 개념이 없었다. 
-> ES6 이후 `let`과 `const`의 도입으로 블록 스코프가 지원되기 시작했다.
+:::note
+ES6 이전에는 JavaScript에서 Block Scope 개념이 없었다.
+ES6 이후 `let`과 `const`의 도입으로 블록 스코프가 지원되기 시작했다.
+:::
 
 ### Function Scope
 **Function Scope(함수 스코프)** 는 **함수 내에서 선언된 변수는 함수 내부에서만 접근 가능**하도록 한다.
@@ -51,9 +52,10 @@ function myFunction() {
 console.log(car); // ReferenceError: car is not defined
 ```
 
-> [!IMPORTANT]  
-> **Function Scope는 독립적이다.**  
-> 같은 변수 이름을 여러 함수에서 사용할 수 있으며, 서로 간섭하지 않는다.
+:::info
+**Function Scope는 독립적이다.**
+같은 변수 이름을 여러 함수에서 사용할 수 있으며, 서로 간섭하지 않는다.
+:::
 
 ```javascript
 function first() {
@@ -90,10 +92,11 @@ showCar();
 console.log(car); // "BMW"
 ```
 
-> [!CAUTION]  
-> **전역 변수 사용은 신중해야 한다.**  
-> 전역 변수는 어디에서든 접근 가능하기 때문에 **다른 코드에 의해 값이 변경될 위험이 있다.**  
-> 가능하면 **함수 내부에서 변수 선언을 제한하여 사용 범위를 좁히는 것이 좋다.**
+:::caution
+**전역 변수 사용은 신중해야 한다.**
+전역 변수는 어디에서든 접근 가능하기 때문에 **다른 코드에 의해 값이 변경될 위험이 있다.**
+가능하면 **함수 내부에서 변수 선언을 제한하여 사용 범위를 좁히는 것이 좋다.**
+:::
 
 ### 자동 전역 변수 (Automatically Global)
 JavaScript에서는 **선언 없이 값을 할당하면 자동으로 전역 변수가 된다.**  
@@ -110,9 +113,10 @@ myFunction();
 console.log(carName); // "Tesla"
 ```
 
-> [!WARNING]  
-> **자동 전역 변수는 Strict Mode에서 방지된다.**  
-> `"use strict";`를 사용하면 선언되지 않은 변수에 값을 할당할 경우 오류가 발생한다.
+:::warning
+**자동 전역 변수는 Strict Mode에서 방지된다.**
+`"use strict";`를 사용하면 선언되지 않은 변수에 값을 할당할 경우 오류가 발생한다.
+:::
 
 ```javascript
 "use strict";
@@ -139,9 +143,10 @@ let bike = "Yamaha";
 console.log(window.bike); // undefined
 ```
 
-> [!TIP]  
-> `let`과 `const`를 사용하면 `window` 오염을 방지할 수 있다.  
-> **전역 변수를 최소화하는 것이 좋은 코드 작성 습관이다.**
+:::tip
+`let`과 `const`를 사용하면 `window` 오염을 방지할 수 있다.
+**전역 변수를 최소화하는 것이 좋은 코드 작성 습관이다.**
+:::
 
 ### 변수의 생명 주기 (Lifetime)
 JavaScript 변수는 선언 시점부터 특정 조건에 의해 **삭제될 때까지 존재**한다.
@@ -160,8 +165,9 @@ testScope();
 console.log(temp); // ReferenceError: temp is not defined
 ```
 
-> [!WARNING]  
-> 전역 변수를 남용하면 메모리를 지속적으로 차지할 수 있으므로 **사용을 최소화하는 것이 중요하다.**
+:::warning
+전역 변수를 남용하면 메모리를 지속적으로 차지할 수 있으므로 **사용을 최소화하는 것이 중요하다.**
+:::
 
 ### 함수의 매개변수 (Function Arguments)
 함수의 매개변수는 **함수 내부에서만 접근 가능한 지역 변수**로 동작한다.
@@ -177,8 +183,9 @@ greet("Alice"); // "Hello, Alice"
 console.log(name); // ReferenceError: name is not defined
 ```
 
-> [!NOTE]  
-> 매개변수는 함수가 실행될 때 생성되고, 실행이 끝나면 삭제된다.
+:::note
+매개변수는 함수가 실행될 때 생성되고, 실행이 끝나면 삭제된다.
+:::
 
 ## Reference
 

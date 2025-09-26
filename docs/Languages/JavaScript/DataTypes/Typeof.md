@@ -20,8 +20,9 @@
 | `typeof []`      | `"object"`    |
 | `typeof function() {}` | `"function"` |
 
-> [!NOTE]
-> `typeof`는 함수에 대해서만 특별히 `"function"`을 반환하고, 나머지 모든 객체는 `"object"`를 반환한다.
+:::note
+`typeof`는 함수에 대해서만 특별히 `"function"`을 반환하고, 나머지 모든 객체는 `"object"`를 반환한다.
+:::
 
 ### null 타입의 예외
 `typeof null`은 `"object"`를 반환한다. 이는 JavaScript 초창기 설계 실수이며, 지금까지 호환성 유지 차원에서 그대로 남아 있는 버그이다.
@@ -30,8 +31,9 @@
 typeof null; // "object"
 ```
 
-> [!CAUTION]
-> `null`은 실제로 객체가 아니며, 타입 확인 시 주의해야 한다.
+:::caution
+`null`은 실제로 객체가 아니며, 타입 확인 시 주의해야 한다.
+:::
 
 ### 배열과 객체의 구분
 `typeof`로는 배열과 일반 객체를 구분할 수 없다. 둘 다 `"object"`를 반환하기 때문이다.
@@ -54,8 +56,9 @@ Array.isArray([]); // true
 typeof notDeclared; // "undefined"
 ```
 
-> [!TIP]
-> 선언 여부와 무관하게 안전하게 타입을 확인할 수 있다는 점에서 `typeof`는 유용하다.
+:::tip
+선언 여부와 무관하게 안전하게 타입을 확인할 수 있다는 점에서 `typeof`는 유용하다.
+:::
 
 ## Reference
 
