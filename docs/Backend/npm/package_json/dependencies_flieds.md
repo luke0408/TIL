@@ -36,8 +36,9 @@
 
 * `dependencies`와 마찬가지로 버전 범위를 지정할 수 있다.
 
-> [!TIP]
-> 개발 환경과 실행 환경을 분리하여, 배포 시 불필요한 의존성을 제외시킬 수 있다.
+:::tip
+개발 환경과 실행 환경을 분리하여, 배포 시 불필요한 의존성을 제외시킬 수 있다.
+:::
 
 ### peerDependencies
 
@@ -52,8 +53,9 @@
 * `peerDependencies`는 패키지가 특정 버전의 라이브러리와 호환되도록 요구할 때 유용하다.
 * 예를 들어, `react-router`와 같은 라이브러리는 `react`가 반드시 필요하다.
 
-> [!IMPORTANT]
-> `peerDependencies`는 자동으로 설치되지 않으므로, 사용자가 `react`를 별도로 설치해야 한다.
+:::info
+`peerDependencies`는 자동으로 설치되지 않으므로, 사용자가 `react`를 별도로 설치해야 한다.
+:::
 
 ### peerDependenciesMeta
 
@@ -82,8 +84,9 @@
 
 * `optionalDependencies`가 설치되지 않아도 패키지 동작에 문제는 없다. 이 필드는 특히 운영체제에 따라 필요한 패키지를 선택적으로 설치할 때 유용하다.
 
-> [!WARNING]
-> `optionalDependencies`의 패키지가 설치되지 않으면 경고가 출력된다.
+:::warning
+`optionalDependencies`의 패키지가 설치되지 않으면 경고가 출력된다.
+:::
 
 ### bundledDependencies (or bundleDependencies)
 

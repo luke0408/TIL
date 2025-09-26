@@ -8,8 +8,9 @@ JavaScript에서 Implicit Type Casting(암시적 형 변환)은 표현식의 문
 ### Implicit Type Casting이란?
 암시적 형 변환은 JavaScript에서 서로 다른 타입의 값을 연산할 때, 문맥에 따라 **자동으로 타입을 변환**하여 연산을 수행하는 동작이다. 이 과정은 예기치 못한 결과를 초래할 수 있기 때문에 주의가 필요하다.
 
-> [!IMPORTANT]
-> Implicit Type Casting은 명시적 변환(`String()`, `Number()` 등)과 달리, 개발자가 의도하지 않은 타입 변환이 일어날 수 있어 코드의 의도를 흐릴 수 있다.
+:::info
+Implicit Type Casting은 명시적 변환(`String()`, `Number()` 등)과 달리, 개발자가 의도하지 않은 타입 변환이 일어날 수 있어 코드의 의도를 흐릴 수 있다.
+:::
 
 ### 변환의 주요 규칙
 
@@ -35,8 +36,9 @@ Boolean(0)        // false
 Boolean('hello')  // true
 ```
 
-> [!NOTE]
-> 조건문이나 논리 연산에서 자동 형 변환이 자주 일어난다.
+:::note
+조건문이나 논리 연산에서 자동 형 변환이 자주 일어난다.
+:::
 
 #### 3. 객체와 원시값
 객체가 원시값과 연산될 때, 객체는 `toString()` 또는 `valueOf()`를 통해 문자열이나 숫자로 변환된다.
@@ -46,8 +48,9 @@ Boolean('hello')  // true
 {} + []           // '[object Object]'
 ```
 
-> [!TIP]
-> 배열이나 객체를 숫자나 문자열로 연산할 때는 의도한 결과인지 꼭 확인해야 한다.
+:::tip
+배열이나 객체를 숫자나 문자열로 연산할 때는 의도한 결과인지 꼭 확인해야 한다.
+:::
 
 ### 자주 혼동되는 사례
 
@@ -58,8 +61,9 @@ Boolean('hello')  // true
 | `null + 1` | `1`      | `null` → `0`으로 변환             |
 | `undefined + 1` | `NaN`| `undefined`는 숫자로 변환 불가    |
 
-> [!WARNING]
-> `undefined`나 `NaN`이 포함된 연산은 `NaN`이 되기 때문에 연산 전 체크가 필요하다.
+:::warning
+`undefined`나 `NaN`이 포함된 연산은 `NaN`이 되기 때문에 연산 전 체크가 필요하다.
+:::
 
 ## Reference
 

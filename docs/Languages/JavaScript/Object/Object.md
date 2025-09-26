@@ -16,23 +16,24 @@ let user = {
 };
 ```
 
-> [!IMPORTANT]
-> 상수 객체는 수정될 수 있다.
-> 
->
-> ```javascript
-> const user = {
->   name: "John"
-> };
-> 
-> user.name = "Pete"; // (*)
-> 
-> alert(user.name); // Pete
-> ```
->
-> (*) 로 표기된 줄이 오류를 이르키는 것 처럼 보일 수 있지만 그렇지 않다. `const`는 `user`의 값을 고정하지만, 그 내용을 고정하지 않는다.
-> 
-> 즉, `user=...` 처럼 user 전체를 수정하는 건 방지하지만, 예제처럼 내용의 수정은 방지하진 못한다.
+:::info
+상수 객체는 수정될 수 있다.
+
+
+```javascript
+const user = {
+  name: "John"
+};
+
+user.name = "Pete"; // (*)
+
+alert(user.name); // Pete
+```
+
+(*) 로 표기된 줄이 오류를 이르키는 것 처럼 보일 수 있지만 그렇지 않다. `const`는 `user`의 값을 고정하지만, 그 내용을 고정하지 않는다.
+
+즉, `user=...` 처럼 user 전체를 수정하는 건 방지하지만, 예제처럼 내용의 수정은 방지하진 못한다.
+:::
 
 #### 프로퍼티 값 변경 및 추가
 ```javascript

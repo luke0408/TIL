@@ -19,8 +19,9 @@ const status = {
 
 이는 `success`가 `true`가 아니라 `boolean`, `code`가 `200`이 아니라 `number`로 추론된다는 의미이다.
 
-> [!NOTE]
-> 이렇게 추론된 타입은 변경 가능성이 있는 일반 변수처럼 취급되므로, 타입 안전성이 떨어질 수 있다.
+:::note
+이렇게 추론된 타입은 변경 가능성이 있는 일반 변수처럼 취급되므로, 타입 안전성이 떨어질 수 있다.
+:::
 
 ### const assertion이란?
 
@@ -36,8 +37,9 @@ const status = {
 
 이러한 방식은 enum-like 구조나 switch-case 분기 등에 매우 유용하다.
 
-> [!IMPORTANT]
-> `as const`는 값 전체에 대한 const assertion이므로, 각각의 속성에 대해 일일이 `readonly`를 지정하지 않아도 된다.
+:::info
+`as const`는 값 전체에 대한 const assertion이므로, 각각의 속성에 대해 일일이 `readonly`를 지정하지 않아도 된다.
+:::
 
 ### 배열에서의 const assertion 사용
 
@@ -55,8 +57,9 @@ type Direction = typeof directions[number];
 // => "up" | "down" | "left" | "right"
 ```
 
-> [!TIP]
-> `as const`를 사용하면, `typeof ...[number]` 구문으로 손쉽게 유니언 타입을 생성할 수 있다.
+:::tip
+`as const`를 사용하면, `typeof ...[number]` 구문으로 손쉽게 유니언 타입을 생성할 수 있다.
+:::
 
 ### 객체에서 enum-like 구조 정의 시 유용함
 
@@ -73,8 +76,9 @@ type Color = typeof Colors[keyof typeof Colors];
 
 이런 패턴은 실제로 enum을 대체하거나 API 응답값을 고정할 때 자주 사용된다.
 
-> [!CAUTION]
-> `as const`는 변수 선언 시 `const`와는 다르다. `const`는 변수 재할당을 막고, `as const`는 리터럴 타입을 고정한다.
+:::caution
+`as const`는 변수 선언 시 `const`와는 다르다. `const`는 변수 재할당을 막고, `as const`는 리터럴 타입을 고정한다.
+:::
 
 ## Reference
 
