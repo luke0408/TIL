@@ -6,6 +6,7 @@
     pkgs.gnused
     pkgs.perl
     pkgs.tree
+    pkgs.yarn
   ];
 
   env = {};
