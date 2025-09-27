@@ -1,0 +1,130 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Backend": {
+    "message": "Backend",
+    "description": "The label for category Backend in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.NestJS": {
+    "message": "NestJS",
+    "description": "The label for category NestJS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.npm": {
+    "message": "npm",
+    "description": "The label for category npm in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.package_json": {
+    "message": "package_json",
+    "description": "The label for category package_json in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Cloud": {
+    "message": "Cloud",
+    "description": "The label for category Cloud in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.AWS": {
+    "message": "AWS",
+    "description": "The label for category AWS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DevGeneral": {
+    "message": "DevGeneral",
+    "description": "The label for category DevGeneral in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Agile": {
+    "message": "Agile",
+    "description": "The label for category Agile in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Algorithm": {
+    "message": "Algorithm",
+    "description": "The label for category Algorithm in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sort": {
+    "message": "Sort",
+    "description": "The label for category Sort in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DesignPatterns": {
+    "message": "DesignPatterns",
+    "description": "The label for category DesignPatterns in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.IEEE": {
+    "message": "IEEE",
+    "description": "The label for category IEEE in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Principle": {
+    "message": "Principle",
+    "description": "The label for category Principle in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Refactoring": {
+    "message": "Refactoring",
+    "description": "The label for category Refactoring in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DevOps": {
+    "message": "DevOps",
+    "description": "The label for category DevOps in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pulumi 개요": {
+    "message": "Pulumi 개요",
+    "description": "The label for category Pulumi 개요 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Languages": {
+    "message": "Languages",
+    "description": "The label for category Languages in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.JavaScript": {
+    "message": "JavaScript",
+    "description": "The label for category JavaScript in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DataStructures": {
+    "message": "DataStructures",
+    "description": "The label for category DataStructures in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.DataTypes": {
+    "message": "DataTypes",
+    "description": "The label for category DataTypes in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Engine": {
+    "message": "Engine",
+    "description": "The label for category Engine in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Functions": {
+    "message": "Functions",
+    "description": "The label for category Functions in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Introdution": {
+    "message": "Introdution",
+    "description": "The label for category Introdution in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.JavaScript의 객체 (Object)": {
+    "message": "JavaScript의 객체 (Object)",
+    "description": "The label for category JavaScript의 객체 (Object) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TypeCasting": {
+    "message": "TypeCasting",
+    "description": "The label for category TypeCasting in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Variables": {
+    "message": "Variables",
+    "description": "The label for category Variables in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TypeScript": {
+    "message": "TypeScript",
+    "description": "The label for category TypeScript in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Networking": {
+    "message": "Networking",
+    "description": "The label for category Networking in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.HTTP": {
+    "message": "HTTP",
+    "description": "The label for category HTTP in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.OperatingSystems": {
+    "message": "OperatingSystems",
+    "description": "The label for category OperatingSystems in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Linux": {
+    "message": "Linux",
+    "description": "The label for category Linux in sidebar tutorialSidebar"
+  }
+}

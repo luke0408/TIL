@@ -1,0 +1,10 @@
+{
+  "title": {
+    "message": "luke0408/TIL",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "My Site Logo",
+    "description": "The alt text of navbar logo"
+  }
+}
