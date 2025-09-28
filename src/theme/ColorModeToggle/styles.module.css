@@ -1,0 +1,49 @@
+.toggle {
+  display: flex;
+  align-items: center;
+}
+
+.toggleButton {
+  -webkit-tap-highlight-color: transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-mode-toggle-border);
+  background: var(--color-mode-toggle-background);
+  color: var(--color-mode-toggle-foreground);
+  box-shadow: var(--color-mode-toggle-shadow);
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    box-shadow 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.toggleButton:hover,
+.toggleButton:focus-visible {
+  background: var(--color-mode-toggle-background-hover);
+  border-color: var(--color-mode-toggle-border-hover);
+  color: var(--color-mode-toggle-foreground-hover);
+  box-shadow: var(--color-mode-toggle-shadow-hover);
+}
+
+.toggleButton:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+.toggleButton:active {
+  transform: translateY(1px);
+}
+
+.toggleButtonDisabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  box-shadow: none;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+}

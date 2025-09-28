@@ -6,25 +6,144 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  color-scheme: light;
+  --ifm-color-primary: #1565c0;
+  --ifm-color-primary-dark: #1359ad;
+  --ifm-color-primary-darker: #114f9c;
+  --ifm-color-primary-darkest: #0d3d79;
+  --ifm-color-primary-light: #1971d3;
+  --ifm-color-primary-lighter: #1e7ce6;
+  --ifm-color-primary-lightest: #428ff1;
+  --ifm-font-color-base: #1b2b34;
+  --ifm-font-color-base-inverse: #f5f7fa;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-background-color: #f5f7fa;
+  --ifm-background-surface-color: #ffffff;
+  --ifm-card-background-color: #ffffff;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.92);
+  --ifm-navbar-link-color: #1b2b34;
+  --ifm-navbar-link-hover-color: #0d47a1;
+  --ifm-navbar-shadow: 0 1px 8px rgba(15, 53, 87, 0.08);
+  --ifm-footer-background-color: #0f2940;
+  --ifm-footer-link-color: #a9c9e5;
+  --ifm-footer-title-color: #ffffff;
+  --ifm-menu-color: #324b5f;
+  --ifm-menu-color-active: #0d47a1;
+  --ifm-menu-link-sublist-icon: #1565c0;
+  --ifm-toc-border-color: rgba(15, 41, 64, 0.12);
+  --ifm-table-stripe-background: rgba(21, 101, 192, 0.05);
+  --docusaurus-highlighted-code-line-bg: rgba(21, 101, 192, 0.1);
+  --color-mode-toggle-background: rgba(21, 101, 192, 0.12);
+  --color-mode-toggle-background-hover: rgba(21, 101, 192, 0.18);
+  --color-mode-toggle-border: rgba(21, 101, 192, 0.45);
+  --color-mode-toggle-border-hover: rgba(21, 101, 192, 0.6);
+  --color-mode-toggle-foreground: #0f3557;
+  --color-mode-toggle-foreground-hover: #0b2a45;
+  --color-mode-toggle-shadow: 0 3px 10px rgba(21, 101, 192, 0.15);
+  --color-mode-toggle-shadow-hover: 0 6px 20px rgba(21, 101, 192, 0.2);
+}
+
+body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.navbar {
+  background-color: var(--ifm-navbar-background-color);
+  box-shadow: var(--ifm-navbar-shadow);
+  backdrop-filter: blur(8px);
+}
+
+.footer.footer--dark {
+  background-color: var(--ifm-footer-background-color);
+}
+
+.footer__title,
+.footer__link-item {
+  color: var(--ifm-footer-link-color);
+}
+
+.footer__title {
+  color: var(--ifm-footer-title-color);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  color-scheme: dark;
+  --ifm-color-primary: #6699cc;
+  --ifm-color-primary-dark: #4f89c4;
+  --ifm-color-primary-darker: #437db8;
+  --ifm-color-primary-darkest: #2f5c88;
+  --ifm-color-primary-light: #7aa7d3;
+  --ifm-color-primary-lighter: #8eb5da;
+  --ifm-color-primary-lightest: #a9c9e5;
+  --ifm-font-color-base: #d8dee9;
+  --ifm-font-color-base-inverse: #0f1720;
+  --ifm-background-color: #1b2b34;
+  --ifm-background-surface-color: #1f2f3a;
+  --ifm-card-background-color: #223546;
+  --ifm-navbar-background-color: rgba(15, 27, 37, 0.95);
+  --ifm-navbar-link-color: #d8dee9;
+  --ifm-navbar-link-hover-color: #a9c9e5;
+  --ifm-navbar-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+  --ifm-footer-background-color: #15212c;
+  --ifm-footer-link-color: #a9c9e5;
+  --ifm-footer-title-color: #ffffff;
+  --ifm-menu-color: #d0d7e2;
+  --ifm-menu-color-active: #ffffff;
+  --ifm-menu-link-sublist-icon: #8eb5da;
+  --ifm-toc-border-color: rgba(168, 190, 209, 0.16);
+  --ifm-table-stripe-background: rgba(102, 153, 204, 0.08);
+  --docusaurus-highlighted-code-line-bg: rgba(102, 153, 204, 0.25);
+  --color-mode-toggle-background: rgba(102, 153, 204, 0.15);
+  --color-mode-toggle-background-hover: rgba(102, 153, 204, 0.25);
+  --color-mode-toggle-border: rgba(102, 153, 204, 0.55);
+  --color-mode-toggle-border-hover: rgba(102, 153, 204, 0.75);
+  --color-mode-toggle-foreground: #e0e6ef;
+  --color-mode-toggle-foreground-hover: #ffffff;
+  --color-mode-toggle-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+  --color-mode-toggle-shadow-hover: 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme='dark'] .navbar {
+  background-color: var(--ifm-navbar-background-color);
+  box-shadow: var(--ifm-navbar-shadow);
+}
+
+[data-theme='dark'] body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .footer.footer--dark {
+  background-color: var(--ifm-footer-background-color);
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: var(--ifm-footer-link-color);
+}
+
+code {
+  border-radius: 0.375rem;
+}
+
+pre code {
+  background-color: transparent;
+}
+
+.table tr:nth-child(2n) {
+  background-color: var(--ifm-table-stripe-background);
+}
+
+.navbar__link {
+  transition: color 0.2s ease;
+}
+
+.navbar__link:hover,
+.navbar__link:focus-visible {
+  color: var(--ifm-navbar-link-hover-color);
+}
+
+.navbar__brand {
+  gap: var(--ifm-spacing-sm);
 }
