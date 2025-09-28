@@ -1,4 +1,5 @@
 import React from 'react';
+import type {JSX} from 'react';
 import clsx from 'clsx';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import {translate} from '@docusaurus/Translate';
