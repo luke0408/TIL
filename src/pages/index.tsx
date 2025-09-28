@@ -1,43 +1,26 @@
 import type {JSX} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
 
-import styles from './index.module.css';
+import {HomepageFeatureSection, HomepageHero} from '../features/homepage';
 
-function HomepageHeader(): JSX.Element {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            TIL Notes
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
+const DOCS_INTRO_PATH = '/docs/intro';
+const CTA_LABEL = 'TIL Notes';
+const PAGE_DESCRIPTION = 'Description will go into a meta tag in <head />';
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
+  const {title, tagline} = siteConfig;
+
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+    <Layout title={`Hello from ${title}`} description={PAGE_DESCRIPTION}>
+      <HomepageHero
+        title={title}
+        subtitle={tagline}
+        callToAction={{label: CTA_LABEL, href: DOCS_INTRO_PATH}}
+      />
       <main>
-        <HomepageFeatures />
+        <HomepageFeatureSection />
       </main>
     </Layout>
   );
