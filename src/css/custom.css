@@ -1,24 +1,20 @@
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #9CCC65;
+  --ifm-color-primary-dark: #8BC34A;
+  --ifm-color-primary-darker: #7CB342;
+  --ifm-color-primary-darkest: #689F38;
+  --ifm-color-primary-light: #76FF03;
+  --ifm-color-primary-lighter: #B2FF59;
+  --ifm-color-primary-lightest: #CCFF90;
   --ifm-code-font-size: 95%;
-  --color-mode-toggle-background: rgba(21, 101, 192, 0.12);
-  --color-mode-toggle-background-hover: rgba(21, 101, 192, 0.18);
-  --color-mode-toggle-border: rgba(21, 101, 192, 0.45);
-  --color-mode-toggle-border-hover: rgba(21, 101, 192, 0.6);
-  --color-mode-toggle-foreground: #0f3557;
-  --color-mode-toggle-foreground-hover: #0b2a45;
-  --color-mode-toggle-shadow: 0 3px 10px rgba(21, 101, 192, 0.15);
-  --color-mode-toggle-shadow-hover: 0 6px 20px rgba(21, 101, 192, 0.2);
-}
-
-.hero, .footer {
-  background-color: #151719 !important;
+  --color-mode-toggle-background: rgba(51, 105, 30, 0.12);
+  --color-mode-toggle-background-hover: rgba(51, 105, 30, 0.18);
+  --color-mode-toggle-border: rgba(51, 105, 30, 0.45);
+  --color-mode-toggle-border-hover: rgba(51, 105, 30, 0.6);
+  --color-mode-toggle-foreground: #689F38;
+  --color-mode-toggle-foreground-hover: #558B2F;
+  --color-mode-toggle-shadow: 0 3px 10px rgba(51, 105, 30, 0.15);
+  --color-mode-toggle-shadow-hover: 0 6px 20px rgba(51, 105, 30, 0.2);
 }
 
 .footer__links {
@@ -48,7 +44,7 @@ body {
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(38, 50, 56, 0.3);
 }
 
 html[data-theme='dark'] .navbar__logo img {
@@ -57,6 +53,24 @@ html[data-theme='dark'] .navbar__logo img {
 
 html[data-theme='dark'] svg {
   filter: invert(1) hue-rotate(180deg);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --color-mode-toggle-background: rgba(29, 233, 182, 0.12);
+  --color-mode-toggle-background-hover: rgba(29, 233, 182, 0.18);
+  --color-mode-toggle-border: rgba(29, 233, 182, 0.45);
+  --color-mode-toggle-border-hover: rgba(29, 233, 182, 0.6);
+  --color-mode-toggle-foreground: #32d8b4;
+  --color-mode-toggle-foreground-hover: #4fddbf;
+  --color-mode-toggle-shadow: 0 3px 10px rgba(29, 233, 182, 0.15);
+  --color-mode-toggle-shadow-hover: 0 6px 20px rgba(29, 233, 182, 0.2);
 }
 
 .navbar__items > span {
