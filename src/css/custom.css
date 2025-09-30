@@ -37,22 +37,8 @@ body {
   color: var(--ifm-font-color-base);
 }
 
-.navbar {
-  background-color: var(--ifm-navbar-background-color);
-  box-shadow: var(--ifm-navbar-shadow);
-  backdrop-filter: blur(8px);
-}
-
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(38, 50, 56, 0.3);
-}
-
-html[data-theme='dark'] .navbar__logo img {
-  filter: invert(1) hue-rotate(180deg);
-}
-
-html[data-theme='dark'] svg {
-  filter: invert(1) hue-rotate(180deg);
 }
 
 [data-theme='dark'] {
