@@ -3,11 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "docusaurus": "docusaurus",
+    "======DEVELOPMENT======": "",
     "start": "docusaurus start",
+    "======BUILD======": "",
     "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
+    "======LINT======": "",
+    "lint:style": "stylelint \"**/*.css\"",
+    "lint:style:fix": "yarn lint:style --fix",
+    "======DEPLOY======": "",
     "deploy": "docusaurus deploy",
+    "======UTILS======": "",
+    "docusaurus": "docusaurus",
+    "swizzle": "docusaurus swizzle",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -31,7 +38,10 @@
     "@docusaurus/tsconfig": "3.8.1",
     "@docusaurus/types": "3.8.1",
     "husky": "^9.1.7",
-    "typescript": "~5.6.2"
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard": "^29.0.0",
+    "typescript": "~5.8.2"
   },
   "browserslist": {
     "production": [
