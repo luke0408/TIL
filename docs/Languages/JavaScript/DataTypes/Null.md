@@ -8,21 +8,21 @@
 
 ### 정의 및 특징
 
-- **데이터 타입**: `null`은 JavaScript의 원시 값 중 하나로, `null` 타입은 오직 `null` 값만을 가진다. 
-- **의도적 부재**: `null`은 변수나 속성이 객체를 참조하지 않음을 명시적으로 나타낼 때 사용된다. 
-- **`typeof` 연산자와의 관계**: `typeof null`을 실행하면 `"object"`를 반환하는데, 이는 초기 JavaScript 구현상의 버그로, 현재까지 수정되지 않고 있다. 
+- **데이터 타입**: `null`은 JavaScript의 원시 값 중 하나로, `null` 타입은 오직 `null` 값만을 가진다.
+- **의도적 부재**: `null`은 변수나 속성이 객체를 참조하지 않음을 명시적으로 나타낼 때 사용된다.
+- **`typeof` 연산자와의 관계**: `typeof null`을 실행하면 `"object"`를 반환하는데, 이는 초기 JavaScript 구현상의 버그로, 현재까지 수정되지 않고 있다.
 
 ### 발생 상황
 
 - **명시적 할당**: 변수가 더 이상 객체를 참조하지 않도록 하려면 `null`을 할당할 수 있다.
   ```javascript
-  let obj = { name: "Alice" };
+  let obj = {name: 'Alice'};
   obj = null;
   console.log(obj); // 출력: null
   ```
 - **DOM 메서드의 반환 값**: DOM 관련 메서드에서 검색된 요소가 없을 경우 `null`을 반환한다.
   ```javascript
-  const element = document.getElementById("nonExistentId");
+  const element = document.getElementById('nonExistentId');
   console.log(element); // 출력: null
   ```
 
@@ -32,7 +32,7 @@
   ```javascript
   let value = null;
   if (value === null) {
-    console.log("값이 null입니다.");
+    console.log('값이 null입니다.');
   }
   ```
 - **느슨한 비교**: `null`과 `undefined`는 느슨한 동등 연산자(`==`)로 비교할 때 동등하게 취급된다.
@@ -56,8 +56,10 @@
 ## Reference
 
 **author note**: Related note in this repo
+
 - [JavaScript - Null](./Null.md)
 
 **link:** External reference
+
 - [MDN Web Docs - null](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/null)
-- [ECMAScript® 2025 Language Specification - null](https://tc39.es/ecma262/multipage/overview.html#sec-null-value) 
+- [ECMAScript® 2025 Language Specification - null](https://tc39.es/ecma262/multipage/overview.html#sec-null-value)

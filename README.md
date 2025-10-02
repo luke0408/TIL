@@ -3,6 +3,7 @@
 - 매일은 아니더라도 꾸준히 공부한 기록을 남기기 위해 시작했습니다.
 
 해당 TIL은 아래의 자료들의 영향을 받았습니다.
+
 - [jbrnchaud/til](https://github.com/jbranchaud/til)
 - [Integerous/goQuality-dev-contents](https://github.com/Integerous/goQuality-dev-contents)
 - [cheese10yun/TIL](https://github.com/cheese10yun/TIL)
@@ -12,6 +13,7 @@
 <br>
 
 ## 작성 규칙
+
 - 폴더와 파일명은 영문으로 작성한다.
   - 책의 이름의 경우 예외로 한글로 작성한다.
 - 고민이나 질문이 생기면 issue를 통해 과정을 기록으로 남긴다.

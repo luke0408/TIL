@@ -337,10 +337,7 @@ module.exports = {
       },
     },
     {
-      files: [
-        '*.test.{js,ts,tsx}',
-        'src/**'
-      ],
+      files: ['*.test.{js,ts,tsx}', 'src/**'],
       rules: {
         'import/no-extraneous-dependencies': OFF,
       },

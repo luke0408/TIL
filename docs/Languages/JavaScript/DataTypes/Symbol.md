@@ -27,7 +27,7 @@
   const sym = Symbol('hidden');
   const obj = {
     [sym]: '비밀 값',
-    visible: '공개 값'
+    visible: '공개 값',
   };
   console.log(obj[sym]); // '비밀 값'
   console.log(obj.visible); // '공개 값'
@@ -65,7 +65,7 @@ JavaScript는 내장 심볼을 제공하여 특정한 언어 동작을 커스터
       yield 1;
       yield 2;
       yield 3;
-    }
+    },
   };
   for (const value of iterableObj) {
     console.log(value); // 1, 2, 3
@@ -74,7 +74,7 @@ JavaScript는 내장 심볼을 제공하여 특정한 언어 동작을 커스터
 - **`Symbol.toStringTag`**: 객체의 기본 문자열 설명을 정의한다.
   ```javascript
   const customObj = {
-    [Symbol.toStringTag]: 'CustomObject'
+    [Symbol.toStringTag]: 'CustomObject',
   };
   console.log(Object.prototype.toString.call(customObj)); // '[object CustomObject]'
   ```
@@ -82,6 +82,7 @@ JavaScript는 내장 심볼을 제공하여 특정한 언어 동작을 커스터
 ## Reference
 
 **link:** External reference
+
 - [MDN Web Docs - Symbol](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Symbol)
 - [ECMAScript® 2025 Language Specification - Symbol](https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-symbol-objects)
-- [JavaScript.info - Symbol](https://ko.javascript.info/symbol) 
+- [JavaScript.info - Symbol](https://ko.javascript.info/symbol)

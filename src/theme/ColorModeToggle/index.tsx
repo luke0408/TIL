@@ -1,5 +1,6 @@
 import React, {type ReactNode} from 'react';
 import OriginalToggle from '@theme-original/ColorModeToggle';
+import type {Props} from '@theme/ColorModeToggle';
 import {
   lightStorage,
   darkStorage,
@@ -11,7 +12,6 @@ import {
   DARK_BACKGROUND_COLOR,
   COLOR_SHADES,
 } from '../../utils/colorUtils';
-import type {Props} from '@theme/ColorModeToggle';
 
 export default function ColorModeToggle(props: Props): ReactNode {
   return (

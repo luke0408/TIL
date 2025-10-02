@@ -1,5 +1,6 @@
 # 리팩터링 정의
-<!-- 
+
+<!--
 TIL을 작성할 때에는 해당 노트의 제목과 관련한 내용만 작성합니다.
 추가적인 개념을 설명할 필요가 있다면, 해당 개념에 대한 노트를 새롭게 작성합니다.
 이후 해당 개념 노트를 Reference에 링크합니다.
@@ -32,13 +33,16 @@ ex) 버블 정렬에 대해 설명하기 위해, Array 자료형을 설명해야
 즉, 이전 챕터에서 했던 것 처럼 리팩터링은 아주 작은 단위로 단계를 나누어 쌓아가는 것임으로 리팩터링하는 동안에는 코드가 항상 정상 작동하기 때문에 전체 작업이 끝나지 않았더라도 언제든 멈출 수 있습니다.
 
 ## Reference
+
 <!-- 사용하지 않는 레퍼런스 종류는 삭제 후 업로드 -->
 
 **author note:** Related note in this repo
+
 - [리팩터링의 필요성](./Reasons_for_Refactoring.md)
 - [언제 리팩터링해야 할까?](./When_to_Refactoring.md)
 - [두개의 모자](../Principle/Two_Hats.md)
 
 **link:** External reference
+
 - [위키피디아: 리팩터링](https://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8C%A9%ED%84%B0%EB%A7%81)
 - [Refactoring 2nd Edtion](https://product.kyobobook.co.kr/detail/S000001810241)

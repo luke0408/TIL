@@ -9,7 +9,9 @@ interface HomepageFeatureCardProps {
   readonly feature: HomepageFeature;
 }
 
-export function HomepageFeatureCard({feature}: HomepageFeatureCardProps): JSX.Element {
+export function HomepageFeatureCard({
+  feature,
+}: HomepageFeatureCardProps): JSX.Element {
   const {Icon, title, description} = feature;
 
   return (

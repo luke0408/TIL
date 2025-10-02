@@ -2,7 +2,6 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
-
 const config: Config = {
   title: 'Today I Learned',
   tagline: '매일은 아니더라도 꾸준하게',
@@ -35,9 +34,9 @@ const config: Config = {
     [
       'classic',
       {
-       docs: {
-         sidebarPath: './sidebars.ts',
-       },
+        docs: {
+          sidebarPath: './sidebars.ts',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -91,8 +90,8 @@ const config: Config = {
         look: 'handDrawn',
         elk: {
           mergeEdges: true,
-        }
-      }
+        },
+      },
     },
     footer: {
       style: 'dark',

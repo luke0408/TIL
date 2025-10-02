@@ -1,7 +1,6 @@
 # Frontend Design Guideline
 
-This document summarizes key frontend design principles and rules, showcasing
-recommended patterns. Follow these guidelines when writing frontend code.
+This document summarizes key frontend design principles and rules, showcasing recommended patterns. Follow these guidelines when writing frontend code.
 
 # Readability
 
@@ -46,7 +45,7 @@ async function onLikeClick() {
 function App() {
   return (
     <AuthGuard>
-      {" "}
+      {' '}
       {/* Wrapper handles auth check */}
       <LoginStartPage />
     </AuthGuard>
@@ -54,16 +53,16 @@ function App() {
 }
 
 // AuthGuard component encapsulates the check/redirect logic
-function AuthGuard({ children }) {
+function AuthGuard({children}) {
   const status = useCheckLoginStatus();
   useEffect(() => {
-    if (status === "LOGGED_IN") {
-      location.href = "/home";
+    if (status === 'LOGGED_IN') {
+      location.href = '/home';
     }
   }, [status]);
 
   // Render children only if not logged in, otherwise render null (or loading)
-  return status !== "LOGGED_IN" ? children : null;
+  return status !== 'LOGGED_IN' ? children : null;
 }
 
 // LoginStartPage is now simpler, focused only on login UI/logic
@@ -79,7 +78,7 @@ function LoginStartPage() {
 
 ```tsx
 export function FriendInvitation() {
-  const { data } = useQuery(/* ... */);
+  const {data} = useQuery(/* ... */);
 
   return (
     <>
@@ -91,9 +90,9 @@ export function FriendInvitation() {
 }
 
 // InviteButton handles the confirmation flow internally
-function InviteButton({ name }) {
+function InviteButton({name}) {
   const handleClick = async () => {
-    const canInvite = await overlay.openAsync(({ isOpen, close }) => (
+    const canInvite = await overlay.openAsync(({isOpen, close}) => (
       <ConfirmDialog
         title={`Share with ${name}`}
         // ... dialog setup ...
@@ -111,8 +110,7 @@ function InviteButton({ name }) {
 
 ## Separating Code Paths for Conditional Rendering
 
-**Rule:** Separate significantly different conditional UI/logic into distinct
-components.
+**Rule:** Separate significantly different conditional UI/logic into distinct components.
 
 **Reasoning:**
 
@@ -125,7 +123,7 @@ components.
 
 ```tsx
 function SubmitButton() {
-  const isViewer = useRole() === "viewer";
+  const isViewer = useRole() === 'viewer';
 
   // Delegate rendering to specialized components
   return isViewer ? <ViewerSubmitButton /> : <AdminSubmitButton />;
@@ -148,8 +146,7 @@ function AdminSubmitButton() {
 
 ## Simplifying Complex Ternary Operators
 
-**Rule:** Replace complex/nested ternaries with `if`/`else` or IIFEs for
-readability.
+**Rule:** Replace complex/nested ternaries with `if`/`else` or IIFEs for readability.
 
 **Reasoning:**
 
@@ -162,17 +159,16 @@ readability.
 
 ```typescript
 const status = (() => {
-  if (ACondition && BCondition) return "BOTH";
-  if (ACondition) return "A";
-  if (BCondition) return "B";
-  return "NONE";
+  if (ACondition && BCondition) return 'BOTH';
+  if (ACondition) return 'A';
+  if (BCondition) return 'B';
+  return 'NONE';
 })();
 ```
 
 ## Reducing Eye Movement (Colocating Simple Logic)
 
-**Rule:** Colocate simple, localized logic or use inline definitions to reduce
-context switching.
+**Rule:** Colocate simple, localized logic or use inline definitions to reduce context switching.
 
 **Reasoning:**
 
@@ -187,14 +183,14 @@ function Page() {
 
   // Logic is directly visible here
   switch (user.role) {
-    case "admin":
+    case 'admin':
       return (
         <div>
           <Button disabled={false}>Invite</Button>
           <Button disabled={false}>View</Button>
         </div>
       );
-    case "viewer":
+    case 'viewer':
       return (
         <div>
           <Button disabled={true}>Invite</Button> {/* Example for viewer */}
@@ -214,8 +210,8 @@ function Page() {
   const user = useUser();
   // Simple policy defined right here, easy to see
   const policy = {
-    admin: { canInvite: true, canView: true },
-    viewer: { canInvite: false, canView: true },
+    admin: {canInvite: true, canView: true},
+    viewer: {canInvite: false, canView: true},
   }[user.role];
 
   // Ensure policy exists before accessing properties if role might not match
@@ -247,12 +243,12 @@ function Page() {
 const matchedProducts = products.filter((product) => {
   // Check if product belongs to the target category
   const isSameCategory = product.categories.some(
-    (category) => category.id === targetCategory.id
+    (category) => category.id === targetCategory.id,
   );
 
   // Check if any product price falls within the desired range
   const isPriceInRange = product.prices.some(
-    (price) => price >= minPrice && price <= maxPrice
+    (price) => price >= minPrice && price <= maxPrice,
   );
 
   // The overall condition is now much clearer
@@ -260,8 +256,7 @@ const matchedProducts = products.filter((product) => {
 });
 ```
 
-**Guidance:** Name conditions when the logic is complex, reused, or needs unit
-testing. Avoid naming very simple, single-use conditions.
+**Guidance:** Name conditions when the logic is complex, reused, or needs unit testing. Avoid naming very simple, single-use conditions.
 
 # Predictability
 
@@ -280,18 +275,18 @@ Ensuring code behaves as expected based on its name, parameters, and context.
 
 ```typescript
 // Always return the Query object
-import { useQuery, UseQueryResult } from "@tanstack/react-query";
+import {useQuery, UseQueryResult} from '@tanstack/react-query';
 
 // Assuming fetchUser returns Promise<UserType>
 function useUser(): UseQueryResult<UserType, Error> {
-  const query = useQuery({ queryKey: ["user"], queryFn: fetchUser });
+  const query = useQuery({queryKey: ['user'], queryFn: fetchUser});
   return query;
 }
 
 // Assuming fetchServerTime returns Promise<Date>
 function useServerTime(): UseQueryResult<Date, Error> {
   const query = useQuery({
-    queryKey: ["serverTime"],
+    queryKey: ['serverTime'],
     queryFn: fetchServerTime,
   });
   return query;
@@ -303,21 +298,21 @@ function useServerTime(): UseQueryResult<Date, Error> {
 (Using a consistent type, ideally a Discriminated Union)
 
 ```typescript
-type ValidationResult = { ok: true } | { ok: false; reason: string };
+type ValidationResult = {ok: true} | {ok: false; reason: string};
 
 function checkIsNameValid(name: string): ValidationResult {
-  if (name.length === 0) return { ok: false, reason: "Name cannot be empty." };
+  if (name.length === 0) return {ok: false, reason: 'Name cannot be empty.'};
   if (name.length >= 20)
-    return { ok: false, reason: "Name cannot be longer than 20 characters." };
-  return { ok: true };
+    return {ok: false, reason: 'Name cannot be longer than 20 characters.'};
+  return {ok: true};
 }
 
 function checkIsAgeValid(age: number): ValidationResult {
   if (!Number.isInteger(age))
-    return { ok: false, reason: "Age must be an integer." };
-  if (age < 18) return { ok: false, reason: "Age must be 18 or older." };
-  if (age > 99) return { ok: false, reason: "Age must be 99 or younger." };
-  return { ok: true };
+    return {ok: false, reason: 'Age must be an integer.'};
+  if (age < 18) return {ok: false, reason: 'Age must be 18 or older.'};
+  if (age > 99) return {ok: false, reason: 'Age must be 99 or younger.'};
+  return {ok: true};
 }
 
 // Usage allows safe access to 'reason' only when ok is false
@@ -329,8 +324,7 @@ if (!nameValidation.ok) {
 
 ## Revealing Hidden Logic (Single Responsibility)
 
-**Rule:** Avoid hidden side effects; functions should only perform actions
-implied by their signature (SRP).
+**Rule:** Avoid hidden side effects; functions should only perform actions implied by their signature (SRP).
 
 **Reasoning:**
 
@@ -342,34 +336,32 @@ implied by their signature (SRP).
 ```typescript
 // Function *only* fetches balance
 async function fetchBalance(): Promise<number> {
-  const balance = await http.get<number>("...");
+  const balance = await http.get<number>('...');
   return balance;
 }
 
 // Caller explicitly performs logging where needed
 async function handleUpdateClick() {
   const balance = await fetchBalance(); // Fetch
-  logging.log("balance_fetched"); // Log (explicit action)
+  logging.log('balance_fetched'); // Log (explicit action)
   await syncBalance(balance); // Another action
 }
 ```
 
 ## Using Unique and Descriptive Names (Avoiding Ambiguity)
 
-**Rule:** Use unique, descriptive names for custom wrappers/functions to avoid
-ambiguity.
+**Rule:** Use unique, descriptive names for custom wrappers/functions to avoid ambiguity.
 
 **Reasoning:**
 
 - Avoids ambiguity and enhances predictability.
-- Allows developers to understand specific actions (e.g., adding auth) directly
-  from the name.
+- Allows developers to understand specific actions (e.g., adding auth) directly from the name.
 
 #### Recommended Pattern:
 
 ```typescript
 // In httpService.ts - Clearer module name
-import { http as httpLibrary } from "@some-library/http";
+import {http as httpLibrary} from '@some-library/http';
 
 export const httpService = {
   // Unique module name
@@ -377,23 +369,22 @@ export const httpService = {
     // Descriptive function name
     const token = await fetchToken();
     return httpLibrary.get(url, {
-      headers: { Authorization: `Bearer ${token}` },
+      headers: {Authorization: `Bearer ${token}`},
     });
   },
 };
 
 // In fetchUser.ts - Usage clearly indicates auth
-import { httpService } from "./httpService";
+import {httpService} from './httpService';
 export async function fetchUser() {
   // Name 'getWithAuth' makes the behavior explicit
-  return await httpService.getWithAuth("...");
+  return await httpService.getWithAuth('...');
 }
 ```
 
 # Cohesion
 
-Keeping related code together and ensuring modules have a well-defined, single
-purpose.
+Keeping related code together and ensuring modules have a well-defined, single purpose.
 
 ## Considering Form Cohesion
 
@@ -408,28 +399,28 @@ purpose.
 
 ```tsx
 // Each field uses its own `validate` function
-import { useForm } from "react-hook-form";
+import {useForm} from 'react-hook-form';
 
 export function Form() {
   const {
     register,
-    formState: { errors },
+    formState: {errors},
     handleSubmit,
   } = useForm({
     /* defaultValues etc. */
   });
 
   const onSubmit = handleSubmit((formData) => {
-    console.log("Form submitted:", formData);
+    console.log('Form submitted:', formData);
   });
 
   return (
     <form onSubmit={onSubmit}>
       <div>
         <input
-          {...register("name", {
+          {...register('name', {
             validate: (value) =>
-              value.trim() === "" ? "Please enter your name." : true, // Example validation
+              value.trim() === '' ? 'Please enter your name.' : true, // Example validation
           })}
           placeholder="Name"
         />
@@ -437,11 +428,11 @@ export function Form() {
       </div>
       <div>
         <input
-          {...register("email", {
+          {...register('email', {
             validate: (value) =>
               /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(value)
                 ? true
-                : "Invalid email address.", // Example validation
+                : 'Invalid email address.', // Example validation
           })}
           placeholder="Email"
         />
@@ -457,37 +448,37 @@ export function Form() {
 
 ```tsx
 // A single schema defines validation for the whole form
-import * as z from "zod";
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
+import * as z from 'zod';
+import {useForm} from 'react-hook-form';
+import {zodResolver} from '@hookform/resolvers/zod';
 
 const schema = z.object({
-  name: z.string().min(1, "Please enter your name."),
-  email: z.string().min(1, "Please enter your email.").email("Invalid email."),
+  name: z.string().min(1, 'Please enter your name.'),
+  email: z.string().min(1, 'Please enter your email.').email('Invalid email.'),
 });
 
 export function Form() {
   const {
     register,
-    formState: { errors },
+    formState: {errors},
     handleSubmit,
   } = useForm({
     resolver: zodResolver(schema),
-    defaultValues: { name: "", email: "" },
+    defaultValues: {name: '', email: ''},
   });
 
   const onSubmit = handleSubmit((formData) => {
-    console.log("Form submitted:", formData);
+    console.log('Form submitted:', formData);
   });
 
   return (
     <form onSubmit={onSubmit}>
       <div>
-        <input {...register("name")} placeholder="Name" />
+        <input {...register('name')} placeholder="Name" />
         {errors.name && <p>{errors.name.message}</p>}
       </div>
       <div>
-        <input {...register("email")} placeholder="Email" />
+        <input {...register('email')} placeholder="Email" />
         {errors.email && <p>{errors.email.message}</p>}
       </div>
       <button type="submit">Submit</button>
@@ -496,9 +487,7 @@ export function Form() {
 }
 ```
 
-**Guidance:** Choose **field-level** for independent validation, async checks,
-or reusable fields. Choose **form-level** for related fields, wizard forms, or
-interdependent validation.
+**Guidance:** Choose **field-level** for independent validation, async checks, or reusable fields. Choose **form-level** for related fields, wizard forms, or interdependent validation.
 
 ## Organizing Code by Feature/Domain
 
@@ -547,8 +536,7 @@ src/
 **Reasoning:**
 
 - Improves cohesion by linking constants to the logic they represent.
-- Prevents silent failures caused by updating logic without updating related
-  constants.
+- Prevents silent failures caused by updating logic without updating related constants.
 
 #### Recommended Pattern:
 
@@ -564,8 +552,7 @@ async function onLikeClick() {
 }
 ```
 
-_Ensure constants are maintained alongside the logic they depend on or clearly
-named to show the relationship._
+_Ensure constants are maintained alongside the logic they depend on or clearly named to show the relationship._
 
 # Coupling
 
@@ -573,36 +560,25 @@ Minimizing dependencies between different parts of the codebase.
 
 ## Balancing Abstraction and Coupling (Avoiding Premature Abstraction)
 
-**Rule:** Avoid premature abstraction of duplicates if use cases might diverge;
-prefer lower coupling.
+**Rule:** Avoid premature abstraction of duplicates if use cases might diverge; prefer lower coupling.
 
 **Reasoning:**
 
-- Avoids tight coupling from forcing potentially diverging logic into one
-  abstraction.
-- Allowing some duplication can improve decoupling and maintainability when
-  future needs are uncertain.
+- Avoids tight coupling from forcing potentially diverging logic into one abstraction.
+- Allowing some duplication can improve decoupling and maintainability when future needs are uncertain.
 
 #### Guidance:
 
-Before abstracting, consider if the logic is truly identical and likely to
-_stay_ identical across all use cases. If divergence is possible (e.g.,
-different pages needing slightly different behavior from a shared hook like
-`useOpenMaintenanceBottomSheet`), keeping the logic separate initially (allowing
-duplication) can lead to more maintainable, decoupled code. Discuss trade-offs
-with the team. _[No specific 'good' code example here, as the recommendation is
-situational awareness rather than a single pattern]._
+Before abstracting, consider if the logic is truly identical and likely to _stay_ identical across all use cases. If divergence is possible (e.g., different pages needing slightly different behavior from a shared hook like `useOpenMaintenanceBottomSheet`), keeping the logic separate initially (allowing duplication) can lead to more maintainable, decoupled code. Discuss trade-offs with the team. _[No specific 'good' code example here, as the recommendation is situational awareness rather than a single pattern]._
 
 ## Scoping State Management (Avoiding Overly Broad Hooks)
 
-**Rule:** Break down broad state management into smaller, focused
-hooks/contexts.
+**Rule:** Break down broad state management into smaller, focused hooks/contexts.
 
 **Reasoning:**
 
 - Reduces coupling by ensuring components only depend on necessary state slices.
-- Improves performance by preventing unnecessary re-renders from unrelated state
-  changes.
+- Improves performance by preventing unnecessary re-renders from unrelated state changes.
 
 #### Recommended Pattern:
 
@@ -610,18 +586,18 @@ hooks/contexts.
 
 ```typescript
 // Hook specifically for cardId query param
-import { useQueryParam, NumberParam } from "use-query-params";
-import { useCallback } from "react";
+import {useQueryParam, NumberParam} from 'use-query-params';
+import {useCallback} from 'react';
 
 export function useCardIdQueryParam() {
   // Assuming 'query' provides the raw param value
-  const [cardIdParam, setCardIdParam] = useQueryParam("cardId", NumberParam);
+  const [cardIdParam, setCardIdParam] = useQueryParam('cardId', NumberParam);
 
   const setCardId = useCallback(
     (newCardId: number | undefined) => {
-      setCardIdParam(newCardId, "replaceIn"); // Or 'push' depending on desired history behavior
+      setCardIdParam(newCardId, 'replaceIn'); // Or 'push' depending on desired history behavior
     },
-    [setCardIdParam]
+    [setCardIdParam],
   );
 
   // Provide a stable return tuple
@@ -632,8 +608,7 @@ export function useCardIdQueryParam() {
 // export function useDateRangeQueryParam() { /* ... */ }
 ```
 
-Components now only import and use `useCardIdQueryParam` if they need `cardId`,
-decoupling them from date range state, etc.
+Components now only import and use `useCardIdQueryParam` if they need `cardId`, decoupling them from date range state, etc.
 
 ## Eliminating Props Drilling with Composition
 
@@ -641,19 +616,18 @@ decoupling them from date range state, etc.
 
 **Reasoning:**
 
-- Significantly reduces coupling by eliminating unnecessary intermediate
-  dependencies.
+- Significantly reduces coupling by eliminating unnecessary intermediate dependencies.
 - Makes refactoring easier and clarifies data flow in flatter component trees.
 
 #### Recommended Pattern:
 
 ```tsx
-import React, { useState } from "react";
+import React, {useState} from 'react';
 
 // Assume Modal, Input, Button, ItemEditList components exist
 
-function ItemEditModal({ open, items, recommendedItems, onConfirm, onClose }) {
-  const [keyword, setKeyword] = useState("");
+function ItemEditModal({open, items, recommendedItems, onConfirm, onClose}) {
+  const [keyword, setKeyword] = useState('');
 
   // Render children directly within Modal, passing props only where needed
   return (
@@ -661,11 +635,10 @@ function ItemEditModal({ open, items, recommendedItems, onConfirm, onClose }) {
       {/* Input and Button rendered directly */}
       <div
         style={{
-          display: "flex",
-          justifyContent: "space-between",
-          marginBottom: "1rem",
-        }}
-      >
+          display: 'flex',
+          justifyContent: 'space-between',
+          marginBottom: '1rem',
+        }}>
         <Input
           value={keyword}
           onChange={(e) => setKeyword(e.target.value)} // State managed here

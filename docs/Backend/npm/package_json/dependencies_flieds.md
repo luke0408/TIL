@@ -1,15 +1,18 @@
 # package.json – 의존성 필드 정리
-<!-- 
+
+<!--
 이 노트는 package.json에서 의존성 관련 필드들을 정리한 것이다.
 런타임과 개발 환경에 필요한 외부 라이브러리, 패키지 관리 방식 등을 정의한다.
 -->
 
 ## Summary
+
 `package.json`의 의존성 필드는 패키지가 실행되거나 개발될 때 필요한 외부 패키지들을 정의한다. 의존성의 종류에 따라 `dependencies`, `devDependencies`, `peerDependencies`, `optionalDependencies`, `bundledDependencies` 등 다양한 방식으로 관리된다.
 
 ## Details
 
 ### dependencies
+
 런타임에 필요한 패키지를 정의한다. 애플리케이션이 동작하는 데 필수적인 라이브러리들이 포함된다.
 
 ```json
@@ -17,11 +20,11 @@
   "express": "^4.18.2",
   "lodash": "^4.17.21"
 }
-````
+```
 
-* `^`: 해당 버전의 **최신 마이너 버전**까지 설치 가능
-* `~`: 해당 버전의 **최신 패치 버전**까지 설치 가능
-* 정확한 버전은 `1.0.0` 형태로 고정 가능
+- `^`: 해당 버전의 **최신 마이너 버전**까지 설치 가능
+- `~`: 해당 버전의 **최신 패치 버전**까지 설치 가능
+- 정확한 버전은 `1.0.0` 형태로 고정 가능
 
 ### devDependencies
 
@@ -34,11 +37,9 @@
 }
 ```
 
-* `dependencies`와 마찬가지로 버전 범위를 지정할 수 있다.
+- `dependencies`와 마찬가지로 버전 범위를 지정할 수 있다.
 
-:::tip
-개발 환경과 실행 환경을 분리하여, 배포 시 불필요한 의존성을 제외시킬 수 있다.
-:::
+:::tip 개발 환경과 실행 환경을 분리하여, 배포 시 불필요한 의존성을 제외시킬 수 있다. :::
 
 ### peerDependencies
 
@@ -50,12 +51,10 @@
 }
 ```
 
-* `peerDependencies`는 패키지가 특정 버전의 라이브러리와 호환되도록 요구할 때 유용하다.
-* 예를 들어, `react-router`와 같은 라이브러리는 `react`가 반드시 필요하다.
+- `peerDependencies`는 패키지가 특정 버전의 라이브러리와 호환되도록 요구할 때 유용하다.
+- 예를 들어, `react-router`와 같은 라이브러리는 `react`가 반드시 필요하다.
 
-:::info
-`peerDependencies`는 자동으로 설치되지 않으므로, 사용자가 `react`를 별도로 설치해야 한다.
-:::
+:::info `peerDependencies`는 자동으로 설치되지 않으므로, 사용자가 `react`를 별도로 설치해야 한다. :::
 
 ### peerDependenciesMeta
 
@@ -69,8 +68,8 @@
 }
 ```
 
-* `optional`: 선택적 의존성으로 설정된다.
-* 이는 패키지를 사용하는 쪽에서 해당 의존성을 설치할지 말지 결정하도록 한다.
+- `optional`: 선택적 의존성으로 설정된다.
+- 이는 패키지를 사용하는 쪽에서 해당 의존성을 설치할지 말지 결정하도록 한다.
 
 ### optionalDependencies
 
@@ -82,11 +81,9 @@
 }
 ```
 
-* `optionalDependencies`가 설치되지 않아도 패키지 동작에 문제는 없다. 이 필드는 특히 운영체제에 따라 필요한 패키지를 선택적으로 설치할 때 유용하다.
+- `optionalDependencies`가 설치되지 않아도 패키지 동작에 문제는 없다. 이 필드는 특히 운영체제에 따라 필요한 패키지를 선택적으로 설치할 때 유용하다.
 
-:::warning
-`optionalDependencies`의 패키지가 설치되지 않으면 경고가 출력된다.
-:::
+:::warning `optionalDependencies`의 패키지가 설치되지 않으면 경고가 출력된다. :::
 
 ### bundledDependencies (or bundleDependencies)
 
@@ -99,18 +96,19 @@
 ]
 ```
 
-* 이 필드는 주로 패키지를 배포할 때 외부 의존성을 패키지 내에 포함시키고자 할 때 사용된다.
+- 이 필드는 주로 패키지를 배포할 때 외부 의존성을 패키지 내에 포함시키고자 할 때 사용된다.
 
 ## Reference
 
 **author note:** Related note in this repo
+
 - [package.json – 환경 및 배포 설정 필드 정리](./env_publish_fields.md)
 - [package.json – 기본 메타 필드 정리](./meta_fields.md)
 - [package.json – 실행 및 입출력 필드 정리](./runtime_io_fields.md)
 
 **link:** External reference
 
-* [npm Docs – dependencies](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#dependencies)
-* [npm Docs – devDependencies](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#devdependencies)
-* [npm Docs – peerDependencies](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#peerdependencies)
-* [npm Docs – optionalDependencies](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#optionaldependencies)
+- [npm Docs – dependencies](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#dependencies)
+- [npm Docs – devDependencies](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#devdependencies)
+- [npm Docs – peerDependencies](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#peerdependencies)
+- [npm Docs – optionalDependencies](https://docs.npmjs.com/cli/v11/configuring-npm/package-json#optionaldependencies)

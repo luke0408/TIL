@@ -1,15 +1,18 @@
 # package.json – 기본 메타 필드 정리
-<!-- 
+
+<!--
 이 노트는 package.json의 기본 메타 필드들을 정리한 것이다.
 이 필드들은 프로젝트의 정체성과 공개 정보(metadata)를 표현하며, 대부분 `npm init`으로 생성되는 항목들이다.
  -->
 
 ## Summary
+
 `package.json`은 Node.js 프로젝트의 메타데이터를 담고 있다. 그중 기본 메타 필드는 프로젝트의 이름, 설명, 작성자, 라이선스 등의 정보를 포함하며, npm 레지스트리에 등록하거나 협업에 필요한 가장 기초적인 정보들을 정의한다.
 
 ## Details
 
 ### name
+
 패키지의 고유한 식별자이다. 다음 규칙을 따른다:
 
 - 소문자, 숫자, 대시(`-`)만 허용
@@ -19,7 +22,7 @@
 
 ```json
 "name": "@my-org/my-library"
-````
+```
 
 ### version
 
@@ -128,18 +131,17 @@ Semantic Versioning(SemVer)을 따르는 패키지 버전이다.
 }
 ```
 
-:::tip
-`homepage`, `bugs`, `repository` 필드를 함께 구성하면 npm 레지스트리 페이지에서 자동으로 GitHub 링크가 연결된다.
-:::
+:::tip `homepage`, `bugs`, `repository` 필드를 함께 구성하면 npm 레지스트리 페이지에서 자동으로 GitHub 링크가 연결된다. :::
 
 ## Reference
 
 **author note:** Related note in this repo
+
 - [package.json – 의존성 필드 정리](./dependencies_flieds.md)
 - [package.json – 환경 및 배포 설정 필드 정리](./env_publish_fields.md)
 - [package.json – 실행 및 입출력 필드 정리](./runtime_io_fields.md)
 
 **link:** External reference
 
-* [npm Docs - package.json (v11)](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
-* [Creating a package.json file](https://docs.npmjs.com/creating-a-package-json-file)
+- [npm Docs - package.json (v11)](https://docs.npmjs.com/cli/v11/configuring-npm/package-json)
+- [Creating a package.json file](https://docs.npmjs.com/creating-a-package-json-file)

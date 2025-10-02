@@ -14,7 +14,11 @@ interface HomepageHeroProps {
   };
 }
 
-export function HomepageHero({title, subtitle, callToAction}: HomepageHeroProps): JSX.Element {
+export function HomepageHero({
+  title,
+  subtitle,
+  callToAction,
+}: HomepageHeroProps): JSX.Element {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -23,7 +27,9 @@ export function HomepageHero({title, subtitle, callToAction}: HomepageHeroProps)
         </Heading>
         <p className="hero__subtitle">{subtitle}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to={callToAction.href}>
+          <Link
+            className="button button--secondary button--lg"
+            to={callToAction.href}>
             {callToAction.label}
           </Link>
         </div>

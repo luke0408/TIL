@@ -8,17 +8,16 @@ Chunked Transfer-Encoding은 **HTTP/1.1에서 도입된 전송 메커니즘**으
 
 ### 등장 배경
 
-* **HTTP/1.0 한계**
-
-  * 응답 본문 크기를 반드시 `Content-Length` 헤더로 알려야 했음.
-  * 동적으로 생성되는 콘텐츠(예: 실시간 로그, 스트리밍 데이터)는 크기를 사전에 알기 어려움.
+- **HTTP/1.0 한계**
+  - 응답 본문 크기를 반드시 `Content-Length` 헤더로 알려야 했음.
+  - 동적으로 생성되는 콘텐츠(예: 실시간 로그, 스트리밍 데이터)는 크기를 사전에 알기 어려움.
 
 ### 동작 방식
 
-* 응답 헤더에 `Transfer-Encoding: chunked` 지정.
-* 본문은 여러 \*\*청크(chunk)\*\*로 전송.
-* 각 청크는 `길이(16진수) CRLF + 데이터 CRLF` 형식.
-* 마지막 청크는 `0 CRLF`로 종료.
+- 응답 헤더에 `Transfer-Encoding: chunked` 지정.
+- 본문은 여러 \*\*청크(chunk)\*\*로 전송.
+- 각 청크는 `길이(16진수) CRLF + 데이터 CRLF` 형식.
+- 마지막 청크는 `0 CRLF`로 종료.
 
 ### 예시
 
@@ -37,9 +36,9 @@ Hello\r\n
 \r\n
 ```
 
-* 첫 번째 청크 → 길이 `5`(16진수), 데이터 `"Hello"`
-* 두 번째 청크 → 길이 `6`, 데이터 `" World"`
-* 마지막 청크 → `0` (본문 종료)
+- 첫 번째 청크 → 길이 `5`(16진수), 데이터 `"Hello"`
+- 두 번째 청크 → 길이 `6`, 데이터 `" World"`
+- 마지막 청크 → `0` (본문 종료)
 
 ### 장점
 
@@ -49,14 +48,14 @@ Hello\r\n
 
 ### 한계
 
-* **오버헤드**: 각 청크마다 길이와 CRLF가 추가됨.
-* **중간 장비 문제**: 오래된 프록시나 클라이언트가 지원하지 않을 수 있음.
-* **HTTP/2 이상에서 불필요**: HTTP/2부터는 자체 프레이밍 구조를 사용 → chunked 필요 없음.
+- **오버헤드**: 각 청크마다 길이와 CRLF가 추가됨.
+- **중간 장비 문제**: 오래된 프록시나 클라이언트가 지원하지 않을 수 있음.
+- **HTTP/2 이상에서 불필요**: HTTP/2부터는 자체 프레이밍 구조를 사용 → chunked 필요 없음.
 
 ## Reference
 
 **link:** External reference
 
-* [RFC 2616 - Section 3.6.1 Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc2616#section-3.6.1)
-* [RFC 7230 - Section 4.1 Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc7230#section-4.1)
-* [MDN - Transfer-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding)
+- [RFC 2616 - Section 3.6.1 Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc2616#section-3.6.1)
+- [RFC 7230 - Section 4.1 Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc7230#section-4.1)
+- [MDN - Transfer-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding)

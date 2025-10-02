@@ -10,8 +10,8 @@ export const HOMEPAGE_FEATURES: readonly HomepageFeature[] = [
     Icon: MountainIllustration,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and used
-        to get your website up and running quickly.
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
       </>
     ),
   },
@@ -20,8 +20,8 @@ export const HOMEPAGE_FEATURES: readonly HomepageFeature[] = [
     Icon: TreeIllustration,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go ahead
-        and move your docs into the <code>docs</code> directory.
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
@@ -30,8 +30,8 @@ export const HOMEPAGE_FEATURES: readonly HomepageFeature[] = [
     Icon: ReactIllustration,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can be
-        extended while reusing the same header and footer.
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
       </>
     ),
   },

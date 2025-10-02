@@ -15,7 +15,6 @@ JavaScript 엔진이 코드를 실행하기 위해서는 먼저 **파싱(Parsing
 Parsing은 크게 두 단계로 이루어진다.
 
 1. **Lexical Analysis (어휘 분석, 토큰화)**
-
    - 소스 코드를 읽고 의미 있는 최소 단위(토큰)로 분해하는 과정이다.
    - 예시:
      ```js
@@ -29,7 +28,6 @@ Parsing은 크게 두 단계로 이루어진다.
      - `;` (세미콜론)
 
 2. **Syntax Analysis (구문 분석, AST 생성)**
-
    - 토큰을 기반으로 **AST(Abstract Syntax Tree, 추상 구문 트리)** 를 생성한다.
    - AST는 코드의 구조를 트리 형태로 표현한 것이다.
    - 위 코드(`let x = 10;`)의 AST 표현 예시:
@@ -44,11 +42,13 @@ Parsing은 크게 두 단계로 이루어진다.
 AST Explorer를 통해 **Acorn 파서**로 변환한 AST 결과는 다음과 같다:
 
 > **파싱 대상**
+
 ```js
 let x = 10;
 ```
 
 > **파싱 결과 (Acorn 방식)**
+
 ```json
 {
   "type": "VariableDeclaration",
@@ -89,9 +89,11 @@ AST는 코드의 실행 과정에서 중요한 역할을 한다.
 ## Reference
 
 **issue:** Related issue in this repo
+
 - [JavaScript Engine은 어떻게 동작하는가?](https://github.com/luke0408/TIL/issues/1)
 
 **author note:** Related note in this repo
+
 - [JavaScript Engine Intro](./Introduction_to_JavaScript_Engine.md)
 - [JavaScript Compilation Process](./JavaScript_Compilation_Process.md)
 - [Execution Context in JavaScript](./Execution_Context.md)
@@ -102,4 +104,3 @@ AST는 코드의 실행 과정에서 중요한 역할을 한다.
 - [MDN Abstract Syntax Tree](https://developer.mozilla.org/en-US/docs/Glossary/Abstract_Syntax_Tree)
 - [Acron](https://github.com/acornjs/acorn)
 - [ESPrima](https://esprima.org/)
-

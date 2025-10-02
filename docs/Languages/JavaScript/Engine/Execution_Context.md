@@ -45,12 +45,12 @@ JavaScript는 **싱글 스레드(Single-Threaded)** 언어이므로 **Call Stack
 
 ```js
 function first() {
-  console.log("First function");
+  console.log('First function');
   second();
 }
 
 function second() {
-  console.log("Second function");
+  console.log('Second function');
 }
 
 first();

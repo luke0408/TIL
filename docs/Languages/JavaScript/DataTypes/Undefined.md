@@ -8,9 +8,9 @@
 
 ### 정의 및 특징
 
-- **전역 객체의 속성**: `undefined`는 전역 객체의 속성으로, 전역 범위에서 접근할 수 있다. 
-- **읽기 전용**: 대부분의 최신 브라우저에서 `undefined`는 읽기 전용이며, 재할당이나 변경이 불가능하다. 
-- **유형**: `undefined`의 데이터 타입은 `undefined`이다. 
+- **전역 객체의 속성**: `undefined`는 전역 객체의 속성으로, 전역 범위에서 접근할 수 있다.
+- **읽기 전용**: 대부분의 최신 브라우저에서 `undefined`는 읽기 전용이며, 재할당이나 변경이 불가능하다.
+- **유형**: `undefined`의 데이터 타입은 `undefined`이다.
 
 ### 발생 상황
 
@@ -47,7 +47,7 @@
 ### 주의사항
 
 - **`undefined`의 재정의**: 전역 범위에서 `undefined`를 변수로 선언하거나 값을 할당하는 것은 권장되지 않는다. 이는 코드의 가독성과 유지보수성을 해칠 수 있다.
-  
+
   ```javascript
   let undefined = 'some value';
   console.log(undefined); // 출력: 'some value'
@@ -56,5 +56,6 @@
 ## Reference
 
 **link:** External reference
+
 - [MDN Web Docs - undefined](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/undefined)
 - [ECMAScript® 2025 Language Specification - undefined](https://tc39.es/ecma262/multipage/global-object.html#sec-undefined)
