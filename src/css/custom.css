@@ -1,20 +1,9 @@
 :root {
-  --ifm-color-primary: #9CCC65;
-  --ifm-color-primary-dark: #8BC34A;
-  --ifm-color-primary-darker: #7CB342;
-  --ifm-color-primary-darkest: #689F38;
-  --ifm-color-primary-light: #76FF03;
-  --ifm-color-primary-lighter: #B2FF59;
-  --ifm-color-primary-lightest: #CCFF90;
+  --site-color-feedback-background: #f0f8ff;
+  --docusaurus-highlighted-code-line-bg: rgb(0 0 0 / 10%);
+  --ifm-breadcrumb-color-active: var(--ifm-color-primary-darker) !important;
+  --ifm-menu-color-active: var(--ifm-color-primary-darker) !important;
   --ifm-code-font-size: 95%;
-  --color-mode-toggle-background: rgba(51, 105, 30, 0.12);
-  --color-mode-toggle-background-hover: rgba(51, 105, 30, 0.18);
-  --color-mode-toggle-border: rgba(51, 105, 30, 0.45);
-  --color-mode-toggle-border-hover: rgba(51, 105, 30, 0.6);
-  --color-mode-toggle-foreground: #689F38;
-  --color-mode-toggle-foreground-hover: #558B2F;
-  --color-mode-toggle-shadow: 0 3px 10px rgba(51, 105, 30, 0.15);
-  --color-mode-toggle-shadow-hover: 0 6px 20px rgba(51, 105, 30, 0.2);
 }
 
 .footer__links {
@@ -37,8 +26,14 @@ body {
   color: var(--ifm-font-color-base);
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(38, 50, 56, 0.3);
+[data-theme='light'] {
+  --ifm-color-primary: #9CCC65;
+  --ifm-color-primary-dark: #8BC34A;
+  --ifm-color-primary-darker: #7CB342;
+  --ifm-color-primary-darkest: #689F38;
+  --ifm-color-primary-light: #76FF03;
+  --ifm-color-primary-lighter: #B2FF59;
+  --ifm-color-primary-lightest: #CCFF90;
 }
 
 [data-theme='dark'] {
@@ -49,18 +44,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --color-mode-toggle-background: rgba(29, 233, 182, 0.12);
-  --color-mode-toggle-background-hover: rgba(29, 233, 182, 0.18);
-  --color-mode-toggle-border: rgba(29, 233, 182, 0.45);
-  --color-mode-toggle-border-hover: rgba(29, 233, 182, 0.6);
-  --color-mode-toggle-foreground: #32d8b4;
-  --color-mode-toggle-foreground-hover: #4fddbf;
-  --color-mode-toggle-shadow: 0 3px 10px rgba(29, 233, 182, 0.15);
-  --color-mode-toggle-shadow-hover: 0 6px 20px rgba(29, 233, 182, 0.2);
-}
-
-.navbar__items > span {
-  margin-top: 8px;
 }
 
 .header-github-link::before {
@@ -76,4 +59,48 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .header-github-link:hover::before {
   background-color: var(--ifm-navbar-link-hover-color);
+}
+
+[data-theme='light'] .DocSearch {
+  /* --docsearch-primary-color: var(--ifm-color-primary); */
+  /* --docsearch-text-color: var(--ifm-font-color-base); */
+  --docsearch-muted-color: var(--ifm-color-emphasis-700);
+  --docsearch-container-background: rgb(94 100 112 / 70%);
+  /* Modal */
+  --docsearch-modal-background: var(--ifm-color-secondary-lighter);
+  /* Search box */
+  --docsearch-searchbox-background: var(--ifm-color-secondary);
+  --docsearch-searchbox-focus-background: var(--ifm-color-white);
+  /* Hit */
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-white);
+  /* Footer */
+  --docsearch-footer-background: var(--ifm-color-white);
+}
+
+[data-theme='dark'] .DocSearch {
+  --docsearch-text-color: var(--ifm-font-color-base);
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
+  --docsearch-container-background: rgb(47 55 69 / 70%);
+  /* Modal */
+  --docsearch-modal-background: var(--ifm-background-color);
+  /* Search box */
+  --docsearch-searchbox-background: var(--ifm-background-color);
+  --docsearch-searchbox-focus-background: var(--ifm-color-black);
+  /* Hit */
+  --docsearch-hit-color: var(--ifm-font-color-base);
+  --docsearch-hit-active-color: var(--ifm-color-white);
+  --docsearch-hit-background: var(--ifm-color-emphasis-100);
+  /* Footer */
+  --docsearch-footer-background: var(--ifm-background-surface-color);
+  --docsearch-key-gradient: linear-gradient(
+    -26.5deg,
+    var(--ifm-color-emphasis-200) 0%,
+    var(--ifm-color-emphasis-100) 100%
+  );
+}
+
+.dropdown-separator {
+  margin: 0.3rem 0;
 }
