@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 
 import {HomepageFeatureSection, HomepageHero} from '../features/homepage';
 
-const DOCS_INTRO_PATH = '/docs/intro';
+const DOCS_INTRO_PATH = '/docs/introduction';
 const CTA_LABEL = 'TIL Notes';
 const PAGE_DESCRIPTION = 'Description will go into a meta tag in <head />';
 
