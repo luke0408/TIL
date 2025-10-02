@@ -79,8 +79,9 @@ const config: Config = {
         },
         {
           href: 'https://github.com/luke0408/TIL',
-          label: 'GitHub',
           position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ].filter(Boolean) as NonNullable<Preset.ThemeConfig['navbar']>['items'],
     },
