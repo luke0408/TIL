@@ -1,6 +1,5 @@
 module.exports = {
     extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
-    plugins: ['stylelint-copyright'],
     rules: {
       'selector-pseudo-class-no-unknown': [
         true,
@@ -16,4 +15,3 @@ module.exports = {
       'value-keyword-case': ['lower', {camelCaseSvgKeywords: true}],
     },
   };
-  
