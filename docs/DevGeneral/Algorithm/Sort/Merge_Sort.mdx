@@ -14,7 +14,11 @@ Merge Sort는 다음 3단계를 반복하여 정렬을 수행한다.
 2. **Conquer** – 나눈 배열 각각을 재귀적으로 Merge Sort로 정렬한다.
 3. **Combine** – 두 정렬된 배열을 병합(merge)하여 하나의 정렬된 배열로 만든다.
 
-:::tip Merge Sort는 항상 O(n log n)의 시간복잡도를 보장하며, 안정 정렬(stable sort)이다. :::
+:::tip 
+
+Merge Sort는 항상 O(n log n)의 시간복잡도를 보장하며, 안정 정렬(stable sort)이다. 
+
+:::
 
 ### 알고리즘 동작 예시
 
@@ -38,7 +42,11 @@ Merge Sort는 다음 3단계를 반복하여 정렬을 수행한다.
 
 - **공간 복잡도**: O(n) – 병합을 위한 임시 배열 필요
 
-:::info Quick Sort와는 달리 Merge Sort는 항상 O(n log n)의 성능을 보장하지만, 추가적인 메모리가 필요하다. :::
+:::info 
+
+Quick Sort와는 달리 Merge Sort는 항상 O(n log n)의 성능을 보장하지만, 추가적인 메모리가 필요하다. 
+
+:::
 
 ### 구현 예시 (TypeScript)
 
@@ -72,7 +80,11 @@ function merge(left: number[], right: number[]): number[] {
 }
 ```
 
-:::note 이 구현은 `number[]` 배열을 다루지만, 제네릭 타입 `<T>`과 비교 함수 `compareFn`을 활용하여 확장할 수 있다. :::
+:::note 
+
+이 구현은 `number[]` 배열을 다루지만, 제네릭 타입 `<T>`과 비교 함수 `compareFn`을 활용하여 확장할 수 있다. 
+
+:::
 
 ### 장단점 비교
 

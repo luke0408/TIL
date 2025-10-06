@@ -41,7 +41,9 @@
   console.log(big + num); // TypeError 발생
   ```
 
-:::tip 연산 전 **명시적 변환**이 필요하다:
+:::tip 
+
+연산 전 **명시적 변환**이 필요하다:
 
 ```javascript
 console.log(big + BigInt(num)); // 정상 동작
@@ -78,7 +80,10 @@ console.log(big + BigInt(num)); // 정상 동작
   const big = 10n;
   JSON.stringify(big); // TypeError 발생
   ```
-  :::tip BigInt를 문자열로 변환한 후 직렬화해야 한다:
+
+:::tip 
+
+BigInt를 문자열로 변환한 후 직렬화해야 한다:
 
 ```javascript
 JSON.stringify(big.toString()); // '"10"'
