@@ -47,6 +47,23 @@ body {
   --ifm-color-primary-lightest: #4fddbf;
 }
 
+.navbar__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__logo img {
+  width: 24px;
+  height: 24px;
+}
+
+.costom-navbar-icon::before {
+  content: '';
+  transition: background-color var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
+}
+
 .header-github-link::before {
   content: '';
   width: 24px;
