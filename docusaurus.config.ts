@@ -113,6 +113,11 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     prism: {
       magicComments: [
         {
@@ -125,8 +130,8 @@ const config: Config = {
           line: 'This will error',
         },
       ],
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      additionalLanguages: ['java', 'kotlin', 'python', 'go'],
+      theme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
 };
