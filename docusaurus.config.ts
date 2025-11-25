@@ -62,7 +62,11 @@ const config: Config = {
           docId: 'introduction',
           label: 'Docs',
         },
-        // {to: 'blog', label: 'Blog', position: 'left'},
+        {
+          href: 'https://luke-blog.vercel.app/',
+          position: 'left',
+          label: 'Blog'
+        },
         {
           type: 'localeDropdown',
           position: 'right',
