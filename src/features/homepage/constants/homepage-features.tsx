@@ -6,32 +6,32 @@ import type {HomepageFeature} from '../types/homepage-feature';
 
 export const HOMEPAGE_FEATURES: readonly HomepageFeature[] = [
   {
-    title: 'Easy to Use',
+    title: '깊게 공부하는 것을 즐기는',
     Icon: MountainIllustration,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        복잡한 개념을 깊게 파고들어 이해하고, 핵심을 정리해 재사용 가능한
+        지식으로 남깁니다. 학습한 내용을 실전에서 바로 활용할 수 있게 정리합니다.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '개발 문화를 사랑하는',
     Icon: TreeIllustration,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        코드 리뷰, 협업 흐름, 개발 도구와 같은 좋은 개발 문화를 지향합니다.
+        실무에서 쓸모있는 관행과 팁을 공유합니다.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Back + Agent 개발자',
     Icon: ReactIllustration,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        백엔드와 에이전트(Agent) 개발 경험을 바탕으로 아키텍처, 설계 패턴,
+        구현 노하우를 실무 중심으로 정리합니다.
       </>
     ),
   },
