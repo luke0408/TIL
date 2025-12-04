@@ -27,24 +27,94 @@ body {
   color: var(--ifm-font-color-base);
 }
 
-[data-theme='light'] {
-  --ifm-color-primary: #9ccc65;
-  --ifm-color-primary-dark: #8bc34a;
-  --ifm-color-primary-darker: #7cb342;
-  --ifm-color-primary-darkest: #689f38;
+[data-season='spring'][data-theme='light'] {
+  --ifm-color-primary: #2F9E44;
+  --ifm-color-primary-dark: #2b8f3d;
+  --ifm-color-primary-darker: #267f36;
+  --ifm-color-primary-darkest: #216f2f;
   --ifm-color-primary-light: #76ff03;
   --ifm-color-primary-lighter: #b2ff59;
   --ifm-color-primary-lightest: #ccff90;
+  --ifm-background-color: #F7FFF7;
+  --ifm-font-color-base: #0B3D2E;
 }
 
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-season='summer'][data-theme='light'] {
+  --ifm-color-primary: #0077B6;
+  --ifm-color-primary-dark: #006aa0;
+  --ifm-color-primary-darker: #005b88;
+  --ifm-color-primary-darkest: #004f72;
+  --ifm-color-primary-light: #00b4d8;
+  --ifm-color-primary-lighter: #66dff0;
+  --ifm-color-primary-lightest: #cceff7;
+  --ifm-background-color: #E6F7FF;
+  --ifm-font-color-base: #012A4A;
+}
+
+[data-season='autumn'][data-theme='light'] {
+  --ifm-color-primary: #D97706;
+  --ifm-color-primary-dark: #bf6505;
+  --ifm-color-primary-darker: #a65404;
+  --ifm-color-primary-darkest: #8f4303;
+  --ifm-color-primary-light: #ffb84d;
+  --ifm-color-primary-lighter: #ffd89a;
+  --ifm-color-primary-lightest: #fff1df;
+  --ifm-background-color: #FFF7ED;
+  --ifm-font-color-base: #3A2F1D;
+}
+
+[data-season='winter'][data-theme='light'] {
+  --ifm-color-primary: #0B6623; /* Christmas green */
+  --ifm-color-primary-dark: #0a5b1e;
+  --ifm-color-primary-darker: #094f19;
+  --ifm-color-primary-darkest: #083914;
+  --ifm-color-primary-light: #66b88a;
+  --ifm-color-primary-lighter: #a3d6b3;
+  --ifm-color-primary-lightest: #dff3e6;
+  --ifm-color-secondary: #C8102E; /* Christmas red */
+  --ifm-background-color: #FFF9F8;
+  --ifm-font-color-base: #071217;
+}
+
+/* Seasonal dark mode overrides: combine season + data-theme='dark' */
+[data-season='spring'][data-theme='dark'] {
+  --ifm-color-primary: #1f6b2e;
+  --ifm-color-primary-dark: #185927;
+  --ifm-color-primary-darker: #12471f;
+  --ifm-color-primary-darkest: #0c3518;
+  --ifm-color-primary-light: #3f7f3f;
+  --ifm-background-color: #06160c;
+  --ifm-font-color-base: #e6f7ef;
+}
+
+[data-season='summer'][data-theme='dark'] {
+  --ifm-color-primary: #005f8a;
+  --ifm-color-primary-dark: #005078;
+  --ifm-color-primary-darker: #004062;
+  --ifm-color-primary-darkest: #00334d;
+  --ifm-color-primary-light: #2b9ac8;
+  --ifm-background-color: #021827;
+  --ifm-font-color-base: #eaf6fb;
+}
+
+[data-season='autumn'][data-theme='dark'] {
+  --ifm-color-primary: #a85a03;
+  --ifm-color-primary-dark: #944e03;
+  --ifm-color-primary-darker: #7f4302;
+  --ifm-color-primary-darkest: #6a3701;
+  --ifm-color-primary-light: #c87b2b;
+  --ifm-background-color: #2a170e;
+  --ifm-font-color-base: #fff5ec;
+}
+
+[data-season='winter'][data-theme='dark'] {
+  --ifm-color-primary: #083912; /* deep christmas green */
+  --ifm-color-primary-dark: #07310f;
+  --ifm-color-primary-darker: #05260b;
+  --ifm-color-secondary: #9a081f; /* deep christmas red */
+  --ifm-color-primary-light: #3f7f5f;
+  --ifm-background-color: #071217;
+  --ifm-font-color-base: #fff6f6;
 }
 
 .navbar__logo {
@@ -79,44 +149,20 @@ body {
   background-color: var(--ifm-navbar-link-hover-color);
 }
 
-[data-theme='light'] .DocSearch {
-  /* --docsearch-primary-color: var(--ifm-color-primary); */
-  /* --docsearch-text-color: var(--ifm-font-color-base); */
-  --docsearch-muted-color: var(--ifm-color-emphasis-700);
-  --docsearch-container-background: rgb(94 100 112 / 70%);
-  /* Modal */
-  --docsearch-modal-background: var(--ifm-color-secondary-lighter);
-  /* Search box */
-  --docsearch-searchbox-background: var(--ifm-color-secondary);
+[data-season='spring'] .DocSearch,
+[data-season='summer'] .DocSearch,
+[data-season='autumn'] .DocSearch,
+[data-season='winter'] .DocSearch {
+  --docsearch-text-color: var(--ifm-font-color-base);
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest, rgba(0,0,0,0.35));
+  --docsearch-container-background: rgba(0,0,0,0.22);
+  --docsearch-modal-background: var(--ifm-background-color);
+  --docsearch-searchbox-background: var(--ifm-background-color);
   --docsearch-searchbox-focus-background: var(--ifm-color-white);
-  /* Hit */
   --docsearch-hit-color: var(--ifm-font-color-base);
   --docsearch-hit-active-color: var(--ifm-color-white);
   --docsearch-hit-background: var(--ifm-color-white);
-  /* Footer */
   --docsearch-footer-background: var(--ifm-color-white);
-}
-
-[data-theme='dark'] .DocSearch {
-  --docsearch-text-color: var(--ifm-font-color-base);
-  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
-  --docsearch-container-background: rgb(47 55 69 / 70%);
-  /* Modal */
-  --docsearch-modal-background: var(--ifm-background-color);
-  /* Search box */
-  --docsearch-searchbox-background: var(--ifm-background-color);
-  --docsearch-searchbox-focus-background: var(--ifm-color-black);
-  /* Hit */
-  --docsearch-hit-color: var(--ifm-font-color-base);
-  --docsearch-hit-active-color: var(--ifm-color-white);
-  --docsearch-hit-background: var(--ifm-color-emphasis-100);
-  /* Footer */
-  --docsearch-footer-background: var(--ifm-background-surface-color);
-  --docsearch-key-gradient: linear-gradient(
-    -26.5deg,
-    var(--ifm-color-emphasis-200) 0%,
-    var(--ifm-color-emphasis-100) 100%
-  );
 }
 
 .dropdown-separator {
