@@ -53,7 +53,7 @@ const config: Config = {
       logo: {
         alt: 'luke0408',
         src: 'img/icon.png',
-        className: 'custom-navbar-icon'
+        className: 'custom-navbar-icon',
       },
       items: [
         {
@@ -65,7 +65,7 @@ const config: Config = {
         {
           href: 'https://luke-blog.vercel.app/',
           position: 'left',
-          label: 'Blog'
+          label: 'Blog',
         },
         {
           type: 'localeDropdown',
