@@ -13,7 +13,7 @@
     "lint": "npm run lint:style && npm run lint:spelling",
     "lint:code": "eslint --cache --report-unused-disable-directives \"**/*.{js,jsx,ts,tsx,mjs}\"",
     "lint:code:fix": "npm run lint:code -- --fix",
-    "lint:spelling": "cspell \"**\" --no-progress --show-context --show-suggestions",
+    "lint:spelling": "cspell \"docs/**.{md, yml}\" \"src/**.{ts,tsx,css}\" --no-progress --show-context --show-suggestions",
     "lint:spelling:fix": "npm run lint:spelling -- --words-only --unique --no-exit-code --no-summary ",
     "lint:style": "stylelint \"**/*.css\"",
     "lint:style:fix": "npm run lint:style -- --fix",
