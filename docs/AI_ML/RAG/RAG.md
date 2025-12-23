@@ -1,4 +1,4 @@
-# RAG란 무엇인가?
+# RAG
 
 ## Summary
 RAG(Retrieval-Augmented Generation)는 외부에서 검색된 정보를 기반으로 **질의(Query)의 컨텍스트를 강화한 뒤**, LLM이 그 강화된 입력을 바탕으로 답변을 생성하도록 하는 구조적 기술이다.

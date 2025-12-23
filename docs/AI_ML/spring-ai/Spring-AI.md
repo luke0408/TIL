@@ -1,4 +1,4 @@
-# AI Application과 Spring AI 개요
+# Spring AI
 
 ## Summary
 AI Application은 AI 모델을 활용해 실제 서비스를 구현하는 응용 시스템이다. 이러한 시스템은 Front-End, Back-End(API Server), AI 모델의 유기적 상호작용으로 구성되며, 이를 효율적으로 통합하기 위해 Spring AI와 같은 프레임워크가 사용된다. Spring AI는 Java 및 Spring Boot 환경에서 LLM과의 통합을 단순화하고, 엔터프라이즈급 AI 응용 서비스를 개발할 수 있도록 지원한다.
