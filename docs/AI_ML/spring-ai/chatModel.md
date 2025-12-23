@@ -1,7 +1,7 @@
 # ChatModel
 
 ## Summary
-`ChatModel`은 **Spring AI** 프레임워크에서 AI 모델(특히 대화형 모델)과의 상호작용을 표준화하기 위해 설계된 핵심 인터페이스이다.  
+`ChatModel`은 **[Spring AI](./Spring-AI.md)** 프레임워크에서 AI 모델(특히 대화형 모델)과의 상호작용을 표준화하기 위해 설계된 핵심 인터페이스이다.  
 이 인터페이스는 OpenAI, Azure OpenAI, Anthropic, Google Gemini 등의 다양한 공급자 모델을 일관된 방식으로 사용할 수 있도록 추상화한다.
 
 ## Details
