@@ -1,0 +1,32 @@
+ai-ml:
+  label: "AI/ML"
+  permalink: "/ai-ml"
+  description: "AI 및 머신러닝 관련 기술을 다룹니다."
+backend:
+  label: "Backend"
+  permalink: "/backend"
+  description: "서버 개발에 필요한 기술과 프레임워크를 다룹니다."
+cloud:
+  label: "Cloud"
+  permalink: "/cloud"
+  description: "클라우드 컴퓨팅과 관련된 AWS 서비스를 학습하고 정리합니다."
+dev-general:
+  label: "Dev General"
+  permalink: "/dev-general"
+  description: "소프트웨어 개발 전반에 걸친 일반적인 주제를 다룹니다."
+devops:
+  label: "DevOps"
+  permalink: "/devops"
+  description: "DevOps 문화와 관련된 기술 및 도구를 학습합니다."
+languages:
+  label: "Languages"
+  permalink: "/languages"
+  description: "프로그래밍 언어의 문법과 핵심 개념을 정리합니다."
+networking:
+  label: "Networking"
+  permalink: "/networking"
+  description: "네트워크의 기초가 되는 HTTP 프로토콜에 대해 학습하고 정리합니다."
+operating-systems:
+  label: "Operating Systems"
+  permalink: "/operating-systems"
+  description: "운영체제 및 Linux 명령어 사용법을 정리합니다."
