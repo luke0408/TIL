@@ -16,7 +16,7 @@
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgb(0 0 0 / 10%);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
@@ -154,8 +154,8 @@ body {
 [data-season='autumn'] .DocSearch,
 [data-season='winter'] .DocSearch {
   --docsearch-text-color: var(--ifm-font-color-base);
-  --docsearch-muted-color: var(--ifm-color-secondary-darkest, rgba(0,0,0,0.35));
-  --docsearch-container-background: rgba(0,0,0,0.22);
+  --docsearch-muted-color: var(--ifm-color-secondary-darkest, rgb(0 0 0 / 35%));
+  --docsearch-container-background: rgb(0 0 0 / 22%);
   --docsearch-modal-background: var(--ifm-background-color);
   --docsearch-searchbox-background: var(--ifm-background-color);
   --docsearch-searchbox-focus-background: var(--ifm-color-white);

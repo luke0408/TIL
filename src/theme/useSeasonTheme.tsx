@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import type { SeasonTheme, Season } from './seasonThemes';
 import { getSeasonForDate, getSeasonThemeForDate, getNextMidnightTimeoutMs, MIDNIGHT_FUDGE_MS } from './seasonUtils';
+import type { SeasonTheme, Season } from './seasonThemes';
 
 /**
  * 훅: 현재 날짜 기반 시즌 테마를 반환하고, 자정에 자동 갱신합니다.
@@ -17,7 +17,7 @@ export default function useSeasonTheme(initialDate?: Date): {season: Season; the
 
     const update = (d = new Date()) => {
       const s = getSeasonForDate(d);
-      if (!mounted) return;
+      if (!mounted) {return;}
       setSeason(s);
       setTheme(getSeasonThemeForDate(d).theme);
     };
@@ -45,14 +45,14 @@ export default function useSeasonTheme(initialDate?: Date): {season: Season; the
 
   // Set `data-season` on <html> so CSS can react to the current season.
   useEffect(() => {
-    if (typeof document === 'undefined') return;
+    if (typeof document === 'undefined') {return;}
     const el = document.documentElement;
     const prev = el.getAttribute('data-season');
     el.setAttribute('data-season', season);
     return () => {
       // restore previous value (if any) when unmounting
-      if (prev != null) el.setAttribute('data-season', prev);
-      else el.removeAttribute('data-season');
+      if (prev != null) {el.setAttribute('data-season', prev);}
+      else {el.removeAttribute('data-season');}
     };
   }, [season]);
 

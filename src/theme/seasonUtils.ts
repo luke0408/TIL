@@ -12,9 +12,9 @@ export const MIDNIGHT_FUDGE_MS = 1000; // 1 second fudge to avoid edge cases at 
 export function getSeasonForDate(date = new Date()): Season {
   const month = date.getMonth() + 1; // JS months: 0-11
 
-  if (month >= 3 && month <= 5) return 'spring';
-  if (month >= 6 && month <= 8) return 'summer';
-  if (month >= 9 && month <= 11) return 'autumn';
+  if (month >= 3 && month <= 5) {return 'spring';}
+  if (month >= 6 && month <= 8) {return 'summer';}
+  if (month >= 9 && month <= 11) {return 'autumn';}
   return 'winter';
 }
 
