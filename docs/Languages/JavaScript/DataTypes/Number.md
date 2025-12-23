@@ -129,7 +129,7 @@ alert(Math.pow(2, 10)); // 1024
 
 **author note:** Related note in this repo
 
-- [JavaScript - bigInt](./BigInt.mdx)
+- [JavaScript - bigInt](./BigInt.md)
 
 **link:** External reference
 

@@ -5,7 +5,7 @@ RAG 구조에서 Embedding은 텍스트를 고정 차원의 Vector로 변환하�
 
 이 과정은 **Tokenization → Numericalization → Vectorization**으로 구성되며, Embedding Model의 선택은 RAG 성능과 Vector DB 운용 구조에 직접적인 영향을 미친다. 
 
-Embedding은 RAG의 Retrieval 정확도, Query Matching 품질, 모델 호환성, 인프라 비용을 결정하는 주요 요소이기 때문에 올바른 이해가 필수적이다.
+Embedding은 [RAG](./RAG.md)의 Retrieval 정확도, Query Matching 품질, 모델 호환성, 인프라 비용을 결정하는 주요 요소이기 때문에 올바른 이해가 필수적이다.
 
 ## Details
 

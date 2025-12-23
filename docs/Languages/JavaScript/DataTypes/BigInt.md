@@ -101,7 +101,7 @@ JSON.stringify(big.toString()); // '"10"'
 
 **author note:** Related note in this repo
 
-- [JavaScript - number](./Number.mdx)
+- [JavaScript - number](./Number.md)
 
 **link:** External reference
 

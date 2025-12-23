@@ -57,7 +57,7 @@
 
 **author note**: Related note in this repo
 
-- [JavaScript - Null](./Null.mdx)
+- [JavaScript - Null](./Null.md)
 
 **link:** External reference
 

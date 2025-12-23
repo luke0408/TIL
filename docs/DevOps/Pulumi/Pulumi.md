@@ -71,8 +71,8 @@ Pulumi는 다음과 같은 장점을 제공한다.
 
 **author note:** Related note in this repo
 
-- [Pulumi Project](./Project.mdx)
-- [Pulumi Stack](./Stack.mdx)
+- [Pulumi Project](./Project.md)
+- [Pulumi Stack](./Stack.md)
 
 **link:** External reference
 

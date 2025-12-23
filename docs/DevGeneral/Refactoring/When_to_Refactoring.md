@@ -83,6 +83,6 @@
 
 **author note:** Related note in this repo
 
-- [리팩터링의 정의](./Definition_of_Refactoring.mdx)
-- [리팩터링을 해야하는 이유](./Reasons_for_Refactoring.mdx)
-- [두개의 모자](../Principle/Two_Hats.mdx)
+- [리팩터링의 정의](./Definition_of_Refactoring.md)
+- [리팩터링을 해야하는 이유](./Reasons_for_Refactoring.md)
+- [두개의 모자](../Principle/Two_Hats.md)

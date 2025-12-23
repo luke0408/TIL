@@ -143,8 +143,8 @@ $ pulumi stack rm dev
 
 **author note:** Related note in this repo
 
-- [Pulumi](./Pulumi.mdx)
-- [Pulumi Project](./Project.mdx)
+- [Pulumi](./Pulumi.md)
+- [Pulumi Project](./Project.md)
 
 **link:** External reference
 

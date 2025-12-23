@@ -100,9 +100,9 @@ console.log(x); // 1
 
 **author note**: Related note in this repo
 
-- [JavaScript - var](./Var.mdx)
-- [JavaScript - const](./Const.mdx)
-- [JavaScript - let](./Let.mdx)
+- [JavaScript - var](./Var.md)
+- [JavaScript - const](./Const.md)
+- [JavaScript - let](./Let.md)
 
 **link:** External reference
 

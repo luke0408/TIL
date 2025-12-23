@@ -93,4 +93,4 @@ const arrowFunction = () => {
 
 **authore note:** Related note in this repo
 
-- [JavaScript: Function](./Function.mdx)
+- [JavaScript: Function](./Function.md)

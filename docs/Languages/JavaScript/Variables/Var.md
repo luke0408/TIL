@@ -48,9 +48,9 @@ console.log(name); // "John"
 
 **author note:** Related note in this repo
 
-- [JavaScript - let](./Let.mdx)
-- [JavaScript - const](./Const.mdx)
-- [JavaScript - hoisting](./Hoisting.mdx)
+- [JavaScript - let](./Let.md)
+- [JavaScript - const](./Const.md)
+- [JavaScript - hoisting](./Hoisting.md)
 
 **link:** External reference
 

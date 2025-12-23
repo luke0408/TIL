@@ -62,9 +62,9 @@ graph TD;
 
 **author note:** Related note in this repo
 
-- [JavaScript Engine Intro](./Introduction_to_JavaScript_Engine.mdx)
-- [JavaScript Parser and AST](./Parser_And_AST.mdx)
-- [Execution Context in JavaScript](./Execution_Context.mdx)
+- [JavaScript Engine Intro](./Introduction_to_JavaScript_Engine.md)
+- [JavaScript Parser and AST](./Parser_And_AST.md)
+- [Execution Context in JavaScript](./Execution_Context.md)
 
 **link:** External reference
 

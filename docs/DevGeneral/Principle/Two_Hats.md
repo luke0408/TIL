@@ -28,9 +28,9 @@ ex) 버블 정렬에 대해 설명하기 위해, Array 자료형을 설명해야
 
 **author note:** Related note in this repo
 
-- [리팩터링 정의](../Refactoring/Definition_of_Refactoring.mdx)
-- [리팩터링의 필요성](../Refactoring/Reasons_for_Refactoring.mdx)
-- [언제 리팩터링해야 할까?](../Refactoring/When_to_Refactoring.mdx)
+- [리팩터링 정의](../Refactoring/Definition_of_Refactoring.md)
+- [리팩터링의 필요성](../Refactoring/Reasons_for_Refactoring.md)
+- [언제 리팩터링해야 할까?](../Refactoring/When_to_Refactoring.md)
 
 **link:** External reference
 
