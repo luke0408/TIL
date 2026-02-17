@@ -20,7 +20,7 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'ko',
-    locales: ['ko', 'en'],
+    locales: ['ko'],
   },
 
   // markdown
@@ -40,7 +40,7 @@ const config: Config = {
         indexBlog: false,
         indexPages: false,
         docsRouteBasePath: 'docs',
-        language: ['ko', 'en'],
+        language: ['ko'],
       },
     ],
   ],
