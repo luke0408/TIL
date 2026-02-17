@@ -1,22 +1,6 @@
-import 'dotenv/config';
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-
-const algoliaAppId = process.env.ALGOLIA_APP_ID;
-const algoliaApiKey = process.env.ALGOLIA_API_KEY;
-const algoliaIndexName = process.env.ALGOLIA_INDEX_NAME;
-
-const algoliaConfig =
-  algoliaAppId && algoliaApiKey && algoliaIndexName
-    ? {
-        appId: algoliaAppId,
-        apiKey: algoliaApiKey,
-        indexName: algoliaIndexName,
-        contextualSearch: true,
-        searchPagePath: 'search',
-      }
-    : undefined;
 
 const config: Config = {
   title: 'Today I Learned',
@@ -47,6 +31,19 @@ const config: Config = {
     },
   },
   themes: ['@docusaurus/theme-mermaid'],
+  plugins: [
+    [
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      {
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        docsRouteBasePath: 'docs',
+        language: ['ko', 'en'],
+      },
+    ],
+  ],
 
   presets: [
     [
@@ -100,6 +97,7 @@ const config: Config = {
             },
           ],
         },
+        {type: 'search', position: 'right'},
         {
           href: 'https://github.com/luke0408/TIL',
           position: 'right',
@@ -141,7 +139,6 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
-    ...(algoliaConfig ? {algolia: algoliaConfig} : {}),
     prism: {
       magicComments: [
         {
