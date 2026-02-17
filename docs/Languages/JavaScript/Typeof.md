@@ -1,6 +1,6 @@
 ---
 title: "`typeof` operator"
-description: "`typeof` operator 개념을 정리한 노트입니다."
+description: "typeof 연산자는 JavaScript에서 변수의 타입을 문자열로 반환하는 단항 연산자이다. 주로 런타임에 변수의 타입을 확인하는 데 사용되며, 몇 가지 예외적인 동작에 주의해야 한다."
 slug: /languages/javascript/typeof
 created_at: "2025-03-30 13:33Z"
 sidebar_position: 29

@@ -1,6 +1,6 @@
 ---
 title: "Object"
-description: "Object 개념을 정리한 노트입니다."
+description: "JavaScript에서 객체(Object)는 키(key)와 값(value)로 구성된 데이터 구조로, 다양한 정보를 저장하고 조작할 수 있다. 객체는 프로퍼티를 가지며, 메서드를 포함할 수 있다. 객체를 다루는 방법과 관련된 주요 개념을 정리한다."
 slug: /languages/javascript/object
 created_at: "2025-03-02 10:50Z"
 sidebar_position: 22

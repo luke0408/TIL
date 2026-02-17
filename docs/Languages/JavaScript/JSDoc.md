@@ -1,6 +1,6 @@
 ---
 title: "JsDoc"
-description: "JsDoc 개념을 정리한 노트입니다."
+description: "JsDoc은 JavaScript 코드에 주석을 추가하여 함수, 변수, 클래스 등의 정보를 명확하게 문서화하는 도구이다. 주석 기반으로 작성되며, 코드 가독성을 높이고 IDE에서 자동완성 및 타입 힌트를 제공하는 데 도움을 준다."
 slug: /languages/javascript/jsdoc
 created_at: "2025-03-02 10:17Z"
 sidebar_position: 15

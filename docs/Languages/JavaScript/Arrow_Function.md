@@ -1,6 +1,6 @@
 ---
 title: "Arrow Function"
-description: "Arrow Function 개념을 정리한 노트입니다."
+description: "자바스크립트에서 함수를 선언하는 방법 중 하나로 화살표 함수(Arrow Function)가 있다. 기존 함수 표현식보다 간결한 문법을 제공하며, 특히 익명 함수나 단일 라인의 함수를 작성할 때 유용하다. 하지만 this, super,."
 slug: /languages/javascript/arrow_function
 created_at: "2025-02-10 13:37Z"
 sidebar_position: 2

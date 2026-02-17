@@ -1,6 +1,6 @@
 ---
 title: "Semantic Versioning"
-description: "Semantic Versioning 개념을 정리한 노트입니다."
+description: "Semantic Versioning(이하 SemVer)은 소프트웨어 버전을 관리하고 소통하기 위한 명확한 규약이다. SemVer은 MAJOR.MINOR.PATCH 형식을 따르며, 각 숫자는 변경의 성격과 API의 호환성 수준을 나타낸다. npm은 이."
 slug: /backend/npm/semantic_version
 created_at: "2025-07-17 14:07Z"
 sidebar_position: 6

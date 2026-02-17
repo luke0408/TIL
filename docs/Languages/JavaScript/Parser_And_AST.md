@@ -1,6 +1,6 @@
 ---
 title: "Parser and AST (Abstract Syntax Tree)"
-description: "Parser and AST (Abstract Syntax Tree) 개념을 정리한 노트입니다."
+description: "JavaScript 엔진은 코드를 실행하기 전에 파싱(Parsing) 과정을 거쳐 추상 구문 트리(AST, Abstract Syntax Tree) 를 생성한다. AST는 코드 구조를 트리 형태로 표현한 것으로, 이후 컴파일과 최적화의 기초가 된다."
 slug: /languages/javascript/parser_and_ast
 created_at: "2025-02-15 05:19Z"
 sidebar_position: 24

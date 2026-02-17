@@ -1,6 +1,6 @@
 ---
 title: "`const`"
-description: "`const` 개념을 정리한 노트입니다."
+description: "const는 한 번 할당되면 변경할 수 없는 값을 저장하는 변수 선언 방식이다. 주로 상수를 선언할 때 사용되며, 불변성을 유지하는 것이 중요한 경우 const를 활용한다."
 slug: /languages/javascript/const
 created_at: "2025-02-12 11:24Z"
 sidebar_position: 6

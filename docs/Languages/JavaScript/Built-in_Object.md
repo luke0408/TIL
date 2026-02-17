@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Built-in Object 개요"
-description: "JavaScript Built-in Object 개요 개념을 정리한 노트입니다."
+description: "JavaScript의 built-in object는 언어 자체에서 기본적으로 제공하는 객체들로, 개발자가 별도로 정의하지 않아도 사용할 수 있다. 이러한 객체들은 데이터 처리, 수학 연산, 날짜 관리, 문자열 조작 등 다양한 기능을 제공하며,."
 slug: /languages/javascript/built-in_object
 created_at: "2025-03-30 13:28Z"
 sidebar_position: 5

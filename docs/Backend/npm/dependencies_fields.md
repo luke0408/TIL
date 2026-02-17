@@ -1,6 +1,6 @@
 ---
 title: "package.json – 의존성 필드 정리"
-description: "package.json – 의존성 필드 정리 개념을 정리한 노트입니다."
+description: "이 노트는 package.json에서 의존성 관련 필드들을 정리한 것이다. 런타임과 개발 환경에 필요한 외부 라이브러리, 패키지 관리 방식 등을 정의한다. -->."
 slug: /backend/npm/dependencies_fields
 created_at: "2025-07-20 13:11Z"
 sidebar_position: 2

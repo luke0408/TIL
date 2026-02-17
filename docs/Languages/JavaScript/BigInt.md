@@ -1,6 +1,6 @@
 ---
 title: "BigInt"
-description: "BigInt 개념을 정리한 노트입니다."
+description: "BigInt는 JavaScript에서 정수(integer)를 임의의 정밀도로 표현할 수 있도록 도입된 데이터 타입이다. 기존의 Number 타입은 2^53 - 1까지의 안전한 정수(Number.MAXSAFEINTEGER)만을 정확히 표현할 수."
 slug: /languages/javascript/bigint
 created_at: "2025-02-23 08:49Z"
 sidebar_position: 3

@@ -1,6 +1,6 @@
 ---
 title: "논리 타입 (Boolean)"
-description: "논리 타입 (Boolean) 개념을 정리한 노트입니다."
+description: "Boolean 값은 true 또는 false 두 가지 값만 가질 수 있으며, 논리적 명제의 진리값을 나타낸다."
 slug: /languages/javascript/boolean
 created_at: "2025-02-21 07:15Z"
 sidebar_position: 4

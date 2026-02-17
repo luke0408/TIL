@@ -1,6 +1,6 @@
 ---
 title: "Chunked Transfer-Encoding"
-description: "Chunked Transfer-Encoding 개념을 정리한 노트입니다."
+description: "Chunked Transfer-Encoding은 HTTP/1.1에서 도입된 전송 메커니즘으로, 서버가 응답 본문의 전체 크기를 미리 알지 못하더라도 데이터를 청크 단위로 나누어 스트리밍할 수 있게 한다. 이를 통해 동적 콘텐츠 생성, 스트리밍."
 slug: /networking/http/chunked_transfer-encoding
 created_at: "2025-08-27 14:53Z"
 sidebar_position: 2

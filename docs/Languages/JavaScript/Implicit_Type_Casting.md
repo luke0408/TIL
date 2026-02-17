@@ -1,6 +1,6 @@
 ---
 title: "Implicit Type Casting in JavaScript"
-description: "Implicit Type Casting in JavaScript 개념을 정리한 노트입니다."
+description: "JavaScript에서 Implicit Type Casting(암시적 형 변환)은 표현식의 문맥에 따라 자동으로 데이터 타입이 변환되는 현상이다. 이 과정은 Type Coercion이라고도 하며, 개발자가 명시적으로 변환하지 않아도."
 slug: /languages/javascript/implicit_type_casting
 created_at: "2025-03-30 13:58Z"
 sidebar_position: 12

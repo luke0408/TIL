@@ -1,6 +1,6 @@
 ---
 title: "RAG Embedding의 구조와 동작"
-description: "RAG Embedding의 구조와 동작 개념을 정리한 노트입니다."
+description: "RAG 구조에서 Embedding은 텍스트를 고정 차원의 Vector로 변환하여 Vector Search가 가능하도록 만드는 핵심 단계이다."
 slug: /ai_ml/rag/embedding
 created_at: "2025-11-17 14:28Z"
 sidebar_position: 2

@@ -1,6 +1,6 @@
 ---
 title: "JSON in JavaScript"
-description: "JSON in JavaScript 개념을 정리한 노트입니다."
+description: "JavaScript Object Notation(JSON)은 데이터를 저장하거나 전송할 때 사용하는 텍스트 기반 포맷이다. JavaScript의 객체 문법과 유사하지만, 언어에 독립적인 형식으로 다양한 환경에서 널리 사용된다."
 slug: /languages/javascript/json
 created_at: "2025-03-30 14:11Z"
 sidebar_position: 16

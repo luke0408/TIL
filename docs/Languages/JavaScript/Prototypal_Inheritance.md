@@ -1,6 +1,6 @@
 ---
 title: "Prototypal Inheritance"
-description: "Prototypal Inheritance 개념을 정리한 노트입니다."
+description: "JavaScript에서 상속은 클래스 기반이 아닌 프로토타입 기반으로 동작한다. 이를 Prototypal Inheritance라고 하며, 객체가 다른 객체를 참조(상속)하여 속성과 메서드를 공유하는 방식이다. 이 구조는 유연하고 동적인 객체 확장을."
 slug: /languages/javascript/prototypal_inheritance
 created_at: "2025-03-30 13:17Z"
 sidebar_position: 25

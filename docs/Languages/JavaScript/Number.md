@@ -1,6 +1,6 @@
 ---
 title: "숫자형 (number)"
-description: "숫자형 (number) 개념을 정리한 노트입니다."
+description: "모던 자바스크립트는 숫자를 나타내는 주요 자료형으로 IEEE-754 64비트 배정밀도 부동소수점 형식을 사용한다. 또한, BigInt를 사용하여 매우 큰 정수를 다룰 수 있다."
 slug: /languages/javascript/number
 created_at: "2025-02-15 11:10Z"
 sidebar_position: 20

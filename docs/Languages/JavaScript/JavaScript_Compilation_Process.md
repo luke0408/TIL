@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Compilation Process"
-description: "JavaScript Compilation Process 개념을 정리한 노트입니다."
+description: "JavaScript의 컴파일 과정은 다른 정적 컴파일 언어(C, Java)와 다르게 Just-In-Time(JIT) 컴파일러를 활용하는 방식으로 진행된다. 실행 중에 코드를 변환하고 최적화하는 과정을 거쳐 높은 성능을 유지한다."
 slug: /languages/javascript/javascript_compilation_process
 created_at: "2025-02-15 03:58Z"
 sidebar_position: 14

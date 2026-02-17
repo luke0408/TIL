@@ -1,6 +1,6 @@
 ---
 title: "객체 프로토타입"
-description: "객체 프로토타입 개념을 정리한 노트입니다."
+description: "JavaScript에서 객체 프로토타입은 객체 간 상속 및 속성 공유를 가능하게 하는 핵심적인 메커니즘이다. 모든 객체는 내부적으로 Prototype 슬롯을 가지며, 이를 통해 다른 객체를 참조하고, 프로토타입 체인을 형성하여 속성 검색을 수행한다."
 slug: /languages/javascript/objectprototype
 created_at: "2025-03-30 13:09Z"
 sidebar_position: 23

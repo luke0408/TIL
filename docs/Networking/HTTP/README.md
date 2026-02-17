@@ -1,6 +1,6 @@
 ---
 title: "HTTP"
-description: "HTTP 개념을 정리한 노트입니다."
+description: "HTTP는 웹에서 클라이언트와 서버가 데이터를 주고받기 위한 표준 애플리케이션 프로토콜이다. 현재 웹 서비스의 대부분은 HTTP를 기반으로 동작하며, 브라우저 요청부터 API 통신까지 핵심 전송 규약으로 사용된다."
 slug: /networking/http
 created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1

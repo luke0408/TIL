@@ -1,6 +1,6 @@
 ---
 title: "Function"
-description: "Function 개념을 정리한 노트입니다."
+description: "JavaScript에서 함수(Function)는 특정 작업을 수행하는 독립적인 코드 블록이다. 코드의 재사용성을 높이고 유지보수를 용이하게 하며, JavaScript에서는 일급 객체(First-Class Citizen) 로 취급되어 다양한 방식으로."
 slug: /languages/javascript/function
 created_at: "2025-02-10 07:49Z"
 sidebar_position: 9

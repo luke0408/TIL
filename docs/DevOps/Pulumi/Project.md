@@ -1,6 +1,6 @@
 ---
 title: "Pulumi Project"
-description: "Pulumi Project 개념을 정리한 노트입니다."
+description: "Pulumi 프로젝트(Project)는 인프라를 코드로 정의하고 관리하기 위한 기본 단위이다. 프로젝트는 Pulumi.yaml 파일을 통해 설정되며, 여러 Stack(스택) 을 활용하여 환경별 인프라를 손쉽게 관리할 수 있다. Pulumi는 일반."
 slug: /devops/pulumi/project
 created_at: "2025-03-03 06:59Z"
 sidebar_position: 2

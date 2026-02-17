@@ -1,6 +1,6 @@
 ---
 title: "JavaScript"
-description: "JavaScript 개념을 정리한 노트입니다."
+description: "자바스크립트(JavaScript)는 웹페이지에 동적인 기능을 추가하기 위해 개발된 프로그래밍 언어이다. 현재는 웹뿐만 아니라 서버, 모바일, 데스크톱 환경에서도 사용되고 있으며, HTML과 CSS와의 강력한 결합성을 통해 웹 개발에서 핵심적인 역할을."
 slug: /languages/javascript
 created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1

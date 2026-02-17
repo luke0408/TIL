@@ -1,6 +1,6 @@
 ---
 title: "tree command"
-description: "tree command 개념을 정리한 노트입니다."
+description: "tree 명령어는 디렉토리 구조를 트리 형태로 출력하는 Bash 명령어이다. 폴더와 파일을 계층적으로 보여주며, 특정 패턴을 지정하여 출력할 수도 있다."
 slug: /operatingsystems/linux/tree
 created_at: "2025-02-26 17:16Z"
 sidebar_position: 2

@@ -1,6 +1,6 @@
 ---
 title: "Execution Context in JavaScript"
-description: "Execution Context in JavaScript 개념을 정리한 노트입니다."
+description: "Execution Context(실행 컨텍스트)는 JavaScript 코드가 실행되는 환경을 의미하며, 변수 및 함수의 범위를 관리하고 실행 흐름을 제어하는 핵심 개념이다. 실행 컨텍스트는 전역 실행 컨텍스트(Global Execution."
 slug: /languages/javascript/execution_context
 created_at: "2025-02-15 06:35Z"
 sidebar_position: 7

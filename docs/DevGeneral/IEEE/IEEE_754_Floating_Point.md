@@ -1,6 +1,6 @@
 ---
 title: "IEEE 754 Floating Point"
-description: "IEEE 754 Floating Point 개념을 정리한 노트입니다."
+description: "IEEE 754는 대부분의 현대적인 컴퓨팅 시스템에서 사용하는 부동 소수점 연산 표준이다. 이 표준은 부동 소수점 숫자가 어떻게 표현되고, 저장되며, 연산되는지를 정의한다."
 slug: /devgeneral/ieee/ieee_754_floating_point
 created_at: "2025-02-27 08:03Z"
 sidebar_position: 2

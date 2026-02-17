@@ -1,6 +1,6 @@
 ---
 title: "호이스팅"
-description: "호이스팅 개념을 정리한 노트입니다."
+description: "JavaScript에서 호이스팅(Hoisting)은 인터프리터가 코드를 실행하기 전에 함수, 변수, 클래스 또는 import 선언을 해당 범위의 맨 위로 끌어올리는 것처럼 보이는 현상을 의미한다."
 slug: /languages/javascript/hoisting
 created_at: "2025-02-13 06:55Z"
 sidebar_position: 11

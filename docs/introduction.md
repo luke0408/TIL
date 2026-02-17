@@ -1,4 +1,5 @@
 ---
+description: "이 문서는 개발자로서 학습한 내용과 지식을 체계적으로 정리하기 위해 만들어진 개인 TIL(Today I Learned) 저장소입니다. 다양한 기술 스택과 개념을 주제별로 분류하여 기록하고 있습니다."
 slug: /introduction
 created_at: "2025-09-23 14:09Z"
 id: introduction

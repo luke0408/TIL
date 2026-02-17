@@ -1,6 +1,6 @@
 ---
 title: "undefined"
-description: "undefined 개념을 정리한 노트입니다."
+description: "undefined는 JavaScript에서 값이 할당되지 않은 변수나 존재하지 않는 객체의 속성 등을 나타내는 특별한 값이다."
 slug: /languages/javascript/undefined
 created_at: "2025-02-26 17:24Z"
 sidebar_position: 30

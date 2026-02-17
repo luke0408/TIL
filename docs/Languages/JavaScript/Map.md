@@ -1,6 +1,6 @@
 ---
 title: "JavaScript Map"
-description: "JavaScript Map 개념을 정리한 노트입니다."
+description: "Map 객체는 키-값 쌍을 저장하고 관리하기 위해 사용하는 JavaScript의 내장 객체이다. 객체(Object)와 달리 키의 자료형에 제한이 없으며 삽입 순서를 유지한다."
 slug: /languages/javascript/map
 created_at: "2025-06-29 14:14Z"
 sidebar_position: 18

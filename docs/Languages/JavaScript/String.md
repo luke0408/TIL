@@ -1,6 +1,6 @@
 ---
 title: "문자열 (String)"
-description: "문자열 (String) 개념을 정리한 노트입니다."
+description: "JavaScript에서 문자열은 글자 하나만 저장할 수 있는 별도의 자료형 없이, 텍스트 데이터 전체를 다룰 수 있다. 문자열은 항상 UTF-16 형식을 따르며, 다양한 따옴표 방식과 특수 문자를 활용할 수 있다."
 slug: /languages/javascript/string
 created_at: "2025-02-15 10:06Z"
 sidebar_position: 27

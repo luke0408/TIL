@@ -1,6 +1,6 @@
 ---
 title: "자바스크립트의 역사"
-description: "자바스크립트의 역사 개념을 정리한 노트입니다."
+description: "자바스크립트(JavaScript)는 1995년 탄생 이후 웹 개발의 중심 언어로 자리 잡았다. 초기에는 단순한 스크립트 언어였으나, ECMAScript(ES) 표준화와 브라우저 발전, 백엔드(Node.js) 확장을 거치며 현재는 프론트엔드와 백엔드를."
 slug: /languages/javascript/history_of_javascript
 created_at: "2025-02-12 11:03Z"
 sidebar_position: 10

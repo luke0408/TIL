@@ -1,6 +1,6 @@
 ---
 title: "HTTP/0.9에서 1.1까지의 발전"
-description: "HTTP/0.9에서 1.1까지의 발전 개념을 정리한 노트입니다."
+description: "HTTP는 1990년대 초반 등장한 이후, 빠르게 발전하며 웹의 핵심 프로토콜로 자리 잡았다. 특히 0.9 → 1.0 → 1.1로 이어지는 발전 과정은 “단순 리소스 요청”에서 “대규모 웹 서비스 운영”까지 확장할 수 있는 기반을 마련했다."
 slug: /networking/http/http_0.9_to_1.1
 created_at: "2025-08-27 13:59Z"
 sidebar_position: 5

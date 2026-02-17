@@ -1,6 +1,6 @@
 ---
 title: "Const Assertion"
-description: "Const Assertion 개념을 정리한 노트입니다."
+description: "const assertion은 TypeScript 3.4에서 도입된 기능으로, 객체나 배열 리터럴의 타입 추론을 보다 구체적이고 변하지 않는 상수형으로 고정하기 위해 사용된다. as const 구문을 사용하면 모든 속성이 readonly로 처리되며,."
 slug: /languages/typescript/const_assertion
 created_at: "2025-04-07 10:54Z"
 sidebar_position: 2

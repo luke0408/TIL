@@ -1,6 +1,6 @@
 ---
 title: "`var`"
-description: "`var` 개념을 정리한 노트입니다."
+description: "var는 자바스크립트에서 가장 오래된 변수 선언 방식이다. 하지만 호이스팅(hoisting) 문제, 함수 스코프(function scope) 등의 이유로 현대적인 코드에서는 사용이 권장되지 않는다."
 slug: /languages/javascript/var
 created_at: "2025-02-12 11:24Z"
 sidebar_position: 31

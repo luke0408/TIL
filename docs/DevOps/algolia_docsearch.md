@@ -1,6 +1,6 @@
 ---
 title: "Algolia DocSearch"
-description: "TIL Docusaurus 사이트에 Algolia 검색을 적용하며 확인한 핵심 사항을 정리한 노트입니다."
+description: "Algolia DocSearch는 Docusaurus 문서 검색을 외부 인덱스로 제공하는 방식이며, 사이트 쪽에는 조회용 설정만 있으면 동작한다. 이번 TIL 적용 과정에서 핵심은 인덱스 쓰기 권한이 아니라 올바른 조회 설정과 환경변수 주입, 그리고."
 slug: /devops/algolia-docsearch
 created_at: "2026-02-17 18:40+09:00"
 sidebar_position: 2

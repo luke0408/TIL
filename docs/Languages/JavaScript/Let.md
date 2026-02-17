@@ -1,6 +1,6 @@
 ---
 title: "`let`"
-description: "`let` 개념을 정리한 노트입니다."
+description: "let은 var의 문제점을 해결한 모던한 변수 선언 방식으로, 블록 스코프(block scope)를 가지며, 재선언이 불가능하다."
 slug: /languages/javascript/let
 created_at: "2025-02-12 11:25Z"
 sidebar_position: 17

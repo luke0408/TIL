@@ -1,6 +1,6 @@
 ---
 title: "Merge Sort"
-description: "Merge Sort 개념을 정리한 노트입니다."
+description: "Merge Sort는 Divide and Conquer 전략을 기반으로 한 정렬 알고리즘이다. 데이터를 반으로 나눈 뒤 각각 정렬하고, 이를 다시 합치는 과정을 재귀적으로 반복하여 전체를 정렬한다."
 slug: /devgeneral/algorithm/merge_sort
 created_at: "2025-07-17 13:29Z"
 sidebar_position: 2

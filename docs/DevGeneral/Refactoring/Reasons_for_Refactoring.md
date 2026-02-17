@@ -1,6 +1,6 @@
 ---
 title: "리팩터링의 필요성"
-description: "리팩터링의 필요성 개념을 정리한 노트입니다."
+description: "리팩터링은 코드를 건강한 상태로 유지하는 중요한 개발 활동이다. 소프트웨어의 설계 개선, 코드 이해도 향상, 버그 발견 용이성 증가, 그리고 전반적인 개발 속도 향상에 기여한다."
 slug: /devgeneral/refactoring/reasons_for_refactoring
 created_at: "2025-02-07 09:24Z"
 sidebar_position: 3

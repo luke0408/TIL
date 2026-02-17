@@ -1,6 +1,6 @@
 ---
 title: "JavaScript에서 Number 타입의 문제점"
-description: "JavaScript에서 Number 타입의 문제점 개념을 정리한 노트입니다."
+description: "JavaScript의 Number 타입은 IEEE 754 부동 소수점 표준을 기반으로 동작하며, 정밀도 문제, 안전한 정수 범위, 연산 오류 등의 한계를 가지고 있다. 이를 이해하고 적절한 대처법을 적용하는 것이 중요하다."
 slug: /languages/javascript/number_type_issues
 created_at: "2025-02-27 09:05Z"
 sidebar_position: 21

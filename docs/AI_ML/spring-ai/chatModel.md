@@ -1,6 +1,6 @@
 ---
 title: "ChatModel"
-description: "ChatModel 개념을 정리한 노트입니다."
+description: "ChatModel은 Spring AI 프레임워크에서 AI 모델(특히 대화형 모델)과의 상호작용을 표준화하기 위해 설계된 핵심 인터페이스이다. 이 인터페이스는 OpenAI, Azure OpenAI, Anthropic, Google Gemini 등의."
 slug: /ai_ml/spring-ai/chatmodel
 sidebar_position: 2
 ---

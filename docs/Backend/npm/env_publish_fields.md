@@ -1,6 +1,6 @@
 ---
 title: "package.json – 환경 및 배포 설정 필드 정리"
-description: "package.json – 환경 및 배포 설정 필드 정리 개념을 정리한 노트입니다."
+description: "이 노트는 package.json에서 실행 환경 및 배포 제어를 위해 사용하는 필드들을 정리한 것이다. Node.js 및 npm 버전 제약, 지원 운영체제, private 패키지 설정, 배포 레지스트리 등을 포함한다. -->."
 slug: /backend/npm/env_publish_fields
 created_at: "2025-07-20 13:07Z"
 sidebar_position: 3

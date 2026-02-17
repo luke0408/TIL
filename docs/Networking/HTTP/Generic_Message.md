@@ -1,6 +1,6 @@
 ---
 title: "HTTP Generic Message"
-description: "HTTP Generic Message 개념을 정리한 노트입니다."
+description: "HTTP Generic Message는 HTTP 프로토콜에서 요청(Request)과 응답(Response)이 공유하는 공통 메시지 구조를 정의한다. 이 구조는 요청과 응답을 일관된 형식으로 해석하고 파싱할 수 있도록 한다."
 slug: /networking/http/generic_message
 created_at: "2025-08-27 13:40Z"
 sidebar_position: 3

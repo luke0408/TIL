@@ -1,6 +1,6 @@
 ---
 title: "스코프"
-description: "스코프 개념을 정리한 노트입니다."
+description: "JavaScript에서 Scope(스코프) 는 변수의 접근 가능 범위를 결정한다. 스코프는 크게 Block Scope, Function Scope, Global Scope 세 가지로 나뉜다. 이를 이해하면 변수가 어디에서 유효한지, 의도치 않은 값."
 slug: /languages/javascript/scope
 created_at: "2025-02-14 10:01Z"
 sidebar_position: 26

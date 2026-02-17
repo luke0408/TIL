@@ -1,6 +1,6 @@
 ---
 title: "언제 리팩터링해야 할까?"
-description: "언제 리팩터링해야 할까? 개념을 정리한 노트입니다."
+description: "코드를 더 쉽게 이해하고 유지보수할 수 있도록 만드는 것이 리팩터링의 목적이다. 리팩터링을 진행하는 적절한 시점과 방법을 이해하면, 코드 품질을 높이고 개발 속도를 향상시킬 수 있다."
 slug: /devgeneral/refactoring/when_to_refactoring
 created_at: "2025-02-10 14:54Z"
 sidebar_position: 4

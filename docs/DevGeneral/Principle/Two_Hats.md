@@ -1,6 +1,6 @@
 ---
 title: "두개의 모자"
-description: "두개의 모자 개념을 정리한 노트입니다."
+description: "TIL을 작성할 때에는 해당 노트의 제목과 관련한 내용만 작성합니다. 추가적인 개념을 설명할 필요가 있다면, 해당 개념에 대한 노트를 새롭게 작성합니다. 이후 해당 개념 노트를 Reference에 링크합니다."
 slug: /devgeneral/principle/two_hats
 created_at: "2025-02-06 09:05Z"
 sidebar_position: 3

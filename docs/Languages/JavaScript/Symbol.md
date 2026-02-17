@@ -1,6 +1,6 @@
 ---
 title: "Symbol"
-description: "Symbol 개념을 정리한 노트입니다."
+description: "Symbol은 JavaScript에서 고유하고 변경 불가능한 원시 값으로, 주로 객체의 프로퍼티 키로 사용된다."
 slug: /languages/javascript/symbol
 created_at: "2025-02-26 17:34Z"
 sidebar_position: 28

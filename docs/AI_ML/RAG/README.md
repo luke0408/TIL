@@ -1,6 +1,6 @@
 ---
 title: "RAG"
-description: "RAG 개념을 정리한 노트입니다."
+description: "RAG(Retrieval-Augmented Generation)는 외부 지식을 검색해 질의 문맥을 보강한 뒤, 그 보강된 입력으로 모델이 답변을 생성하도록 만드는 구조다. 이름 때문에 생성 단계 중심 기술로 오해하기 쉽지만, 실제 실무 가치는 생성."
 slug: /ai_ml/rag
 created_at: "2026-02-17 17:20+09:00"
 sidebar_position: 1

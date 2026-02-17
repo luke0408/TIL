@@ -1,6 +1,6 @@
 ---
 title: "Pulumi 개요"
-description: "Pulumi 개요 개념을 정리한 노트입니다."
+description: "Pulumi는 인프라를 선언형 DSL이 아닌 일반 프로그래밍 언어로 관리할 수 있게 해주는 IaC 도구다. TypeScript, Python, Go, .NET 등 익숙한 언어 문법을 그대로 사용해 리소스를 정의할 수 있기 때문에, 인프라 코드와."
 slug: /devops/pulumi
 created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1

@@ -1,6 +1,6 @@
 ---
 title: "소프트웨어 장인 정신 선언문"
-description: "소프트웨어 장인 정신 선언문 개념을 정리한 노트입니다."
+description: "소프트웨어 장인 정신 선언문은 소프트웨어 개발자들의 전문성과 책임감을 강조하며, 고품질 소프트웨어 개발을 위한 가치를 제시한다."
 slug: /devgeneral/agile/software_craftsmanship_manifesto
 created_at: "2025-03-20 14:43Z"
 sidebar_position: 2

@@ -1,6 +1,6 @@
 ---
 title: "NestJS Request Lifecycle"
-description: "NestJS Request Lifecycle 개념을 정리한 노트입니다."
+description: "NestJS의 요청 수명 주기는 요청이 서버로 들어와 처리된 후 응답이 반환될 때까지의 흐름을 나타낸다. 이 과정은 여러 핵심 구성 요소(미들웨어, 가드, 인터셉터, 파이프, 컨트롤러, 서비스, 예외 필터)를 거치며 요청과 응답을 조작할 수 있다."
 slug: /backend/nestjs/request_lifecycle
 created_at: "2025-03-14 14:41Z"
 sidebar_position: 2

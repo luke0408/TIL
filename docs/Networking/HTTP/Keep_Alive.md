@@ -1,6 +1,6 @@
 ---
 title: "HTTP Keep-Alive (Persistent Connection)"
-description: "HTTP Keep-Alive (Persistent Connection) 개념을 정리한 노트입니다."
+description: "HTTP Keep-Alive는 클라이언트와 서버 간의 TCP 연결을 한 번 맺은 뒤 여러 요청·응답에 재사용할 수 있도록 하는 기능이다. 이를 통해 연결 생성/종료의 오버헤드를 줄이고, 웹 페이지 로딩 속도를 개선한다."
 slug: /networking/http/keep_alive
 created_at: "2025-08-27 14:26Z"
 sidebar_position: 6

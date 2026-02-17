@@ -1,6 +1,6 @@
 ---
 title: "null"
-description: "null 개념을 정리한 노트입니다."
+description: "null은 JavaScript에서 의도적으로 어떤 객체 값이 없음을 나타내는 특별한 값이다."
 slug: /languages/javascript/null
 created_at: "2025-02-26 17:28Z"
 sidebar_position: 19

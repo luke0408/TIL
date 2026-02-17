@@ -1,6 +1,6 @@
 ---
 title: "Pulumi Stack"
-description: "Pulumi Stack 개념을 정리한 노트입니다."
+description: "Pulumi Stack(스택)은 하나의 프로젝트에서 여러 환경(Development, Staging, Production 등)을 관리하는 단위이다. 각 스택은 고유한 구성(Config)과 상태(State) 를 가지며, 하나의 프로젝트 내에서 다양한."
 slug: /devops/pulumi/stack
 created_at: "2025-03-03 09:06Z"
 sidebar_position: 3
