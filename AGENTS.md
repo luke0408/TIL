@@ -10,6 +10,7 @@ This file defines the working contract for AI coding agents (especially Codex) i
 - Folder and file names must be in **English**.
 - **Exception:** book titles may be in Korean.
 - Use lowercase + snake_case for markdown filenames when possible.
+- Respect existing legacy filenames unless rename is explicitly requested or clearly required for consistency.
 
 Examples:
 - `structured_vs_unstructured_data_and_interpretation_entropy.md`
@@ -46,11 +47,17 @@ Examples:
 
 ## 7) Commit Policy for Agents
 - Commit in small, reviewable units.
+- Keep each commit under 300 changed lines when practical; split large changes.
 - Use conventional commit style:
   - `docs: ...`
   - `refactor(docs): ...`
   - `chore(config): ...`
 - Avoid mixing unrelated changes in one commit.
+- Before commit:
+  - `git diff --numstat`
+  - `git diff --cached --numstat`
+- After commit:
+  - `git show --stat --oneline HEAD`
 
 ## 8) Before Opening/Updating PR
 - Verify changed paths follow naming rules.
