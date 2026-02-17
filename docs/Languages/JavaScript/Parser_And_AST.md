@@ -1,3 +1,8 @@
+---
+title: "Parser and AST (Abstract Syntax Tree)"
+description: "Parser and AST (Abstract Syntax Tree) 개념을 정리한 노트입니다."
+sidebar_position: 24
+---
 # Parser and AST (Abstract Syntax Tree)
 
 ## Summary

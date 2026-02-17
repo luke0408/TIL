@@ -1,3 +1,8 @@
+---
+title: "Prototypal Inheritance"
+description: "Prototypal Inheritance 개념을 정리한 노트입니다."
+sidebar_position: 25
+---
 # Prototypal Inheritance
 
 ## Summary

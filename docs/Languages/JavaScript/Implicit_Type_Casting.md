@@ -1,3 +1,8 @@
+---
+title: "Implicit Type Casting in JavaScript"
+description: "Implicit Type Casting in JavaScript 개념을 정리한 노트입니다."
+sidebar_position: 12
+---
 # Implicit Type Casting in JavaScript
 
 ## Summary

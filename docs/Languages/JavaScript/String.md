@@ -1,3 +1,8 @@
+---
+title: "문자열 (String)"
+description: "문자열 (String) 개념을 정리한 노트입니다."
+sidebar_position: 27
+---
 # 문자열 (String)
 
 ## Summary

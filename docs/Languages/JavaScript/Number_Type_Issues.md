@@ -1,3 +1,8 @@
+---
+title: "JavaScript에서 Number 타입의 문제점"
+description: "JavaScript에서 Number 타입의 문제점 개념을 정리한 노트입니다."
+sidebar_position: 21
+---
 # JavaScript에서 Number 타입의 문제점
 
 ## Summary

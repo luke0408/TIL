@@ -1,3 +1,8 @@
+---
+title: "객체 프로토타입"
+description: "객체 프로토타입 개념을 정리한 노트입니다."
+sidebar_position: 23
+---
 # 객체 프로토타입
 
 ## Summary

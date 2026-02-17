@@ -1,3 +1,8 @@
+---
+title: "스코프"
+description: "스코프 개념을 정리한 노트입니다."
+sidebar_position: 26
+---
 # 스코프
 
 ## Summary

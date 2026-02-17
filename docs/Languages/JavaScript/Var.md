@@ -1,3 +1,8 @@
+---
+title: "`var`"
+description: "`var` 개념을 정리한 노트입니다."
+sidebar_position: 31
+---
 # `var`
 
 ## Summary

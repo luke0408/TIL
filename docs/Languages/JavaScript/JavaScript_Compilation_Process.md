@@ -1,3 +1,8 @@
+---
+title: "JavaScript Compilation Process"
+description: "JavaScript Compilation Process 개념을 정리한 노트입니다."
+sidebar_position: 14
+---
 # JavaScript Compilation Process
 
 ## Summary

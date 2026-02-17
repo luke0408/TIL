@@ -1,3 +1,8 @@
+---
+title: "JSON in JavaScript"
+description: "JSON in JavaScript 개념을 정리한 노트입니다."
+sidebar_position: 16
+---
 # JSON in JavaScript
 
 ## Summary

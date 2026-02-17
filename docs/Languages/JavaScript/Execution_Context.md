@@ -1,3 +1,8 @@
+---
+title: "Execution Context in JavaScript"
+description: "Execution Context in JavaScript 개념을 정리한 노트입니다."
+sidebar_position: 7
+---
 # Execution Context in JavaScript
 
 ## Summary

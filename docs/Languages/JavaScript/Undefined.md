@@ -1,3 +1,8 @@
+---
+title: "undefined"
+description: "undefined 개념을 정리한 노트입니다."
+sidebar_position: 30
+---
 # undefined
 
 ## Summary

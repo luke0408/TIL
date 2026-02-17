@@ -1,3 +1,8 @@
+---
+title: "JavaScript Map"
+description: "JavaScript Map 개념을 정리한 노트입니다."
+sidebar_position: 18
+---
 # JavaScript Map
 
 ## Summary
