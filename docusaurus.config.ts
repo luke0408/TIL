@@ -17,7 +17,6 @@ const config: Config = {
   organizationName: 'luke0408', // Usually your GitHub org/user name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'ko',
@@ -27,6 +26,9 @@ const config: Config = {
   // markdown
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
   themes: ['@docusaurus/theme-mermaid'],
 
