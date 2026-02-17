@@ -120,7 +120,7 @@ Structure intent:
 - Recommended sections:
   - `Summary`
   - `Details`
-  - `Reference`
+  - `Reference` (optional; include only when there are references to record)
 - In `Reference`, use README taxonomy:
   - `issue`: issue in this repo
   - `link`: external references

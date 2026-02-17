@@ -12,7 +12,7 @@ Edit markdown content and references with minimal scope.
 - Preferred section order:
   1. `Summary`
   2. `Details`
-  3. `Reference`
+  3. `Reference` (optional; omit if there is nothing to cite)
 - Keep headings concise and consistent.
 - Write note body in Korean by default.
 - Exception: direct quotations may remain in original language.
@@ -37,9 +37,9 @@ Use the following markdown template when creating or normalizing notes:
 - Mention related prior concepts with inline links.
   - Example: TypeScript(줄여서 TS)는 [JavaScript](../JavaScript/JavaScript.md)에서 파생된 ...
 
-## Reference
+## Reference *(optional)*
 **issue**
-- <repo issue link or N/A>
+- <repo issue link>
 
 **link**
 - <external references>
