@@ -115,6 +115,8 @@ Structure intent:
 
 ## 4) Writing Conventions
 - Keep notes concise but complete.
+- Write note content in Korean by default.
+- Exception: direct quotations (quoted original text) may remain in source language.
 - Recommended sections:
   - `Summary`
   - `Details`

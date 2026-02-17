@@ -14,6 +14,8 @@ Edit markdown content and references with minimal scope.
   2. `Details`
   3. `Reference`
 - Keep headings concise and consistent.
+- Write note body in Korean by default.
+- Exception: direct quotations may remain in original language.
 - In `Reference`, use:
   - `issue` (repo issue)
   - `link` (external source)
