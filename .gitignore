@@ -2,6 +2,7 @@
 /node_modules
 
 # Production
+/dist
 /build
 
 # Generated files
