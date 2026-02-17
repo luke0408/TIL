@@ -2,6 +2,21 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+const algoliaAppId = process.env.ALGOLIA_APP_ID;
+const algoliaApiKey = process.env.ALGOLIA_API_KEY;
+const algoliaIndexName = process.env.ALGOLIA_INDEX_NAME;
+
+const algoliaConfig =
+  algoliaAppId && algoliaApiKey && algoliaIndexName
+    ? {
+        appId: algoliaAppId,
+        apiKey: algoliaApiKey,
+        indexName: algoliaIndexName,
+        contextualSearch: true,
+        searchPagePath: 'search',
+      }
+    : undefined;
+
 const config: Config = {
   title: 'Today I Learned',
   tagline: '매일은 아니더라도 꾸준하게',
@@ -125,6 +140,7 @@ const config: Config = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+    ...(algoliaConfig ? {algolia: algoliaConfig} : {}),
     prism: {
       magicComments: [
         {
