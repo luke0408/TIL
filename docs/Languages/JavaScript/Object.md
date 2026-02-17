@@ -1,4 +1,4 @@
-# JavaScript의 객체 (Object)
+# Object
 
 ## Summary
 
