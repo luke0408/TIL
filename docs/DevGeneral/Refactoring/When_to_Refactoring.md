@@ -1,3 +1,8 @@
+---
+title: "언제 리팩터링해야 할까?"
+description: "언제 리팩터링해야 할까? 개념을 정리한 노트입니다."
+sidebar_position: 4
+---
 # 언제 리팩터링해야 할까?
 
 ## Summary

@@ -1,3 +1,8 @@
+---
+title: "임베딩 벡터"
+description: "임베딩 벡터 개념을 정리한 노트입니다."
+sidebar_position: 2
+---
 # 임베딩 벡터
 
 ## Summary

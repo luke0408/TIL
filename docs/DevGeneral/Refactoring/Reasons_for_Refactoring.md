@@ -1,3 +1,8 @@
+---
+title: "리팩터링의 필요성"
+description: "리팩터링의 필요성 개념을 정리한 노트입니다."
+sidebar_position: 3
+---
 # 리팩터링의 필요성
 
 ## Summary

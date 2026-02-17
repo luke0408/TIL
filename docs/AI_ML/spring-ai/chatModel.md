@@ -1,3 +1,8 @@
+---
+title: "ChatModel"
+description: "ChatModel 개념을 정리한 노트입니다."
+sidebar_position: 2
+---
 # ChatModel
 
 ## Summary

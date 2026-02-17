@@ -1,3 +1,8 @@
+---
+title: "해석 엔트로피"
+description: "해석 엔트로피 개념을 정리한 노트입니다."
+sidebar_position: 2
+---
 # 해석 엔트로피
 
 ## Summary

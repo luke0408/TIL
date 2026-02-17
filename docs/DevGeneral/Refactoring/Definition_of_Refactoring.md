@@ -1,3 +1,8 @@
+---
+title: "리팩터링 정의"
+description: "리팩터링 정의 개념을 정리한 노트입니다."
+sidebar_position: 2
+---
 # 리팩터링 정의
 
 <!--
