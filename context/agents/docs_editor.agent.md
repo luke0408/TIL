@@ -21,6 +21,7 @@ Edit markdown content and references with minimal scope.
   - `issue` (repo issue)
   - `link` (external source)
 - If mentioning previously written concepts, add inline markdown links directly in the body.
+- Set `sidebar_position` for category ordering (easy -> hard) based on prerequisite concept count.
 - If content is from study discussion (not direct book text), explicitly state that context.
 
 Use the following markdown template when creating or normalizing notes:

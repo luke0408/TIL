@@ -25,6 +25,16 @@ Classification must be based on topic intent (not file history):
   - `docs/<top-category>/<sub-category>/README.md`
 - Rationale: Docusaurus category-index convention supports `index`, `README`, or folder-name docs; this repository standardizes on `README.md`.
 
+## Ordering Rule (Mandatory)
+- Each note in a category must define `sidebar_position`.
+- Order policy: easy -> hard.
+- Difficulty heuristic:
+  - more prerequisite concepts (related prerequisite notes) => harder topic
+  - fewer prerequisites => easier topic
+- Tie-breaker:
+  1. broader/foundational concept first
+  2. then filename alphabetical order
+
 ## Scope Rule
 - One note must contain one topic.
 - Split multi-topic notes before filing.
