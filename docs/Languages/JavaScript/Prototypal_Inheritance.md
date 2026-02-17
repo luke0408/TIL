@@ -2,6 +2,7 @@
 title: "Prototypal Inheritance"
 description: "Prototypal Inheritance 개념을 정리한 노트입니다."
 slug: /languages/javascript/prototypal_inheritance
+created_at: "2025-03-30 13:17Z"
 sidebar_position: 25
 ---
 # Prototypal Inheritance

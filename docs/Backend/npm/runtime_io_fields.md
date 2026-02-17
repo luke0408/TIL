@@ -2,6 +2,7 @@
 title: "package.json – 실행 및 입출력 필드 정리"
 description: "package.json – 실행 및 입출력 필드 정리 개념을 정리한 노트입니다."
 slug: /backend/npm/runtime_io_fields
+created_at: "2025-07-20 13:09Z"
 sidebar_position: 5
 ---
 # package.json – 실행 및 입출력 필드 정리

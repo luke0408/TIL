@@ -2,6 +2,7 @@
 title: "Symbol"
 description: "Symbol 개념을 정리한 노트입니다."
 slug: /languages/javascript/symbol
+created_at: "2025-02-26 17:34Z"
 sidebar_position: 28
 ---
 # Symbol

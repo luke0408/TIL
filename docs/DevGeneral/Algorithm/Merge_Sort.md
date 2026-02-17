@@ -2,6 +2,7 @@
 title: "Merge Sort"
 description: "Merge Sort 개념을 정리한 노트입니다."
 slug: /devgeneral/algorithm/merge_sort
+created_at: "2025-07-17 13:29Z"
 sidebar_position: 2
 ---
 # Merge Sort

@@ -2,6 +2,7 @@
 title: "자바스크립트의 역사"
 description: "자바스크립트의 역사 개념을 정리한 노트입니다."
 slug: /languages/javascript/history_of_javascript
+created_at: "2025-02-12 11:03Z"
 sidebar_position: 10
 ---
 # 자바스크립트의 역사

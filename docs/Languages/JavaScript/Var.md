@@ -2,6 +2,7 @@
 title: "`var`"
 description: "`var` 개념을 정리한 노트입니다."
 slug: /languages/javascript/var
+created_at: "2025-02-12 11:24Z"
 sidebar_position: 31
 ---
 # `var`

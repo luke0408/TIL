@@ -2,6 +2,7 @@
 title: "Function"
 description: "Function 개념을 정리한 노트입니다."
 slug: /languages/javascript/function
+created_at: "2025-02-10 07:49Z"
 sidebar_position: 9
 ---
 # Function

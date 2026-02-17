@@ -2,6 +2,7 @@
 title: "문자열 (String)"
 description: "문자열 (String) 개념을 정리한 노트입니다."
 slug: /languages/javascript/string
+created_at: "2025-02-15 10:06Z"
 sidebar_position: 27
 ---
 # 문자열 (String)

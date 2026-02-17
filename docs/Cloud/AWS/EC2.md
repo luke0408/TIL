@@ -2,6 +2,7 @@
 title: "Amazon Elastic Compute Cloud(Amazon EC2)"
 description: "Amazon Elastic Compute Cloud(Amazon EC2) 개념을 정리한 노트입니다."
 slug: /cloud/aws/ec2
+created_at: "2025-02-07 07:49Z"
 sidebar_position: 2
 ---
 # Amazon Elastic Compute Cloud(Amazon EC2)

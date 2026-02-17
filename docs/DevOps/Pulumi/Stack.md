@@ -2,6 +2,7 @@
 title: "Pulumi Stack"
 description: "Pulumi Stack 개념을 정리한 노트입니다."
 slug: /devops/pulumi/stack
+created_at: "2025-03-03 09:06Z"
 sidebar_position: 3
 ---
 # Pulumi Stack

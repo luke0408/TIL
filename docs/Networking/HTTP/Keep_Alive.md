@@ -2,6 +2,7 @@
 title: "HTTP Keep-Alive (Persistent Connection)"
 description: "HTTP Keep-Alive (Persistent Connection) 개념을 정리한 노트입니다."
 slug: /networking/http/keep_alive
+created_at: "2025-08-27 14:26Z"
 sidebar_position: 6
 ---
 # HTTP Keep-Alive (Persistent Connection)

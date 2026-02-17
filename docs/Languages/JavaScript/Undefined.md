@@ -2,6 +2,7 @@
 title: "undefined"
 description: "undefined 개념을 정리한 노트입니다."
 slug: /languages/javascript/undefined
+created_at: "2025-02-26 17:24Z"
 sidebar_position: 30
 ---
 # undefined

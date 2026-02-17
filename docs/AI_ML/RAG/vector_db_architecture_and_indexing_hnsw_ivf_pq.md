@@ -2,6 +2,7 @@
 title: "벡터 인덱싱"
 description: "벡터 인덱싱 개념을 정리한 노트입니다."
 slug: /ai_ml/rag/vector_db_architecture_and_indexing_hnsw_ivf_pq
+created_at: "2026-02-17 17:20+09:00"
 sidebar_position: 3
 ---
 # 벡터 인덱싱

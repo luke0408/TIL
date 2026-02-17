@@ -2,6 +2,7 @@
 title: "`typeof` operator"
 description: "`typeof` operator 개념을 정리한 노트입니다."
 slug: /languages/javascript/typeof
+created_at: "2025-03-30 13:33Z"
 sidebar_position: 29
 ---
 # `typeof` operator

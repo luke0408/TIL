@@ -2,6 +2,7 @@
 title: "벡터 데이터 운영"
 description: "벡터 데이터 운영 개념을 정리한 노트입니다."
 slug: /ai_ml/rag/vector_db_data_operations_and_metadata_strategy
+created_at: "2026-02-17 17:20+09:00"
 sidebar_position: 4
 ---
 # 벡터 데이터 운영

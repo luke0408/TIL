@@ -2,6 +2,7 @@
 title: "JSON in JavaScript"
 description: "JSON in JavaScript 개념을 정리한 노트입니다."
 slug: /languages/javascript/json
+created_at: "2025-03-30 14:11Z"
 sidebar_position: 16
 ---
 # JSON in JavaScript

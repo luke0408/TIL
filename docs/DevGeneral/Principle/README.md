@@ -2,6 +2,7 @@
 title: "Principle"
 description: "Principle 개념을 정리한 노트입니다."
 slug: /devgeneral/principle
+created_at: "2026-02-17 17:20+09:00"
 sidebar_position: 1
 ---
 # Principle

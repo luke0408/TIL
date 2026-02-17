@@ -2,6 +2,7 @@
 title: "Semantic Versioning"
 description: "Semantic Versioning 개념을 정리한 노트입니다."
 slug: /backend/npm/semantic_version
+created_at: "2025-07-17 14:07Z"
 sidebar_position: 6
 ---
 # Semantic Versioning

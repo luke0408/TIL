@@ -2,6 +2,7 @@
 title: "Parser and AST (Abstract Syntax Tree)"
 description: "Parser and AST (Abstract Syntax Tree) 개념을 정리한 노트입니다."
 slug: /languages/javascript/parser_and_ast
+created_at: "2025-02-15 05:19Z"
 sidebar_position: 24
 ---
 # Parser and AST (Abstract Syntax Tree)

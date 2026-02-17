@@ -2,6 +2,7 @@
 title: "스코프"
 description: "스코프 개념을 정리한 노트입니다."
 slug: /languages/javascript/scope
+created_at: "2025-02-14 10:01Z"
 sidebar_position: 26
 ---
 # 스코프

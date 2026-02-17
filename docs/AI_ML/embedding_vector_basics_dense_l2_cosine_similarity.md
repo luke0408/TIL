@@ -2,6 +2,7 @@
 title: "임베딩 벡터"
 description: "임베딩 벡터 개념을 정리한 노트입니다."
 slug: /ai_ml/embedding_vector_basics_dense_l2_cosine_similarity
+created_at: "2026-02-17 17:20+09:00"
 sidebar_position: 2
 ---
 # 임베딩 벡터

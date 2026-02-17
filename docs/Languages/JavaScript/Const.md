@@ -2,6 +2,7 @@
 title: "`const`"
 description: "`const` 개념을 정리한 노트입니다."
 slug: /languages/javascript/const
+created_at: "2025-02-12 11:24Z"
 sidebar_position: 6
 ---
 # `const`

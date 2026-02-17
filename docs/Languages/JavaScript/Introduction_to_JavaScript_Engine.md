@@ -2,6 +2,7 @@
 title: "Introduction to JavaScript Engine"
 description: "Introduction to JavaScript Engine 개념을 정리한 노트입니다."
 slug: /languages/javascript/introduction_to_javascript_engine
+created_at: "2025-02-14 13:42Z"
 sidebar_position: 13
 ---
 # Introduction to JavaScript Engine

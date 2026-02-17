@@ -2,6 +2,7 @@
 title: "Object"
 description: "Object 개념을 정리한 노트입니다."
 slug: /languages/javascript/object
+created_at: "2025-03-02 10:50Z"
 sidebar_position: 22
 ---
 # Object

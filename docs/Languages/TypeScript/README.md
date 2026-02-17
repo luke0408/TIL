@@ -2,6 +2,7 @@
 title: "TypeScript"
 description: "TypeScript 개념을 정리한 노트입니다."
 slug: /languages/typescript
+created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1
 ---
 # TypeScript

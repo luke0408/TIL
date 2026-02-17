@@ -2,6 +2,7 @@
 title: "호이스팅"
 description: "호이스팅 개념을 정리한 노트입니다."
 slug: /languages/javascript/hoisting
+created_at: "2025-02-13 06:55Z"
 sidebar_position: 11
 ---
 # 호이스팅

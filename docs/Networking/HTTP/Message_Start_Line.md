@@ -2,6 +2,7 @@
 title: "Start Line 구조"
 description: "Start Line 구조 개념을 정리한 노트입니다."
 slug: /networking/http/message_start_line
+created_at: "2025-08-27 13:50Z"
 sidebar_position: 7
 ---
 # Start Line 구조

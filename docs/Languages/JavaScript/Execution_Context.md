@@ -2,6 +2,7 @@
 title: "Execution Context in JavaScript"
 description: "Execution Context in JavaScript 개념을 정리한 노트입니다."
 slug: /languages/javascript/execution_context
+created_at: "2025-02-15 06:35Z"
 sidebar_position: 7
 ---
 # Execution Context in JavaScript

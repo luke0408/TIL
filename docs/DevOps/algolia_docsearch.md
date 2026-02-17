@@ -2,6 +2,7 @@
 title: "Algolia DocSearch"
 description: "TIL Docusaurus 사이트에 Algolia 검색을 적용하며 확인한 핵심 사항을 정리한 노트입니다."
 slug: /devops/algolia-docsearch
+created_at: "2026-02-17 18:40+09:00"
 sidebar_position: 2
 ---
 

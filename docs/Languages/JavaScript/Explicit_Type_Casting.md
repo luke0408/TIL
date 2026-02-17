@@ -2,6 +2,7 @@
 title: "Explicit Type Casting in JavaScript"
 description: "Explicit Type Casting in JavaScript 개념을 정리한 노트입니다."
 slug: /languages/javascript/explicit_type_casting
+created_at: "2025-03-30 13:44Z"
 sidebar_position: 8
 ---
 # Explicit Type Casting in JavaScript

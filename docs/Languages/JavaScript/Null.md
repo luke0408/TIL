@@ -2,6 +2,7 @@
 title: "null"
 description: "null 개념을 정리한 노트입니다."
 slug: /languages/javascript/null
+created_at: "2025-02-26 17:28Z"
 sidebar_position: 19
 ---
 # null

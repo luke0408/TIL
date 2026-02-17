@@ -2,6 +2,7 @@
 title: "Spring AI"
 description: "Spring AI 개념을 정리한 노트입니다."
 slug: /ai_ml/spring-ai
+created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1
 ---
 

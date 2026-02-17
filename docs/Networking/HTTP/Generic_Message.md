@@ -2,6 +2,7 @@
 title: "HTTP Generic Message"
 description: "HTTP Generic Message 개념을 정리한 노트입니다."
 slug: /networking/http/generic_message
+created_at: "2025-08-27 13:40Z"
 sidebar_position: 3
 id: generic-message
 ---
