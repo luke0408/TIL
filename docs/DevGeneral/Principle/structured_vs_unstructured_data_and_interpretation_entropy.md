@@ -1,23 +1,12 @@
-# Structured vs Unstructured Data and Interpretation Entropy
+# 해석 엔트로피
 
 ## Summary
-- This note summarizes study-discussion insights (not a direct book summary).
-- The core claim: the value of structured data is not format itself, but reducing interpretation entropy.
+- 이 노트는 스터디 토론에서 나온 인사이트를 정리한 내용입니다.
+- 정형 데이터의 핵심 가치는 형식 자체보다 해석 엔트로피를 낮추는 데 있습니다.
 
 ## Details
-- In practice, many organizations own mostly unstructured data and only a smaller structured portion.
-- Structured modeling reduces ambiguity by forcing consistent interpretation rules.
-- Lower interpretation entropy helps both people and systems read data in the same way.
-- This consistency reduces downstream processing cost and increases automation feasibility.
-- Limitation: strict schemas can filter out real-world variability and lock future users into early assumptions.
-- Practical direction:
-  - Keep core structured schema for reliability.
-  - Use flexible storage/processing for high-variance data.
-  - Connect this with [Embedding Vector Basics](../../AI_ML/embedding_vector_basics_dense_l2_cosine_similarity.md) when semantic interpretation is needed.
-
-## Reference
-**issue**
-- N/A
-
-**link**
-- N/A (study discussion notes)
+- 정형화는 데이터 해석 규칙을 통일해 사람과 시스템이 같은 의미로 읽도록 돕습니다.
+- 해석 엔트로피가 낮아지면 후속 처리 비용이 줄고 자동화 가능성이 높아집니다.
+- 반대로 스키마가 과도하게 엄격하면 현실 데이터 다양성을 놓칠 수 있습니다.
+- 실무에서는 핵심 데이터는 정형 스키마로 유지하고, 고변동 데이터는 유연하게 처리하는 혼합 전략이 유효합니다.
+- 의미 기반 해석이 필요한 경우 [임베딩 벡터](../../AI_ML/embedding_vector_basics_dense_l2_cosine_similarity.md)와 결합해 확장할 수 있습니다.

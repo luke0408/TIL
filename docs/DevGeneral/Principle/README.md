@@ -1,3 +1,3 @@
 # Principle
 
-Conceptual notes about software/data principles that are not tied to one framework.
+특정 프레임워크에 종속되지 않는 원리 중심 노트를 정리합니다.

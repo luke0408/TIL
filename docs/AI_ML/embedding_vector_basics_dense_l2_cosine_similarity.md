@@ -1,24 +1,13 @@
-# Embedding Vector Basics: Dense, L2 Normalization, and Cosine Similarity
+# 임베딩 벡터
 
 ## Summary
-- This note summarizes study-discussion insights (not a direct book summary).
-- Embedding quality in modern systems is strongly tied to dense vectors, normalization, and cosine-based comparison.
+- 이 노트는 스터디 토론에서 나온 인사이트를 정리한 내용입니다.
+- 임베딩 품질은 밀집 벡터, 정규화, 코사인 유사도 이해와 밀접합니다.
 
 ## Details
-- Embeddings represent meaning in multi-dimensional vectors.
-- Dense vectors are preferred for practical embedding systems because all dimensions participate in representation.
-- L2 normalization standardizes vector magnitude so similarity focuses on direction.
-- Cosine similarity becomes a stable default metric when normalized vectors are used.
-- Training intuition:
-  - anchor/positive vectors are pulled closer,
-  - anchor/negative vectors are pushed farther,
-  - resulting space improves semantic retrieval.
-- Related operations include vector averaging, arithmetic, and similarity-driven ranking.
-- Operationally, this feeds directly into [Vector DB Architecture and Indexing](./RAG/vector_db_architecture_and_indexing_hnsw_ivf_pq.md).
-
-## Reference
-**issue**
-- N/A
-
-**link**
-- N/A (study discussion notes)
+- 임베딩은 의미를 다차원 벡터로 표현합니다.
+- 실무 임베딩은 보통 밀집 벡터를 사용하며, 모든 차원이 표현에 기여합니다.
+- L2 정규화는 벡터 크기 영향을 줄여 방향 중심 비교를 가능하게 합니다.
+- 코사인 유사도는 정규화된 벡터 비교에서 안정적인 기본 지표로 많이 사용됩니다.
+- 학습은 앵커-포지티브를 가깝게, 앵커-네거티브를 멀게 조정하는 방식으로 진행됩니다.
+- 이 개념은 [벡터 DB 인덱싱](./RAG/vector_db_architecture_and_indexing_hnsw_ivf_pq.md)으로 이어집니다.

@@ -1,3 +1,3 @@
 # AI_ML
 
-Core AI/ML concepts, model fundamentals, and applied learning notes.
+AI/ML 핵심 개념과 실전 적용 노트를 정리합니다.

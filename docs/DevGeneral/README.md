@@ -1,3 +1,3 @@
 # DevGeneral
 
-General engineering concepts, principles, and cross-domain thinking notes.
+도메인 공통 원리와 개발 일반 개념 노트를 정리합니다.

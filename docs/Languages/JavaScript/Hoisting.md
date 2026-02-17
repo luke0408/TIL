@@ -1,4 +1,4 @@
-### JavaScript 호이스팅 (Hoisting)
+# 호이스팅
 
 ## Summary
 

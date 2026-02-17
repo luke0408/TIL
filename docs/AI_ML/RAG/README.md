@@ -1,3 +1,3 @@
 # RAG
 
-Notes about retrieval, embeddings, vector databases, and production RAG operations.
+검색, 임베딩, 벡터 데이터베이스, 운영 전략 관련 노트를 정리합니다.

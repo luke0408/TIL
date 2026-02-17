@@ -1,4 +1,4 @@
-## JavaScript Scope
+# 스코프
 
 ## Summary
 

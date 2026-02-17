@@ -1,28 +1,17 @@
-# Vector DB Data Operations and Metadata Strategy
+# 벡터 데이터 운영
 
 ## Summary
-- This note summarizes study-discussion insights (not a direct book summary).
-- Vector retrieval quality in production depends on how vectors are connected to metadata and original content.
+- 이 노트는 스터디 토론에서 나온 인사이트를 정리한 내용입니다.
+- 실제 서비스 품질은 벡터 유사도 자체보다 메타데이터 결합 전략에 크게 좌우됩니다.
 
 ## Details
-- Vector similarity alone is rarely sufficient in production retrieval.
-- Effective systems combine:
-  - vector search,
-  - metadata filtering,
-  - and (optionally) lexical/full-text constraints.
-- Metadata quality directly affects search controllability and explainability.
-- Typical concerns:
-  - schema evolution,
-  - ingestion consistency,
-  - re-index/update strategy,
-  - and fallback behaviors when similarity is ambiguous.
-- Practical takeaway:
-  - design the data model so retrieval can compose semantic + symbolic filters.
-- This extends [Vector DB Architecture and Indexing](./vector_db_architecture_and_indexing_hnsw_ivf_pq.md) from infrastructure choice to operating policy.
-
-## Reference
-**issue**
-- N/A
-
-**link**
-- N/A (study discussion notes)
+- 프로덕션 검색에서는 벡터 유사도만으로는 충분하지 않은 경우가 많습니다.
+- 보통 벡터 검색과 메타데이터 필터, 필요 시 본문 검색을 함께 사용합니다.
+- 메타데이터 품질은 검색 제어성, 설명 가능성, 운영 안정성에 직결됩니다.
+- 주요 운영 이슈:
+  - 스키마 진화
+  - 적재 일관성
+  - 재색인 전략
+  - 유사도 애매 구간의 fallback 정책
+- 핵심은 의미 기반 검색과 규칙 기반 필터를 함께 설계하는 것입니다.
+- 인프라 관점은 [벡터 인덱싱](./vector_db_architecture_and_indexing_hnsw_ivf_pq.md) 노트와 연결됩니다.
