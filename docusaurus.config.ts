@@ -36,6 +36,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          exclude: ['**/.obsidian/**'],
         },
         theme: {
           customCss: './src/css/custom.css',
