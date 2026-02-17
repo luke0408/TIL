@@ -7,5 +7,5 @@ Split one markdown note into multiple notes so each note has one topic.
 1. Identify independent claims/sections.
 2. Create one file per topic.
 3. Keep summary/details/reference structure.
-4. Add cross-links in `author note` references when useful.
+4. Add inline cross-links in body paragraphs when useful.
 5. Remove overlap and duplicated paragraphs.

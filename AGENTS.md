@@ -109,8 +109,8 @@ Structure intent:
   - `Reference`
 - In `Reference`, use README taxonomy:
   - `issue`: issue in this repo
-  - `author note`: related local note in this repo
   - `link`: external references
+- If the note mentions previously documented concepts, add inline markdown links in the body to related local notes.
 
 ---
 

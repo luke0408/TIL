@@ -29,5 +29,6 @@
 - 잔디를 채우는 것에 집착하지 않는다.
 - reference는 다음의 분류를 따른다.
   - issue: 해당 repo의 관련 issue를 의미한다.
-  - author note: 해당 repo의 관련 note를 의미한다.
   - link: 외부에서 참고한 reference를 의미한다.
+- 이전에 작성한 개념을 언급할 경우, 본문에서 해당 노트로 인라인 링크를 건다.
+  - 예: `TypeScript(줄여서 TS)는 [JavaScript](../JavaScript/JavaScript.md)에서 파생된 ...`

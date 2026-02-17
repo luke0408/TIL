@@ -16,8 +16,8 @@ Edit markdown content and references with minimal scope.
 - Keep headings concise and consistent.
 - In `Reference`, use:
   - `issue` (repo issue)
-  - `author note` (related local note)
   - `link` (external source)
+- If mentioning previously written concepts, add inline markdown links directly in the body.
 - If content is from study discussion (not direct book text), explicitly state that context.
 
 Use the following markdown template when creating or normalizing notes:
@@ -32,13 +32,12 @@ Use the following markdown template when creating or normalizing notes:
 - <core concept 1>
 - <core concept 2>
 - <example or caveat>
+- Mention related prior concepts with inline links.
+  - Example: TypeScript(줄여서 TS)는 [JavaScript](../JavaScript/JavaScript.md)에서 파생된 ...
 
 ## Reference
 **issue**
 - <repo issue link or N/A>
-
-**author note**
-- <related note path or N/A>
 
 **link**
 - <external references>
