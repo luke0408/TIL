@@ -65,7 +65,7 @@ graph TD;
 
 - [JavaScript Engine은 어떻게 동작하는가?](https://github.com/luke0408/TIL/issues/1)
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript Engine Intro](./Introduction_to_JavaScript_Engine.md)
 - [JavaScript Parser and AST](./Parser_And_AST.md)

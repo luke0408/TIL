@@ -210,7 +210,7 @@ console.log(name); // ReferenceError: name is not defined
 
 ## Reference
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript - let](./Let.md)
 - [JavaScript - const](./Const.md)

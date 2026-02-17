@@ -111,7 +111,7 @@ Node.js 및 npm 버전 제약, 지원 운영체제, private 패키지 설정, �
 
 ## Reference
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [package.json – 의존성 필드 정리](./dependencies_fields.md)
 - [package.json – 기본 메타 필드 정리](./meta_fields.md)

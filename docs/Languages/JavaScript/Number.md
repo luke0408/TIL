@@ -132,7 +132,7 @@ alert(Math.pow(2, 10)); // 1024
 
 ## Reference
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript - bigInt](./BigInt.md)
 

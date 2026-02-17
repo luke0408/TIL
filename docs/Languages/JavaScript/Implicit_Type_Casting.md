@@ -97,6 +97,6 @@ Boolean('hello'); // true
 - [Explain Typecasting in JavaScript - TutorialsPoint](https://www.tutorialspoint.com/explain-typecasting-in-javascript)
 - [What You Need to Know About JavaScript's Implicit Coercion - Dev.to](https://dev.to/promisetochi/what-you-need-to-know-about-javascripts-implicit-coercion-e23)
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript - Explicit Type Castring](./Explicit_Type_Casting.md)

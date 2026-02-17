@@ -86,7 +86,7 @@ sidebar_position: 4
 
 - [Refactoring 2nd Edtion](https://product.kyobobook.co.kr/detail/S000001810241)
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [리팩터링의 정의](./Definition_of_Refactoring.md)
 - [리팩터링을 해야하는 이유](./Reasons_for_Refactoring.md)

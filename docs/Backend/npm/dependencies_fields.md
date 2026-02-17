@@ -117,7 +117,7 @@ sidebar_position: 2
 
 ## Reference
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [package.json – 환경 및 배포 설정 필드 정리](./env_publish_fields.md)
 - [package.json – 기본 메타 필드 정리](./meta_fields.md)

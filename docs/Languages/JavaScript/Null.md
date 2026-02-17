@@ -60,7 +60,7 @@ sidebar_position: 19
 
 ## Reference
 
-**author note**: Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript - Null](./Null.md)
 

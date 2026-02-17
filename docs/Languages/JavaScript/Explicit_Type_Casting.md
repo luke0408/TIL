@@ -104,6 +104,6 @@ Object(true); // Boolean {true}
 - [MDN Web Docs - Type Conversion](https://developer.mozilla.org/en-US/docs/Glossary/Type_Conversion)
 - [TutorialsPoint - Explain Typecasting in JavaScript](https://www.tutorialspoint.com/explain-typecasting-in-javascript)
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript - Implicit Type Castring](./Implicit_Type_Casting.md)

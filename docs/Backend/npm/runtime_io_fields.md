@@ -160,7 +160,7 @@ Webpack에서 사용하는 필드로, tree-shaking 시 부수효과가 있는 �
 
 ## Reference
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [package.json – 의존성 필드 정리](./dependencies_fields.md)
 - [package.json – 환경 및 배포 설정 필드 정리](./env_publish_fields.md)

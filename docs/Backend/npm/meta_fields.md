@@ -142,7 +142,7 @@ Semantic Versioning(SemVer)을 따르는 패키지 버전이다.
 
 ## Reference
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [package.json – 의존성 필드 정리](./dependencies_fields.md)
 - [package.json – 환경 및 배포 설정 필드 정리](./env_publish_fields.md)

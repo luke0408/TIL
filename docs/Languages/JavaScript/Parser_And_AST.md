@@ -97,7 +97,7 @@ AST는 코드의 실행 과정에서 중요한 역할을 한다.
 
 - [JavaScript Engine은 어떻게 동작하는가?](https://github.com/luke0408/TIL/issues/1)
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript Engine Intro](./Introduction_to_JavaScript_Engine.md)
 - [JavaScript Compilation Process](./JavaScript_Compilation_Process.md)

@@ -35,7 +35,7 @@ sidebar_position: 3
 
 ## Reference
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [리팩터링 정의](./Definition_of_Refactoring.md)
 - [언제 리팩터링해야 할까?](./When_to_Refactoring.md)

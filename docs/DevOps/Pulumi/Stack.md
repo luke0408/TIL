@@ -146,7 +146,7 @@ $ pulumi stack rm dev
 
 ## Reference
 
-**author note:** Related note in this repo
+**link**: 관련 개념 노트
 
 - [Pulumi](./README.md)
 - [Pulumi Project](./Project.md)

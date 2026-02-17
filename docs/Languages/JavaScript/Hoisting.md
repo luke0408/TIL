@@ -103,7 +103,7 @@ console.log(x); // 1
 
 ## Reference
 
-**author note**: Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript - var](./Var.md)
 - [JavaScript - const](./Const.md)

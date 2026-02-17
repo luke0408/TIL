@@ -100,7 +100,7 @@ console.log(new Big(0.1).plus(0.2).toString()); // "0.3"
 
 - [JavaScript의 number는 왜 0과 -0을 지원하는가?](https://github.com/luke0408/TIL/issues/3)
 
-**author note**: Related note in this repo
+**link**: 관련 개념 노트
 
 - [JavaScript - number](./Number.md)
 - [IEEE 754 Floating Point](../../DevGeneral/IEEE/IEEE_754_Floating_Point.md)
