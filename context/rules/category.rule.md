@@ -1,14 +1,28 @@
 # Category Rule
 
-## Classification
+## Classification (General Structure)
+Use these path patterns first:
+- `docs/<top-category>/<note>.md`
+- `docs/<top-category>/<sub-category>/<note>.md`
+
+Classification must be based on topic intent (not file history):
+1. Decide top-category by domain (e.g., `AI_ML`, `Languages`, `Backend`, `DevGeneral`).
+2. Use sub-category only when it improves retrieval clarity.
+3. Keep note scope to one topic per file.
+4. Book-related content goes to `docs/Book/<book-title>/`.
+
+## Classification (Current Repository Mapping)
 - Principle/concept-first notes -> `docs/DevGeneral/Principle/`
 - AI/ML fundamentals -> `docs/AI_ML/`
 - RAG / Vector DB operations -> `docs/AI_ML/RAG/`
 - Book-specific materials -> `docs/Book/<book-title>/`
 
 ## Category Index Rule
-- Each category directory must include an overview doc.
+- Every category directory must include an overview doc.
 - Standard filename: `README.md`
+- Applies to both:
+  - `docs/<top-category>/README.md`
+  - `docs/<top-category>/<sub-category>/README.md`
 - Rationale: Docusaurus category-index convention supports `index`, `README`, or folder-name docs; this repository standardizes on `README.md`.
 
 ## Scope Rule
