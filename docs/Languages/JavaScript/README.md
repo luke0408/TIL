@@ -1,3 +1,37 @@
 # JavaScript
 
-JavaScript 카테고리의 개요와 관련 노트를 정리합니다.
+JavaScript 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다.
+
+## 다루는 개념
+
+- [Arrow Function](./Arrow_Function.md)
+- [BigInt](./BigInt.md)
+- [논리 타입 (Boolean)](./Boolean.md)
+- [JavaScript Built-in Object 개요](./Built-in_Object.md)
+- [`const`](./Const.md)
+- [Execution Context in JavaScript](./Execution_Context.md)
+- [Explicit Type Casting in JavaScript](./Explicit_Type_Casting.md)
+- [Function](./Function.md)
+- [자바스크립트의 역사](./History_of_JavaScript.md)
+- [호이스팅](./Hoisting.md)
+- [Implicit Type Casting in JavaScript](./Implicit_Type_Casting.md)
+- [Introduction to JavaScript Engine](./Introduction_to_JavaScript_Engine.md)
+- [JsDoc](./JSDoc.md)
+- [JavaScript](./JavaScript.md)
+- [JavaScript Compilation Process](./JavaScript_Compilation_Process.md)
+- [JSON in JavaScript](./Json.md)
+- [`let`](./Let.md)
+- [JavaScript Map](./Map.md)
+- [null](./Null.md)
+- [숫자형 (number)](./Number.md)
+- [JavaScript에서 Number 타입의 문제점](./Number_Type_Issues.md)
+- [Object](./Object.md)
+- [객체 프로토타입](./ObjectPrototype.md)
+- [Parser and AST (Abstract Syntax Tree)](./Parser_And_AST.md)
+- [Prototypal Inheritance](./Prototypal_Inheritance.md)
+- [스코프](./Scope.md)
+- [문자열 (String)](./String.md)
+- [Symbol](./Symbol.md)
+- [`typeof` operator](./Typeof.md)
+- [undefined](./Undefined.md)
+- [`var`](./Var.md)

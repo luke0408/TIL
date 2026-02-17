@@ -1,3 +1,8 @@
 # Principle
 
-특정 프레임워크에 종속되지 않는 원리 중심 노트를 정리합니다.
+Principle 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다.
+
+## 다루는 개념
+
+- [두개의 모자](./Two_Hats.md)
+- [해석 엔트로피](./structured_vs_unstructured_data_and_interpretation_entropy.md)

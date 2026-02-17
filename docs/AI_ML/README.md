@@ -1,3 +1,7 @@
 # AI_ML
 
-AI/ML 핵심 개념과 실전 적용 노트를 정리합니다.
+AI_ML 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다.
+
+## 다루는 개념
+
+- [임베딩 벡터](./embedding_vector_basics_dense_l2_cosine_similarity.md)
