@@ -1,3 +1,8 @@
+---
+title: "벡터 인덱싱"
+description: "벡터 인덱싱 개념을 정리한 노트입니다."
+sidebar_position: 3
+---
 # 벡터 인덱싱
 
 ## Summary

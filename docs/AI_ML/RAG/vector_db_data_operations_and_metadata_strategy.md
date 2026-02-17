@@ -1,3 +1,8 @@
+---
+title: "벡터 데이터 운영"
+description: "벡터 데이터 운영 개념을 정리한 노트입니다."
+sidebar_position: 4
+---
 # 벡터 데이터 운영
 
 ## Summary

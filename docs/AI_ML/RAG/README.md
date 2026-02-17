@@ -1,3 +1,8 @@
+---
+title: "RAG"
+description: "RAG 개념을 정리한 노트입니다."
+sidebar_position: 1
+---
 # RAG
 
 ## Summary
