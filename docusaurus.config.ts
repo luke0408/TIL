@@ -83,20 +83,6 @@ const config: Config = {
           position: 'left',
           label: 'Blog',
         },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-          dropdownItemsAfter: [
-            {
-              type: 'html',
-              value: '<hr style="margin: 0.3rem 0;">',
-            },
-            {
-              href: 'https://github.com/facebook/docusaurus/issues/3526',
-              label: 'Help Us Translate',
-            },
-          ],
-        },
         {type: 'search', position: 'right'},
         {
           href: 'https://github.com/luke0408/TIL',
