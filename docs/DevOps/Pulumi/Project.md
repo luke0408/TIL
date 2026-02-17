@@ -112,7 +112,7 @@ pulumi config set aws:region us-east-1 --stack prod
 
 **author note:** Related note in this repo
 
-- [Pulumi](./Pulumi.md)
+- [Pulumi](./README.md)
 - [Stack](./Stack.md)
 
 **link:** External reference
