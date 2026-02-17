@@ -1,0 +1,440 @@
+body {
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes intensity-slide-left {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-28px);
+  }
+}
+
+@keyframes intensity-slide-right {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(28px);
+  }
+}
+
+.intensity-row {
+  width: fit-content;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.intensity-row--0 {
+  animation-name: intensity-slide-left;
+  animation-duration: 5.8s;
+}
+
+.intensity-row--1 {
+  animation-name: intensity-slide-right;
+  animation-duration: 6.4s;
+}
+
+.intensity-row--2 {
+  animation-name: intensity-slide-left;
+  animation-duration: 7.1s;
+}
+
+.intensity-row:hover,
+.intensity-row:focus-within {
+  animation-play-state: paused;
+}
+
+.intensity-chip {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.intensity-chip:hover,
+.intensity-chip:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 14px rgb(37 193 159 / 18%);
+}
+
+.markdown-body {
+  color: #334155;
+  font-size: 1.02rem;
+  line-height: 1.72;
+}
+
+.markdown-body > h1:first-child {
+  display: none;
+}
+
+.markdown-body h2 {
+  margin-top: 2.35rem;
+  margin-bottom: 0.9rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+.markdown-body h3 {
+  margin-top: 1.6rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #111827;
+}
+
+.markdown-body p {
+  margin: 0.58rem 0;
+  line-height: 1.78;
+}
+
+.markdown-body > p:first-of-type {
+  margin-bottom: 1.55rem;
+  font-size: 1.12rem;
+  line-height: 1.75;
+  color: #475569;
+}
+
+.markdown-body code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
+  background: rgb(15 23 42 / 6%);
+  border-radius: 0.35rem;
+  padding: 0.1rem 0.28rem;
+  font-size: 0.88em;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin: 0.75rem 0 1.2rem;
+  padding-left: 1.35rem;
+}
+
+.markdown-body ul {
+  list-style: disc;
+}
+
+.markdown-body ol {
+  list-style: decimal;
+}
+
+.markdown-body li {
+  margin: 0.48rem 0;
+  color: #334155;
+}
+
+.markdown-body li::marker {
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.markdown-body li p {
+  margin: 0;
+}
+
+.markdown-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.4rem;
+  font-size: 0.92rem;
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+}
+
+.markdown-body thead {
+  background: #f8fafc;
+}
+
+.markdown-body th,
+.markdown-body td {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.markdown-body th {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.markdown-body tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.markdown-body strong {
+  color: #25c19f;
+  font-weight: 700;
+}
+
+.markdown-body a {
+  color: #0ea5a4;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s ease;
+}
+
+.markdown-body a:hover {
+  color: #0f766e;
+}
+
+.markdown-body blockquote {
+  margin: 1.6rem 0 2.2rem;
+  border-left: 4px solid #25c19f;
+  background: rgb(37 193 159 / 7%);
+  border-radius: 0 12px 12px 0;
+  padding: 1rem 1rem 1rem 1.1rem;
+}
+
+.markdown-body .admonition-box {
+  margin: 1.6rem 0 2.2rem;
+  border-left: 4px solid #25c19f;
+  background: rgb(37 193 159 / 7%);
+  border-radius: 0 12px 12px 0;
+  padding: 1rem 1rem 1rem 1.1rem;
+}
+
+.markdown-body .admonition-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.94rem;
+  font-weight: 700;
+  color: #0f172a;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.markdown-body .admonition-title::before {
+  font-family: 'Material Symbols Outlined';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.05rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  direction: ltr;
+  font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 20;
+}
+
+.markdown-body .admonition-note .admonition-title::before {
+  content: 'lightbulb';
+}
+
+.markdown-body .admonition-info .admonition-title::before {
+  content: 'info';
+}
+
+.markdown-body .admonition-tip .admonition-title::before {
+  content: 'check_circle';
+}
+
+.markdown-body .admonition-warning .admonition-title::before {
+  content: 'warning';
+}
+
+.markdown-body .admonition-danger .admonition-title::before {
+  content: 'error';
+}
+
+.markdown-body .admonition-note {
+  border-left-color: #25c19f;
+  background: rgb(37 193 159 / 8%);
+}
+
+.markdown-body .admonition-note .admonition-title,
+.markdown-body .admonition-note .admonition-title::before {
+  color: #0f766e;
+}
+
+.markdown-body .admonition-info {
+  border-left-color: #3b82f6;
+  background: rgb(59 130 246 / 8%);
+}
+
+.markdown-body .admonition-info .admonition-title,
+.markdown-body .admonition-info .admonition-title::before {
+  color: #1d4ed8;
+}
+
+.markdown-body .admonition-tip {
+  border-left-color: #10b981;
+  background: rgb(16 185 129 / 8%);
+}
+
+.markdown-body .admonition-tip .admonition-title,
+.markdown-body .admonition-tip .admonition-title::before {
+  color: #047857;
+}
+
+.markdown-body .admonition-warning {
+  border-left-color: #f59e0b;
+  background: rgb(245 158 11 / 8%);
+}
+
+.markdown-body .admonition-warning .admonition-title,
+.markdown-body .admonition-warning .admonition-title::before {
+  color: #b45309;
+}
+
+.markdown-body .admonition-danger {
+  border-left-color: #ef4444;
+  background: rgb(239 68 68 / 8%);
+}
+
+.markdown-body .admonition-danger .admonition-title,
+.markdown-body .admonition-danger .admonition-title::before {
+  color: #b91c1c;
+}
+
+.markdown-body blockquote p,
+.markdown-body .admonition-box p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+}
+
+.md-code-block {
+  margin: 1rem 0 1.9rem;
+  overflow: hidden;
+  border: 1px solid #44475a;
+  border-radius: 0.8rem;
+  background: #282a36;
+}
+
+.md-code-block__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.45rem 0.9rem;
+  border-bottom: 1px solid #44475a;
+  background: #21222c;
+  font-size: 0.75rem;
+  color: #bd93f9;
+  font-weight: 700;
+}
+
+.md-code-block__header button {
+  border: 0;
+  background: transparent;
+  color: #8be9fd;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.md-code-block__header button .material-symbols-outlined {
+  font-size: 0.9rem;
+}
+
+.md-code-block--javascript .md-code-block__header,
+.md-code-block--typescript .md-code-block__header {
+  color: #8be9fd;
+}
+
+.md-code-block--python .md-code-block__header {
+  color: #50fa7b;
+}
+
+.md-code-block--bash .md-code-block__header,
+.md-code-block--shell .md-code-block__header {
+  color: #f1fa8c;
+}
+
+.md-code-block--json .md-code-block__header,
+.md-code-block--yaml .md-code-block__header,
+.md-code-block--yml .md-code-block__header {
+  color: #ff79c6;
+}
+
+.md-code-block pre {
+  margin: 0;
+  padding: 1.05rem 1.2rem;
+  overflow-x: auto;
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+.md-code-block pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  color: #f8f8f2;
+}
+
+.md-code-block pre code .hljs-keyword,
+.md-code-block pre code .hljs-selector-tag,
+.md-code-block pre code .hljs-title.function_ {
+  color: #ff79c6;
+}
+
+.md-code-block pre code .hljs-string,
+.md-code-block pre code .hljs-attr,
+.md-code-block pre code .hljs-template-variable {
+  color: #f1fa8c;
+}
+
+.md-code-block pre code .hljs-number,
+.md-code-block pre code .hljs-literal,
+.md-code-block pre code .hljs-built_in {
+  color: #bd93f9;
+}
+
+.md-code-block pre code .hljs-comment,
+.md-code-block pre code .hljs-quote {
+  color: #6272a4;
+}
+
+.md-code-block pre code .hljs-function,
+.md-code-block pre code .hljs-title,
+.md-code-block pre code .hljs-variable,
+.md-code-block pre code .hljs-params {
+  color: #8be9fd;
+}
+
+.md-code-block pre code .hljs-type,
+.md-code-block pre code .hljs-class .hljs-title {
+  color: #50fa7b;
+}
+
+.md-code-block pre code.language-javascript,
+.md-code-block pre code.language-typescript,
+.md-code-block pre code.language-python,
+.md-code-block pre code.language-bash,
+.md-code-block pre code.language-shell {
+  color: #f8f8f2;
+}
+
+.markdown-body .mermaid {
+  margin: 1.2rem 0 1.8rem;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.75rem;
+  background: #fff;
+  overflow-x: auto;
+}
