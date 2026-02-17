@@ -15,7 +15,26 @@ Docusaurus에서 지원하는 Markdown 기능을 사용하되, 최우선 기준�
 - Code blocks: 예시는 fenced code block(언어 지정)으로 제공한다.
 - Blockquotes: 인용문/원문 발췌에만 사용한다.
 - Front matter: 문서 상단 YAML 메타데이터(`title`, `description`, `sidebar_position`)를 사용한다.
+- Admonitions: `note`, `tip`, `info`, `warning`, `danger`를 핵심 강조에 제한적으로 사용한다.
 - Details (`<details>`): 본문 흐름을 방해하는 부가 설명을 접어둘 때만 사용한다.
+
+## Admonition Readability Rules
+- 목적이 명확할 때만 사용한다. (핵심 요약, 주의사항, 실수 방지 포인트)
+- 문단을 대체하지 않는다. 기본 설명은 줄글로 유지하고, 강조 포인트만 감싼다.
+- 과도한 중첩을 피한다. (중첩이 필요하면 최대 1단계)
+- Prettier 호환을 위해 시작/종료 directive 주변에 빈 줄을 둔다.
+
+권장 예시:
+
+```md
+:::tip[핵심]
+이 개념은 A를 이해한 다음 B 순서로 보는 것이 가장 빠릅니다.
+:::
+
+:::warning[주의]
+용어는 비슷하지만 실행 컨텍스트와 스코프는 같은 개념이 아닙니다.
+:::
+```
 
 ## Use With Caution
 - Raw HTML/JSX(MDX): UI적 이점이 명확할 때만 사용한다.
