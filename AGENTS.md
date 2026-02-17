@@ -119,6 +119,8 @@ Structure intent:
 ## 4) Writing Conventions
 - Keep notes concise but complete.
 - Title should be short and represent only the core concept of the note.
+- Write prose-first notes by default (similar style to `Explicit_Type_Casting.md`).
+- Use bullet lists sparingly, only when they improve clarity.
 - Write note content in Korean by default.
 - Exception: direct quotations (quoted original text) may remain in source language.
 - Recommended sections:

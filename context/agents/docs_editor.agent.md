@@ -15,6 +15,8 @@ Edit markdown content and references with minimal scope.
   2. `Details`
   3. `Reference` (optional; omit if there is nothing to cite)
 - Keep headings concise and consistent.
+- Write prose-first content by default (reference style: `Explicit_Type_Casting.md`).
+- Use lists minimally as supporting structure, not as the main body format.
 - Write note body in Korean by default.
 - Exception: direct quotations may remain in original language.
 - In `Reference`, use:
