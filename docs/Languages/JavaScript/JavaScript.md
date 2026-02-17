@@ -1,4 +1,4 @@
- # 자바스크립트란?
+# JavaScript
 
 ## Summary
 

@@ -28,7 +28,7 @@ Chunked Transfer-Encoding은 **HTTP/1.1에서 도입된 전송 메커니즘**으
 
 서버가 `"Hello World"`를 두 청크로 전송:
 
-```
+```http
 HTTP/1.1 200 OK
 Transfer-Encoding: chunked
 Content-Type: text/plain

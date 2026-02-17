@@ -1,4 +1,4 @@
-### 자바스크립트의 역사
+# 자바스크립트의 역사
 
 ## Summary
 
@@ -21,9 +21,9 @@
 
 ### **1. 탄생과 초기 표준화 (1995 - 1999)**
 
-1995년 **브렌던 아이크(Brendan Eich)**가 넷스케이프에서 **10일 만에 Mocha**를 개발했다. 이후 **LiveScript → JavaScript**로 개명되었으며, 1996년 마이크로소프트는 이를 리버스 엔지니어링하여 **JScript**로 Internet Explorer에 탑재했다.
+1995년 **브렌던 아이크(Brendan Eich)** 가 넷스케이프에서 **10일 만에 Mocha**를 개발했다. 이후 **LiveScript → JavaScript**로 개명되었으며, 1996년 마이크로소프트는 이를 리버스 엔지니어링하여 **JScript**로 Internet Explorer에 탑재했다.
 
-1997년 **ECMA 국제 표준화(ECMAScript 1, ES1)**가 이루어졌고, 1999년 ES3가 발표되면서 **엄격한 비교(===), 예외 처리(try/catch)** 등이 추가되었다.
+1997년 **ECMA 국제 표준화(ECMAScript 1, ES1)** 가 이루어졌고, 1999년 ES3가 발표되면서 **엄격한 비교(===), 예외 처리(try/catch)** 등이 추가되었다.
 
 :::note 
 

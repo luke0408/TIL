@@ -2,7 +2,7 @@
 
 ## Summary
 
-HTTP 메시지의 시작 줄(start-line)은 요청(Request)일 때 `Request-Line`, 응답(Response)일 때 `Status-Line`으로 구분된다. 이 줄은 HTTP 통신의 맥락과 의미를 결정하는 핵심 정보이다.
+[HTTP](./HTTP.md) 메시지의 시작 줄(start-line)은 요청(Request)일 때 `Request-Line`, 응답(Response)일 때 `Status-Line`으로 구분된다. 이 줄은 HTTP 통신의 맥락과 의미를 결정하는 핵심 정보이다.
 
 ## Details
 
