@@ -48,6 +48,20 @@ Structure intent:
 - Raw drawing/source artifacts live outside docs categories (`assets/excalidraw/`).
 - Book materials are separated under `docs/Book/<book-title>/`.
 
+### `src/` Detailed Guidance
+- Purpose:
+  - Holds Docusaurus application code (React pages/components/theme-level customizations).
+  - Used for presentation behavior, not as the source of truth for study content.
+- Typical contents:
+  - `src/pages/`: custom site pages/routes
+  - `src/components/`: reusable UI components
+  - `src/css/`: styling overrides (e.g., `custom.css`)
+- Agent rules for `src/` edits:
+  - Edit only when user explicitly asks for UI/layout/theme behavior changes.
+  - Avoid moving TIL markdown notes into `src/`.
+  - Prefer minimal, scoped edits; do not refactor unrelated UI code.
+  - If `src/` change can affect rendering/build, run `npm run build` before commit.
+
 ---
 
 ## 3) Core Rules (Must Follow)
