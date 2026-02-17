@@ -1,6 +1,7 @@
 ---
 title: "tree command"
 description: "tree command 개념을 정리한 노트입니다."
+slug: /operatingsystems/linux/tree
 sidebar_position: 2
 ---
 # tree command

@@ -1,6 +1,7 @@
 ---
 title: "언제 리팩터링해야 할까?"
 description: "언제 리팩터링해야 할까? 개념을 정리한 노트입니다."
+slug: /devgeneral/refactoring/when_to_refactoring
 sidebar_position: 4
 ---
 # 언제 리팩터링해야 할까?

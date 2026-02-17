@@ -1,8 +1,8 @@
 ---
 title: "HTTP/0.9에서 1.1까지의 발전"
 description: "HTTP/0.9에서 1.1까지의 발전 개념을 정리한 노트입니다."
+slug: /networking/http/http_0.9_to_1.1
 sidebar_position: 5
-slug: http-history
 id: http-history
 ---
 

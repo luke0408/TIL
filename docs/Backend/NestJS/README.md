@@ -1,6 +1,7 @@
 ---
 title: "NestJS"
 description: "NestJS 개념을 정리한 노트입니다."
+slug: /backend/nestjs
 sidebar_position: 1
 ---
 # NestJS

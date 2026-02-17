@@ -1,6 +1,7 @@
 ---
 title: "IEEE 754 Floating Point"
 description: "IEEE 754 Floating Point 개념을 정리한 노트입니다."
+slug: /devgeneral/ieee/ieee_754_floating_point
 sidebar_position: 2
 ---
 # IEEE 754 Floating Point

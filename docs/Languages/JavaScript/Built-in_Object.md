@@ -1,6 +1,7 @@
 ---
 title: "JavaScript Built-in Object 개요"
 description: "JavaScript Built-in Object 개요 개념을 정리한 노트입니다."
+slug: /languages/javascript/built-in_object
 sidebar_position: 5
 ---
 # JavaScript Built-in Object 개요

@@ -1,6 +1,7 @@
 ---
 title: "JavaScript"
 description: "JavaScript 개념을 정리한 노트입니다."
+slug: /languages/javascript
 sidebar_position: 1
 ---
 # JavaScript

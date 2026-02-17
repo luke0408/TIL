@@ -1,6 +1,7 @@
 ---
 title: "AI_ML"
 description: "AI_ML 개념을 정리한 노트입니다."
+slug: /ai_ml
 sidebar_position: 1
 ---
 # AI_ML

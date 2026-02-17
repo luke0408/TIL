@@ -1,6 +1,7 @@
 ---
 title: "HTTP"
 description: "HTTP 개념을 정리한 노트입니다."
+slug: /networking/http
 sidebar_position: 1
 ---
 

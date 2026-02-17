@@ -1,6 +1,7 @@
 ---
 title: "`typeof` operator"
 description: "`typeof` operator 개념을 정리한 노트입니다."
+slug: /languages/javascript/typeof
 sidebar_position: 29
 ---
 # `typeof` operator

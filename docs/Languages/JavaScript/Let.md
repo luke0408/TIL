@@ -1,6 +1,7 @@
 ---
 title: "`let`"
 description: "`let` 개념을 정리한 노트입니다."
+slug: /languages/javascript/let
 sidebar_position: 17
 ---
 # `let`

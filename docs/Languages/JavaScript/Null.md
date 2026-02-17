@@ -1,6 +1,7 @@
 ---
 title: "null"
 description: "null 개념을 정리한 노트입니다."
+slug: /languages/javascript/null
 sidebar_position: 19
 ---
 # null

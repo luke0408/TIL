@@ -1,6 +1,7 @@
 ---
 title: "AWS"
 description: "AWS 개념을 정리한 노트입니다."
+slug: /cloud/aws
 sidebar_position: 1
 ---
 # AWS

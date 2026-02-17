@@ -1,6 +1,7 @@
 ---
 title: "spring-ai"
 description: "spring-ai 개념을 정리한 노트입니다."
+slug: /ai_ml/spring-ai
 sidebar_position: 1
 ---
 # spring-ai

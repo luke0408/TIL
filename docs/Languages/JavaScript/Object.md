@@ -1,6 +1,7 @@
 ---
 title: "Object"
 description: "Object 개념을 정리한 노트입니다."
+slug: /languages/javascript/object
 sidebar_position: 22
 ---
 # Object

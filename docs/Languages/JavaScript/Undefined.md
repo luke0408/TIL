@@ -1,6 +1,7 @@
 ---
 title: "undefined"
 description: "undefined 개념을 정리한 노트입니다."
+slug: /languages/javascript/undefined
 sidebar_position: 30
 ---
 # undefined

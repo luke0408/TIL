@@ -1,6 +1,7 @@
 ---
 title: "Languages"
 description: "Languages 개념을 정리한 노트입니다."
+slug: /languages
 sidebar_position: 1
 ---
 # Languages

@@ -1,6 +1,6 @@
 ---
-id: introduction
 slug: /introduction
+id: introduction
 ---
 
 # Introduction

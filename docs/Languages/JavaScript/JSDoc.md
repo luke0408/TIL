@@ -1,6 +1,7 @@
 ---
 title: "JsDoc"
 description: "JsDoc 개념을 정리한 노트입니다."
+slug: /languages/javascript/jsdoc
 sidebar_position: 15
 ---
 # JsDoc

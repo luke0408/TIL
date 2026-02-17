@@ -1,6 +1,7 @@
 ---
 title: "TypeScript"
 description: "TypeScript 개념을 정리한 노트입니다."
+slug: /languages/typescript
 sidebar_position: 1
 ---
 # TypeScript

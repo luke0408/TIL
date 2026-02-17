@@ -1,6 +1,7 @@
 ---
 title: "소프트웨어 장인 정신 선언문"
 description: "소프트웨어 장인 정신 선언문 개념을 정리한 노트입니다."
+slug: /devgeneral/agile/software_craftsmanship_manifesto
 sidebar_position: 2
 ---
 # 소프트웨어 장인 정신 선언문

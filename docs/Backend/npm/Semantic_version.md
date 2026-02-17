@@ -1,6 +1,7 @@
 ---
 title: "Semantic Versioning"
 description: "Semantic Versioning 개념을 정리한 노트입니다."
+slug: /backend/npm/semantic_version
 sidebar_position: 6
 ---
 # Semantic Versioning

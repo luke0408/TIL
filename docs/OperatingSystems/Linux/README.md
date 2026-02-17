@@ -1,6 +1,7 @@
 ---
 title: "Linux"
 description: "Linux 개념을 정리한 노트입니다."
+slug: /operatingsystems/linux
 sidebar_position: 1
 ---
 # Linux

@@ -1,6 +1,7 @@
 ---
 title: "논리 타입 (Boolean)"
 description: "논리 타입 (Boolean) 개념을 정리한 노트입니다."
+slug: /languages/javascript/boolean
 sidebar_position: 4
 ---
 # 논리 타입 (Boolean)

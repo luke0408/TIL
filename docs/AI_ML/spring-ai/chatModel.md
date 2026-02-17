@@ -1,6 +1,7 @@
 ---
 title: "ChatModel"
 description: "ChatModel 개념을 정리한 노트입니다."
+slug: /ai_ml/spring-ai/chatmodel
 sidebar_position: 2
 ---
 # ChatModel

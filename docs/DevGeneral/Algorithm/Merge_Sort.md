@@ -1,6 +1,7 @@
 ---
 title: "Merge Sort"
 description: "Merge Sort 개념을 정리한 노트입니다."
+slug: /devgeneral/algorithm/merge_sort
 sidebar_position: 2
 ---
 # Merge Sort

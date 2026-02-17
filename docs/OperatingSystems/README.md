@@ -1,6 +1,7 @@
 ---
 title: "OperatingSystems"
 description: "OperatingSystems 개념을 정리한 노트입니다."
+slug: /operatingsystems
 sidebar_position: 1
 ---
 # OperatingSystems

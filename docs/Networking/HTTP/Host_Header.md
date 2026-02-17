@@ -1,6 +1,7 @@
 ---
 title: "Host Header (가상 호스팅)"
 description: "Host Header (가상 호스팅) 개념을 정리한 노트입니다."
+slug: /networking/http/host_header
 sidebar_position: 4
 ---
 # Host Header (가상 호스팅)

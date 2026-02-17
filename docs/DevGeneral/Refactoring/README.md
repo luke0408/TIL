@@ -1,6 +1,7 @@
 ---
 title: "Refactoring"
 description: "Refactoring 개념을 정리한 노트입니다."
+slug: /devgeneral/refactoring
 sidebar_position: 1
 ---
 # Refactoring

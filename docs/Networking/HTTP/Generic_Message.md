@@ -1,8 +1,8 @@
 ---
 title: "HTTP Generic Message"
 description: "HTTP Generic Message 개념을 정리한 노트입니다."
+slug: /networking/http/generic_message
 sidebar_position: 3
-slug: /generic-message
 id: generic-message
 ---
 

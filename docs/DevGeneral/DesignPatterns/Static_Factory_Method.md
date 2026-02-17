@@ -1,6 +1,7 @@
 ---
 title: "정적 팩토리 메서드"
 description: "정적 팩토리 메서드 개념을 정리한 노트입니다."
+slug: /devgeneral/designpatterns/static_factory_method
 sidebar_position: 2
 ---
 # 정적 팩토리 메서드

@@ -1,6 +1,7 @@
 ---
 title: "DevOps"
 description: "DevOps 개념을 정리한 노트입니다."
+slug: /devops
 sidebar_position: 1
 ---
 # DevOps

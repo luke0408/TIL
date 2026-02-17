@@ -1,6 +1,7 @@
 ---
 title: "Backend"
 description: "Backend 개념을 정리한 노트입니다."
+slug: /backend
 sidebar_position: 1
 ---
 # Backend

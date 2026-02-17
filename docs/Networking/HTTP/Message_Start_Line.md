@@ -1,6 +1,7 @@
 ---
 title: "Start Line 구조"
 description: "Start Line 구조 개념을 정리한 노트입니다."
+slug: /networking/http/message_start_line
 sidebar_position: 7
 ---
 # Start Line 구조

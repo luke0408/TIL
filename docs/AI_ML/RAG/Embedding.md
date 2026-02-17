@@ -1,6 +1,7 @@
 ---
 title: "RAG Embedding의 구조와 동작"
 description: "RAG Embedding의 구조와 동작 개념을 정리한 노트입니다."
+slug: /ai_ml/rag/embedding
 sidebar_position: 2
 ---
 # RAG Embedding의 구조와 동작

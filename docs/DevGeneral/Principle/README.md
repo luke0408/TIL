@@ -1,6 +1,7 @@
 ---
 title: "Principle"
 description: "Principle 개념을 정리한 노트입니다."
+slug: /devgeneral/principle
 sidebar_position: 1
 ---
 # Principle

@@ -1,6 +1,7 @@
 ---
 title: "Networking"
 description: "Networking 개념을 정리한 노트입니다."
+slug: /networking
 sidebar_position: 1
 ---
 # Networking

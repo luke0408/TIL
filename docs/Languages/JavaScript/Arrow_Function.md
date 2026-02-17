@@ -1,6 +1,7 @@
 ---
 title: "Arrow Function"
 description: "Arrow Function 개념을 정리한 노트입니다."
+slug: /languages/javascript/arrow_function
 sidebar_position: 2
 ---
 # Arrow Function

@@ -1,6 +1,7 @@
 ---
 title: "package.json – 환경 및 배포 설정 필드 정리"
 description: "package.json – 환경 및 배포 설정 필드 정리 개념을 정리한 노트입니다."
+slug: /backend/npm/env_publish_fields
 sidebar_position: 3
 ---
 # package.json – 환경 및 배포 설정 필드 정리

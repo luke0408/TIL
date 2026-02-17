@@ -1,6 +1,7 @@
 ---
 title: "Book"
 description: "Book 개념을 정리한 노트입니다."
+slug: /book
 sidebar_position: 1
 ---
 # Book

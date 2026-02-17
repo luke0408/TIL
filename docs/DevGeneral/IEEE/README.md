@@ -1,6 +1,7 @@
 ---
 title: "IEEE"
 description: "IEEE 개념을 정리한 노트입니다."
+slug: /devgeneral/ieee
 sidebar_position: 1
 ---
 # IEEE

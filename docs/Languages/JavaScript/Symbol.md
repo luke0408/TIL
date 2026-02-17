@@ -1,6 +1,7 @@
 ---
 title: "Symbol"
 description: "Symbol 개념을 정리한 노트입니다."
+slug: /languages/javascript/symbol
 sidebar_position: 28
 ---
 # Symbol

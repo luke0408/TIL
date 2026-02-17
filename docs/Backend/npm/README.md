@@ -1,6 +1,7 @@
 ---
 title: "npm"
 description: "npm 개념을 정리한 노트입니다."
+slug: /backend/npm
 sidebar_position: 1
 ---
 # npm

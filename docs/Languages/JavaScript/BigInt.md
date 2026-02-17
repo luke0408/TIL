@@ -1,6 +1,7 @@
 ---
 title: "BigInt"
 description: "BigInt 개념을 정리한 노트입니다."
+slug: /languages/javascript/bigint
 sidebar_position: 3
 ---
 # BigInt

@@ -1,6 +1,7 @@
 ---
 title: "Pulumi Project"
 description: "Pulumi Project 개념을 정리한 노트입니다."
+slug: /devops/pulumi/project
 sidebar_position: 2
 ---
 # Pulumi Project

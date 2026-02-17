@@ -1,6 +1,7 @@
 ---
 title: "두개의 모자"
 description: "두개의 모자 개념을 정리한 노트입니다."
+slug: /devgeneral/principle/two_hats
 sidebar_position: 3
 ---
 # 두개의 모자

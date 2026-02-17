@@ -1,6 +1,7 @@
 ---
 title: "RAG"
 description: "RAG 개념을 정리한 노트입니다."
+slug: /ai_ml/rag
 sidebar_position: 1
 ---
 

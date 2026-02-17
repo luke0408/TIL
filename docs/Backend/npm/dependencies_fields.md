@@ -1,6 +1,7 @@
 ---
 title: "package.json – 의존성 필드 정리"
 description: "package.json – 의존성 필드 정리 개념을 정리한 노트입니다."
+slug: /backend/npm/dependencies_fields
 sidebar_position: 2
 ---
 # package.json – 의존성 필드 정리

@@ -1,6 +1,7 @@
 ---
 title: "`const`"
 description: "`const` 개념을 정리한 노트입니다."
+slug: /languages/javascript/const
 sidebar_position: 6
 ---
 # `const`

@@ -1,8 +1,8 @@
 ---
 title: "Chunked Transfer-Encoding"
 description: "Chunked Transfer-Encoding 개념을 정리한 노트입니다."
+slug: /networking/http/chunked_transfer-encoding
 sidebar_position: 2
-slug: /transfer-encoding
 id: transfer-encoding
 ---
 

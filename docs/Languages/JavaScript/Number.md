@@ -1,6 +1,7 @@
 ---
 title: "숫자형 (number)"
 description: "숫자형 (number) 개념을 정리한 노트입니다."
+slug: /languages/javascript/number
 sidebar_position: 20
 ---
 # 숫자형 (number)
