@@ -1,3 +1,8 @@
+---
+title: "Pulumi 개요"
+description: "Pulumi 개요 개념을 정리한 노트입니다."
+sidebar_position: 1
+---
 # Pulumi 개요
 
 ## Summary
