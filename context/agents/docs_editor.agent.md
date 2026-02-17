@@ -9,6 +9,7 @@ Edit markdown content and references with minimal scope.
 - Follow naming/category rules.
 
 ## Document Format
+- Title rule: keep it short and focused on a single concept.
 - Preferred section order:
   1. `Summary`
   2. `Details`

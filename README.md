@@ -33,6 +33,7 @@
 - 이전에 작성한 개념을 언급할 경우, 본문에서 해당 노트로 인라인 링크를 건다.
   - 예: `TypeScript(줄여서 TS)는 [JavaScript](../JavaScript/JavaScript.md)에서 파생된 ...`
 - 문서는 인용구(원문 인용)를 제외하고 한글로 작성한다.
+- 노트 제목은 설명하려는 개념만 드러나도록 짧고 명확하게 작성한다.
 - 카테고리 디렉토리(`docs/<category>/`, `docs/<category>/<sub-category>/`)는 개요 문서를 반드시 포함한다.
   - Docusaurus 공식 규약을 따라 카테고리 인덱스 파일은 `README.md`를 기본으로 사용한다.
   - (`index.md`도 동작하지만, 이 저장소 표준은 `README.md`)
