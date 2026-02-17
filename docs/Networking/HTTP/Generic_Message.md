@@ -1,7 +1,11 @@
 ---
-id: generic-message
+title: "HTTP Generic Message"
+description: "HTTP Generic Message 개념을 정리한 노트입니다."
+sidebar_position: 3
 slug: /generic-message
+id: generic-message
 ---
+
 
 # HTTP Generic Message
 

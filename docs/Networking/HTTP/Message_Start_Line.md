@@ -1,3 +1,8 @@
+---
+title: "Start Line 구조"
+description: "Start Line 구조 개념을 정리한 노트입니다."
+sidebar_position: 7
+---
 # Start Line 구조
 
 ## Summary

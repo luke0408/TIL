@@ -1,3 +1,8 @@
+---
+title: "HTTP Keep-Alive (Persistent Connection)"
+description: "HTTP Keep-Alive (Persistent Connection) 개념을 정리한 노트입니다."
+sidebar_position: 6
+---
 # HTTP Keep-Alive (Persistent Connection)
 
 ## Summary

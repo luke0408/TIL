@@ -1,7 +1,11 @@
 ---
-id: transfer-encoding
+title: "Chunked Transfer-Encoding"
+description: "Chunked Transfer-Encoding 개념을 정리한 노트입니다."
+sidebar_position: 2
 slug: /transfer-encoding
+id: transfer-encoding
 ---
+
 
 # Chunked Transfer-Encoding
 
