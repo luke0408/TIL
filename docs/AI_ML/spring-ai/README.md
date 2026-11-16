@@ -36,7 +36,7 @@ AI Application 개발에서는 데이터 흐름과 모델 연동 코드가 빠�
 ### Spring AI란?
 Spring AI는 LLM을 Java 생태계에 통합하기 위한 Spring 프로젝트다. Spring Boot 자동 구성과 익숙한 Bean 기반 개발 모델을 활용해 모델 연동 코드를 단순화하고, RAG·메모리·Tool Calling 같은 기능을 서비스 코드와 자연스럽게 결합할 수 있게 한다.
 
-구체적인 모델 호출 인터페이스는 [ChatModel](./ChatModel.md) 노트에서 이어서 볼 수 있다.
+구체적인 모델 호출 인터페이스는 [ChatModel](./chatModel.md) 노트에서 이어서 볼 수 있다.
 
 :::tip[정리]
 Spring AI의 핵심 가치는 단순 API 호출 편의성보다, 엔터프라이즈 환경에서 AI 기능을 일관되게 운영 가능한 구조로 만드는 데 있다.
