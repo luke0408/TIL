@@ -1,19 +1,11 @@
 ---
 title: "Explicit Type Casting in JavaScript"
-description: "TIL을 작성할 때에는 해당 노트의 제목과 관련한 내용만 작성합니다. 추가적인 개념을 설명할 필요가 있다면, 해당 개념에 대한 노트를 새롭게 작성합니다. 이후 해당 개념 노트를 Reference에 링크합니다."
+description: "명시적 타입 캐스팅은 String(), Number(), Boolean() 같은 함수로 값의 타입을 의도적으로 바꾸는 것이다."
 slug: /languages/javascript/explicit_type_casting
 created_at: "2025-03-30 13:44Z"
 sidebar_position: 8
 ---
 # Explicit Type Casting in JavaScript
-
-<!--
-TIL을 작성할 때에는 해당 노트의 제목과 관련한 내용만 작성합니다.
-추가적인 개념을 설명할 필요가 있다면, 해당 개념에 대한 노트를 새롭게 작성합니다.
-이후 해당 개념 노트를 Reference에 링크합니다.
-
-ex) 버블 정렬에 대해 설명하기 위해, Array 자료형을 설명해야할 경우 -> Array 노트 생성
--->
 
 ## Summary
 

@@ -42,8 +42,6 @@ console.log(user.name); // "Bob"
 
 ## Reference
 
-<!-- 사용하지 않는 레퍼런스 종류는 삭제 후 업로드 -->
-
 **link**: 관련 개념 노트
 
 - [JavaScript - var](./Var.md)

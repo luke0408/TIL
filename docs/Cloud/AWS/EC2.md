@@ -1,32 +1,17 @@
 ---
 title: "Amazon Elastic Compute Cloud(Amazon EC2)"
-description: "TIL을 작성할 때에는 해당 노트의 제목과 관련한 내용만 작성합니다. 추가적인 개념을 설명할 필요가 있다면, 해당 개념에 대한 노트를 새롭게 작성합니다. 이후 해당 개념 노트를 Reference에 링크합니다."
+description: "Amazon EC2는 AWS에서 가상 서버(인스턴스)를 만들고 보안과 네트워킹을 구성해 운영하는 클라우드 컴퓨팅 서비스다."
 slug: /cloud/aws/ec2
 created_at: "2025-02-07 07:49Z"
 sidebar_position: 2
 ---
 # Amazon Elastic Compute Cloud(Amazon EC2)
 
-<!--
-TIL을 작성할 때에는 해당 노트의 제목과 관련한 내용만 작성합니다.
-추가적인 개념을 설명할 필요가 있다면, 해당 개념에 대한 노트를 새롭게 작성합니다.
-이후 해당 개념 노트를 Reference에 링크합니다.
-
-ex) 버블 정렬에 대해 설명하기 위해, Array 자료형을 설명해야할 경우 -> Array 노트 생성
--->
-
 ## Summary
-
-<!-- A brief overview of the topic. -->
 
 EC2는 Amazon Web Services(AWS)의 클라우드 컴퓨팅 서비스를 의미한다. EC2 인스턴스(가상 서버)를 빌드하고 보안 및 네트워킹을 구성하여 관리하는 등 개발자가 보다 쉽게 클라우드 컴퓨팅을 할 수 있도록 설계되었다.
 
 ## Details
-
-<!--
-  Detailed explanation of the topic.
-  Additional information and examples.
--->
 
 ### 주요 특징
 
@@ -51,8 +36,6 @@ Amazon EC2는 다음의 대략적인 기능을 제공한다.
 - 스팟 인스턴스: 미사용 EC2 용량을 경매 방식으로 저렴하게 이용한다.
 
 ## Reference
-
-<!-- 사용하지 않는 레퍼런스 종류는 삭제 후 업로드 -->
 
 **link:** External reference
 
