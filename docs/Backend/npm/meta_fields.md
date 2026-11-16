@@ -3,7 +3,7 @@ title: "package.json – 기본 메타 필드 정리"
 description: "이 노트는 package.json의 기본 메타 필드들을 정리한 것이다. 이 필드들은 프로젝트의 정체성과 공개 정보(metadata)를 표현하며, 대부분 npm init으로 생성되는 항목들이다. -->."
 slug: /backend/npm/meta_fields
 created_at: "2025-07-20 13:05Z"
-sidebar_position: 4
+sidebar_position: 2
 ---
 # package.json – 기본 메타 필드 정리
 
