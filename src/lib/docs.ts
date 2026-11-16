@@ -38,6 +38,7 @@ export type DocItem = {
   sidebarPosition: number;
   html: string;
   headings: DocHeading[];
+  links: string[];
 };
 
 export type DirectoryTreeNode = {
@@ -45,6 +46,7 @@ export type DirectoryTreeNode = {
   name: string;
   path: string;
   slug?: string;
+  position?: number;
   children?: DirectoryTreeNode[];
 };
 
@@ -347,6 +349,35 @@ function toHtml(markdownBody: string) {
   return mapCodeBlocksToDesign(String(file));
 }
 
+const knownSlugs = new Set(Object.keys(rawDocs).map(toSlug));
+
+// Relative .md links work in Obsidian. The web needs /notes/<slug>, so rewrite them here.
+// ponytail: regex over rendered href attributes; move to a rehype plugin if links need more context.
+function rewriteDocLinks(html: string, fromPath: string) {
+  const links: string[] = [];
+  const rewritten = html.replace(/href="([^"]+)"/g, (whole, href: string) => {
+    const match = href.match(/^([^?#]+\.md)(#.*)?$/i);
+    if (!match || href.startsWith('/') || /^[a-z][a-z0-9+.-]*:/i.test(href)) return whole;
+
+    const targetPath = decodeURIComponent(new URL(match[1]!, `https://docs.local${fromPath}`).pathname);
+    const slug = toSlug(targetPath);
+    if (!knownSlugs.has(slug)) return whole;
+
+    links.push(slug);
+    return `href="${import.meta.env.BASE_URL}notes/${slug}${match[2] ?? ''}" data-doc-link="${slug}${match[2] ?? ''}"`;
+  });
+
+  return {html: rewritten, links: Array.from(new Set(links))};
+}
+
+function isRootDoc(doc: DocItem) {
+  return doc.id.replace('/docs/', '').split('/').length < 2;
+}
+
+function isReadmeDoc(doc: DocItem) {
+  return doc.id.endsWith('/README.md');
+}
+
 function toSidebarPosition(value: string | undefined) {
   const parsed = Number(value);
   return Number.isFinite(parsed) ? parsed : Number.MAX_SAFE_INTEGER;
@@ -367,7 +398,7 @@ function parseDoc(path: string, rawContent: string): DocItem {
   const subcategory = toSubcategoryFromPath(path);
   const sidebarPosition = toSidebarPosition(data.sidebar_position);
   const headings = toHeadings(normalizedContent);
-  const html = toHtml(normalizedContent);
+  const {html, links} = rewriteDocLinks(toHtml(normalizedContent), path);
 
   return {
     id: path,
@@ -383,6 +414,7 @@ function parseDoc(path: string, rawContent: string): DocItem {
     sidebarPosition,
     headings,
     html,
+    links,
   };
 }
 
@@ -417,7 +449,7 @@ function sortKeyParts(doc: DocItem) {
   return {category, subcategory, isReadme};
 }
 
-const orderedDocsForDetail = parsedDocs.slice().sort((a, b) => {
+const orderedDocsForDetail = parsedDocs.filter((doc) => !isRootDoc(doc)).sort((a, b) => {
   const aKey = sortKeyParts(a);
   const bKey = sortKeyParts(b);
 
@@ -439,6 +471,15 @@ const orderedDocsForDetail = parsedDocs.slice().sort((a, b) => {
 
 export function getDocsByCategoryOrder() {
   return orderedDocsForDetail;
+}
+
+export function isCategoryReadme(doc: DocItem) {
+  return isReadmeDoc(doc);
+}
+
+// Notes that link to this note. Category README lists are indexes, so they are left out.
+export function getBacklinks(slug: string) {
+  return orderedDocsForDetail.filter((doc) => !isReadmeDoc(doc) && doc.slug !== slug && doc.links.includes(slug));
 }
 
 export function getDocBySlug(slug: string) {
@@ -582,9 +623,10 @@ export function getDocDirectoryTree() {
     if (!exists) {
       targetChildren.push({
         type: 'file',
-        name: fileName,
+        name: doc.title,
         path: filePath,
         slug: doc.slug,
+        position: doc.sidebarPosition,
       });
     }
   }
@@ -601,7 +643,10 @@ export function getDocDirectoryTree() {
           return a.type === 'directory' ? -1 : 1;
         }
 
-        return a.name.localeCompare(b.name);
+        const positionCompare = (a.position ?? 0) - (b.position ?? 0);
+        if (positionCompare !== 0) return positionCompare;
+
+        return a.name.localeCompare(b.name, 'ko');
       });
   }
 

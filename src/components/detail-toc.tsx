@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-import {getDocsByCategoryOrder} from '../lib/docs';
+import {getDocsByCategoryOrder, isCategoryReadme} from '../lib/docs';
 
 type DetailTocProps = {
   currentSlug: string;
@@ -20,6 +20,22 @@ export function DetailToc({currentSlug}: DetailTocProps) {
         {orderedDocs.map((doc) => {
           const showCategory = previousCategory !== doc.category;
           previousCategory = doc.category;
+          const isActive = doc.slug === currentSlug;
+
+          // A category README is the category's landing page: show it as a heading, not as a note.
+          if (isCategoryReadme(doc)) {
+            return (
+              <li key={doc.slug}>
+                <Link
+                  className={`mb-1 mt-3 block truncate text-[11px] font-bold uppercase tracking-wider transition-colors hover:text-primary ${
+                    isActive ? 'text-primary' : 'text-slate-400'
+                  } ${doc.subcategory ? 'pl-2' : ''}`}
+                  to={`/notes/${doc.slug}`}>
+                  {doc.subcategory ? doc.subcategory : doc.category}
+                </Link>
+              </li>
+            );
+          }
 
           return (
             <li key={doc.slug}>
@@ -30,7 +46,7 @@ export function DetailToc({currentSlug}: DetailTocProps) {
               )}
               <Link
                 className={
-                  doc.slug === currentSlug
+                  isActive
                     ? 'block truncate rounded-md bg-primary/10 px-2 py-1.5 font-medium text-primary'
                     : 'block truncate rounded-md px-2 py-1.5 text-slate-500 transition-colors hover:text-primary dark:text-slate-400'
                 }

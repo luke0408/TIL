@@ -1,11 +1,11 @@
 import mermaid from 'mermaid';
-import {useEffect, useState} from 'react';
-import {Link, useParams} from 'react-router-dom';
+import {type MouseEvent, useEffect, useState} from 'react';
+import {Link, useNavigate, useParams} from 'react-router-dom';
 
 import {DetailSidebar} from '../components/detail-sidebar';
 import {DetailToc} from '../components/detail-toc';
 import {MobileBottomNav} from '../components/mobile-bottom-nav';
-import {getAdjacentDocs, getDocBySlug} from '../lib/docs';
+import {getAdjacentDocs, getBacklinks, getDocBySlug} from '../lib/docs';
 
 type GithubProfile = {
   name: string;
@@ -27,6 +27,20 @@ export function DetailPage() {
   });
 
   const adjacent = slug ? getAdjacentDocs(slug) : {previous: undefined, next: undefined};
+  const backlinks = slug ? getBacklinks(slug) : [];
+  const navigate = useNavigate();
+
+  // Note-to-note links in the body are plain anchors. Route them inside the app instead of reloading.
+  function handleArticleClick(event: MouseEvent<HTMLElement>) {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+
+    const anchor = (event.target as HTMLElement).closest<HTMLAnchorElement>('a[data-doc-link]');
+    if (!anchor) return;
+
+    event.preventDefault();
+    navigate(`/notes/${anchor.dataset.docLink}`);
+    window.scrollTo(0, 0);
+  }
 
   useEffect(() => {
     mermaid.initialize({
@@ -146,7 +160,28 @@ export function DetailPage() {
               </div>
             </header>
 
-            <article className="markdown-body" dangerouslySetInnerHTML={{__html: note.html}} />
+            <article className="markdown-body" dangerouslySetInnerHTML={{__html: note.html}} onClick={handleArticleClick} />
+
+            {backlinks.length > 0 && (
+              <section aria-labelledby="backlinks-heading" className="mt-16">
+                <h2 className="mb-1 text-lg font-bold text-slate-900 dark:text-white" id="backlinks-heading">
+                  이어 읽기
+                </h2>
+                <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">이 노트를 링크한 노트</p>
+                <ul className="grid grid-cols-1 gap-3 md:grid-cols-2">
+                  {backlinks.map((doc) => (
+                    <li key={doc.slug}>
+                      <Link
+                        className="block rounded-xl border border-slate-100 p-4 transition-all hover:border-primary/50 dark:border-slate-800"
+                        to={`/notes/${doc.slug}`}>
+                        <span className="block text-xs text-slate-400">{doc.subcategory ?? doc.category}</span>
+                        <span className="block truncate font-semibold text-slate-900 dark:text-white">{doc.title}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             <footer className="mt-16 border-t border-slate-100 pt-8 dark:border-slate-800">
               <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
