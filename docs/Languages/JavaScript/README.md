@@ -92,6 +92,71 @@ sidebar_position: 1
 
 :::
 
+## 읽는 순서
+
+**시작**
+
+1. [자바스크립트의 역사](./History_of_JavaScript.md)
+
+**변수 선언**
+
+2. [`var`](./Var.md)
+3. [`let`](./Let.md)
+4. [`const`](./Const.md)
+
+**원시 타입**
+
+5. [숫자형 (number)](./Number.md)
+6. [문자열 (String)](./String.md)
+7. [논리 타입 (Boolean)](./Boolean.md)
+8. [null](./Null.md)
+9. [undefined](./Undefined.md)
+10. [Symbol](./Symbol.md)
+11. [BigInt](./BigInt.md)
+12. [`typeof` operator](./Typeof.md)
+
+**타입 변환**
+
+13. [Explicit Type Casting in JavaScript](./Explicit_Type_Casting.md)
+14. [Implicit Type Casting in JavaScript](./Implicit_Type_Casting.md)
+15. [JavaScript에서 Number 타입의 문제점](./Number_Type_Issues.md)
+
+**객체**
+
+16. [Object](./Object.md)
+17. [JavaScript Built-in Object 개요](./Built-in_Object.md)
+18. [JavaScript Map](./Map.md)
+19. [JSON in JavaScript](./Json.md)
+
+**함수와 스코프**
+
+20. [Function](./Function.md)
+21. [Arrow Function](./Arrow_Function.md)
+22. [스코프](./Scope.md)
+23. [호이스팅](./Hoisting.md)
+24. [Execution Context in JavaScript](./Execution_Context.md)
+
+**프로토타입**
+
+25. [객체 프로토타입](./ObjectPrototype.md)
+26. [Prototypal Inheritance](./Prototypal_Inheritance.md)
+
+**엔진**
+
+27. [Introduction to JavaScript Engine](./Introduction_to_JavaScript_Engine.md)
+28. [Parser and AST (Abstract Syntax Tree)](./Parser_And_AST.md)
+29. [JavaScript Compilation Process](./JavaScript_Compilation_Process.md)
+
+**도구**
+
+30. [JsDoc](./JSDoc.md)
+
+`JavaScript에서 Number 타입의 문제점`은 [IEEE 754 Floating Point](../../DevGeneral/IEEE/IEEE_754_Floating_Point.md)를 먼저 읽는다.
+
+## 먼저 읽을 카테고리
+
+없음.
+
 ## Reference
 
 **link:** External reference

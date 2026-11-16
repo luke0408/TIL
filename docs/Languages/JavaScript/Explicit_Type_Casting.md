@@ -3,7 +3,7 @@ title: "Explicit Type Casting in JavaScript"
 description: "명시적 타입 캐스팅은 String(), Number(), Boolean() 같은 함수로 값의 타입을 의도적으로 바꾸는 것이다."
 slug: /languages/javascript/explicit_type_casting
 created_at: "2025-03-30 13:44Z"
-sidebar_position: 8
+sidebar_position: 14
 ---
 # Explicit Type Casting in JavaScript
 
