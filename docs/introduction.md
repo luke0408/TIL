@@ -1,5 +1,5 @@
 ---
-description: "이 문서는 개발자로서 학습한 내용과 지식을 체계적으로 정리하기 위해 만들어진 개인 TIL(Today I Learned) 저장소입니다. 다양한 기술 스택과 개념을 주제별로 분류하여 기록하고 있습니다."
+description: "개발하면서 배운 CS 개념과 기술을 주제별로 정리한 개인 기술 문서 저장소다."
 slug: /introduction
 created_at: "2025-09-23 14:09Z"
 id: introduction
@@ -7,97 +7,26 @@ id: introduction
 
 # Introduction
 
-이 문서는 개발자로서 학습한 내용과 지식을 체계적으로 정리하기 위해 만들어진 개인 TIL(Today I Learned) 저장소입니다. 다양한 기술 스택과 개념을 주제별로 분류하여 기록하고 있습니다.
+이 사이트는 개발하면서 배운 CS 개념과 기술을 주제별로 정리한 개인 기술 문서 저장소다.
 
-각 디렉터리는 특정 기술 분야를 다루며, 하위 디렉토리 구조는 다음과 같습니다.
+## 독자
 
-## AI_ML
+이 사이트는 기본 프로그래밍을 아는 백엔드 개발자를 위한 사이트다. 독자는 이 사이트로 CS 개념을 다시 정리한다. 카테고리 안의 노트는 쉬운 것부터 어려운 것 순서로 둔다.
 
-인공지능 및 머신러닝 관련 학습 내용을 정리합니다. RAG, Spring AI 등 최신 AI 기술 스택을 다룹니다.
+## 읽는 방법
 
-```bash
-AI_ML
-├── RAG
-│   └── img
-└── spring-ai
-```
+각 카테고리의 README는 그 카테고리의 범위, 읽는 순서, 먼저 읽을 카테고리를 알려 준다. 노트 첫머리에 "먼저 읽기"가 있으면 그 노트를 먼저 읽는다. 노트 아래의 "이어 읽기"는 그 노트를 링크한 노트다.
 
-## Backend
+## 카테고리
 
-서버 개발에 필요한 기술과 프레임워크를 다룹니다. NestJS, npm 등 백엔드 생태계의 핵심 요소를 학습합니다.
+- [AI_ML](./AI_ML/README.md): 임베딩, RAG, Spring AI
+- [Backend](./Backend/README.md): npm, NestJS
+- [Cloud](./Cloud/README.md): AWS
+- [DevGeneral](./DevGeneral/README.md): 설계 원칙, 리팩터링, 디자인 패턴, 알고리즘, IEEE 754, 애자일
+- [DevOps](./DevOps/README.md): Pulumi, Algolia DocSearch
+- [Languages](./Languages/README.md): JavaScript, TypeScript
+- [Networking](./Networking/README.md): HTTP
+- [OperatingSystems](./OperatingSystems/README.md): Linux
+- [Book](./Book/README.md): 책별 정리 노트
 
-```bash
-Backend
-├── NestJS
-└── npm
-    └── package_json
-```
-
-## Cloud
-
-클라우드 컴퓨팅과 관련된 AWS 서비스를 학습하고 정리합니다.
-
-```bash
-Cloud
-└── AWS
-```
-
-## DevGeneral
-
-소프트웨어 개발 전반에 걸친 일반적인 주제를 다룹니다. 디자인 패턴, 리팩터링, 개발 원칙 등을 포함합니다.
-
-```bash
-DevGeneral
-├── Agile
-├── Algorithm
-│   └── Sort
-├── DesignPatterns
-├── IEEE
-├── Principle
-└── Refactoring
-```
-
-## DevOps
-
-DevOps 문화와 관련된 기술 및 도구를 학습합니다. Pulumi를 이용한 IaC(Infrastructure as Code)를 다룹니다.
-
-```bash
-DevOps
-└── Pulumi
-```
-
-## Languages
-
-프로그래밍 언어의 문법과 핵심 개념을 정리합니다. JavaScript와 TypeScript를 중심으로 학습합니다.
-
-```bash
-Languages
-├── JavaScript
-│   ├── DataStructures
-│   ├── DataTypes
-│   ├── Engine
-│   ├── Functions
-│   ├── JSDoc
-│   ├── Object
-│   ├── TypeCasting
-│   └── Variables
-└── TypeScript
-```
-
-## Networking
-
-네트워크의 기초가 되는 HTTP 프로토콜에 대해 학습하고 정리합니다.
-
-```bash
-Networking
-└── HTTP
-```
-
-## OperatingSystems
-
-운영체제 및 Linux 명령어 사용법을 정리합니다.
-
-```bash
-OperatingSystems
-└── Linux
-```
+폴더 구조는 사이드바에서 본다. 이 문서에는 폴더 트리를 쓰지 않는다. 트리를 따로 쓰면 구조가 바뀔 때 내용이 틀어진다.
