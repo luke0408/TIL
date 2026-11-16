@@ -28,3 +28,8 @@ docs/Excalidraw
 
 # Agent
 .agent/
+
+# Local-only vault material; never publish or track
+/private/
+/.obsidian/
+/.trash/
