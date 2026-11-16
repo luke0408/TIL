@@ -7,7 +7,11 @@
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "check:public": "node scripts/check-public-boundary.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "prebuild": "npm run check:public && npm run check:links",
+    "postbuild": "npm run check:public"
   },
   "dependencies": {
     "highlight.js": "^11.11.1",
