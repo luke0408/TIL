@@ -132,6 +132,8 @@ Structure intent:
   - `issue`: issue in this repo
   - `link`: external references
 - If the note mentions previously documented concepts, add inline markdown links in the body to related local notes.
+- Follow the link rules in `README.md`: relative Markdown links only, an optional `먼저 읽기:` line under the title, and a category README `## 읽는 순서` list that links every note.
+- Run `npm run check:links` after adding, moving, or renaming notes.
 
 ---
 
