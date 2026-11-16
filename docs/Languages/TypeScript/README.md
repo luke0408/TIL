@@ -1,14 +1,19 @@
 ---
 title: "TypeScript"
-description: "TypeScript 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다."
+description: "TypeScript는 JavaScript에 정적 타입을 더한 언어다. TypeScript의 타입 기능을 다룬다."
 slug: /languages/typescript
 created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1
 ---
+
 # TypeScript
 
-TypeScript 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다.
+TypeScript는 JavaScript에 정적 타입을 더한 언어다. 이 카테고리는 TypeScript의 타입 기능을 다룬다.
 
-## 다루는 개념
+## 읽는 순서
 
-- [Const Assertion](./Const_Assertion.md)
+1. [Const Assertion](./Const_Assertion.md)
+
+## 먼저 읽을 카테고리
+
+[JavaScript](../JavaScript/README.md)

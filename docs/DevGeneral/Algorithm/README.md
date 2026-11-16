@@ -1,14 +1,19 @@
 ---
 title: "Algorithm"
-description: "Algorithm 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다."
+description: "정렬 같은 기본 알고리즘의 동작 원리와 복잡도를 다룬다."
 slug: /devgeneral/algorithm
 created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1
 ---
+
 # Algorithm
 
-Algorithm 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다.
+Algorithm 카테고리는 정렬 같은 기본 알고리즘의 동작 원리와 복잡도를 다룬다.
 
-## 다루는 개념
+## 읽는 순서
 
-- [Merge Sort](./Merge_Sort.md)
+1. [Merge Sort](./Merge_Sort.md)
+
+## 먼저 읽을 카테고리
+
+없음.

@@ -1,14 +1,19 @@
 ---
 title: "DesignPatterns"
-description: "DesignPatterns 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다."
+description: "반복되는 설계 문제를 푸는 객체 생성과 구조의 패턴을 다룬다."
 slug: /devgeneral/designpatterns
 created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1
 ---
+
 # DesignPatterns
 
-DesignPatterns 카테고리의 핵심 개념을 소개하고 관련 노트로 연결합니다.
+DesignPatterns 카테고리는 반복되는 설계 문제를 푸는 패턴을 다룬다. 지금은 객체 생성 패턴을 다룬다.
 
-## 다루는 개념
+## 읽는 순서
 
-- [정적 팩토리 메서드](./Static_Factory_Method.md)
+1. [정적 팩토리 메서드](./Static_Factory_Method.md)
+
+## 먼저 읽을 카테고리
+
+없음.
