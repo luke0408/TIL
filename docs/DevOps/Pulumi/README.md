@@ -25,6 +25,15 @@ Pulumi의 실제 구성 단위는 [Project](./Project.md)와 [Stack](./Stack.md)
 
 멀티 클라우드나 Kubernetes까지 확장해도 기본 원리는 같다. 변경 계획을 검토하고, 상태를 일관되게 유지하며, 환경별 차이를 Stack으로 통제한다. 도구 선택 자체보다 이 운영 원칙을 지키는 것이 장애를 줄이고 배포 신뢰도를 높이는 데 더 큰 영향을 준다.
 
+## 읽는 순서
+
+1. [Pulumi Project](./Project.md)
+2. [Pulumi Stack](./Stack.md)
+
+## 먼저 읽을 카테고리
+
+없음.
+
 ## Reference
 
 **link**

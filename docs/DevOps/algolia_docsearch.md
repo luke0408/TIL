@@ -13,7 +13,7 @@ sidebar_position: 2
 Algolia DocSearch는 Docusaurus 문서 검색을 외부 인덱스로 제공하는 방식이며, 사이트 쪽에는 조회용 설정만 있으면 동작한다. 이번 TIL 적용 과정에서 핵심은 인덱스 쓰기 권한이 아니라 올바른 조회 설정과 환경변수 주입, 그리고 크롤링 완료 상태 확인이었다.
 
 > [!NOTE]
-> 이 노트는 이 TIL 사이트가 Docusaurus로 빌드되던 시기의 적용 기록이다. 지금 사이트는 Vite 기반으로 바뀌었고 DocSearch를 쓰지 않는다.
+> 이 노트는 이 TIL을 Docusaurus 사이트로 운영하던 시기의 적용 기록이다. 지금은 별도 웹사이트 없이 GitHub에서 노트를 읽으므로 DocSearch를 쓰지 않는다.
 
 ## Details
 
