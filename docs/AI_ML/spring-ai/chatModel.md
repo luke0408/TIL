@@ -18,10 +18,9 @@ sidebar_position: 2
 - **응답(ChatResponse)** 을 수신하며
 - 필요 시 **대화 상태(conversation state)** 를 유지·관리한다.
 
-:::note[NOTE]
-Spring AI의 ChatModel은 “JDBC의 Statement”와 유사한 개념으로,  
-AI 모델과의 기본 요청/응답을 담당하는 저수준 API이다.
-:::
+> [!NOTE]
+> Spring AI의 ChatModel은 “JDBC의 Statement”와 유사한 개념으로,
+> AI 모델과의 기본 요청/응답을 담당하는 저수준 API이다.
 
 
 ### 2. 주요 메서드

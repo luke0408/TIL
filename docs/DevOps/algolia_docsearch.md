@@ -12,11 +12,8 @@ sidebar_position: 2
 
 Algolia DocSearch는 Docusaurus 문서 검색을 외부 인덱스로 제공하는 방식이며, 사이트 쪽에는 조회용 설정만 있으면 동작한다. 이번 TIL 적용 과정에서 핵심은 인덱스 쓰기 권한이 아니라 올바른 조회 설정과 환경변수 주입, 그리고 크롤링 완료 상태 확인이었다.
 
-:::note
-
-이 노트는 이 TIL 사이트가 Docusaurus로 빌드되던 시기의 적용 기록이다. 지금 사이트는 Vite 기반으로 바뀌었고 DocSearch를 쓰지 않는다.
-
-:::
+> [!NOTE]
+> 이 노트는 이 TIL 사이트가 Docusaurus로 빌드되던 시기의 적용 기록이다. 지금 사이트는 Vite 기반으로 바뀌었고 DocSearch를 쓰지 않는다.
 
 ## Details
 
@@ -47,11 +44,8 @@ const config = {
 export default config;
 ```
 
-:::warning
-
-관리자 키(Admin API Key)는 인덱스를 수정하고 삭제할 수 있다. 이 키를 사이트 설정에 넣으면 빌드 결과물을 통해 누구나 볼 수 있으므로 절대 넣지 않는다.
-
-:::
+> [!WARNING]
+> 관리자 키(Admin API Key)는 인덱스를 수정하고 삭제할 수 있다. 이 키를 사이트 설정에 넣으면 빌드 결과물을 통해 누구나 볼 수 있으므로 절대 넣지 않는다.
 
 ### 로컬과 CI의 환경변수
 
