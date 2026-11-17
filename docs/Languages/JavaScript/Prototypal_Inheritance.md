@@ -25,11 +25,8 @@ rabbit.__proto__ = animal;
 console.log(rabbit.eats); // true
 ```
 
-:::note 
-
-`__proto__`는 비표준이나 대부분의 환경에서 지원된다. 표준 메서드인 `Object.setPrototypeOf()`와 `Object.getPrototypeOf()` 사용이 권장된다. 
-
-:::
+> [!NOTE]
+> `__proto__`는 비표준이나 대부분의 환경에서 지원된다. 표준 메서드인 `Object.setPrototypeOf()`와 `Object.getPrototypeOf()` 사용이 권장된다.
 
 ### Object.create를 이용한 상속
 
@@ -58,11 +55,8 @@ const rabbit = new Animal('Rabbit');
 console.log(rabbit.eats); // true
 ```
 
-:::info 
-
-`new` 키워드를 사용하면 객체는 해당 생성자의 `prototype`을 `Prototype`으로 갖는다. 
-
-:::
+> [!NOTE]
+> `new` 키워드를 사용하면 객체는 해당 생성자의 `prototype`을 `Prototype`으로 갖는다.
 
 ### 클래스와 프로토타입
 
@@ -86,11 +80,8 @@ class Rabbit extends Animal {
 }
 ```
 
-:::caution 
-
-클래스는 `strict mode`에서만 동작하며, 호이스팅되지 않는다. 클래스 선언 이전에 사용할 수 없다. 
-
-:::
+> [!CAUTION]
+> 클래스는 `strict mode`에서만 동작하며, 호이스팅되지 않는다. 클래스 선언 이전에 사용할 수 없다.
 
 ### 메서드 오버라이딩과 super
 

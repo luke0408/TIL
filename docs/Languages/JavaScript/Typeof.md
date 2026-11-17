@@ -29,11 +29,8 @@ sidebar_position: 13
 | `typeof []`            | `"object"`    |
 | `typeof function() {}` | `"function"`  |
 
-:::note 
-
-`typeof`는 함수에 대해서만 특별히 `"function"`을 반환하고, 나머지 모든 객체는 `"object"`를 반환한다. 
-
-:::
+> [!NOTE]
+> `typeof`는 함수에 대해서만 특별히 `"function"`을 반환하고, 나머지 모든 객체는 `"object"`를 반환한다.
 
 ### null 타입의 예외
 
@@ -43,11 +40,8 @@ sidebar_position: 13
 typeof null; // "object"
 ```
 
-:::caution 
-
-`null`은 실제로 객체가 아니며, 타입 확인 시 주의해야 한다. 
-
-:::
+> [!CAUTION]
+> `null`은 실제로 객체가 아니며, 타입 확인 시 주의해야 한다.
 
 ### 배열과 객체의 구분
 
@@ -72,11 +66,8 @@ Array.isArray([]); // true
 typeof notDeclared; // "undefined"
 ```
 
-:::tip 
-
-선언 여부와 무관하게 안전하게 타입을 확인할 수 있다는 점에서 `typeof`는 유용하다. 
-
-:::
+> [!TIP]
+> 선언 여부와 무관하게 안전하게 타입을 확인할 수 있다는 점에서 `typeof`는 유용하다.
 
 ## Reference
 

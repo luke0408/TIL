@@ -23,11 +23,8 @@ let double = '큰따옴표';
 let backticks = `백틱`;
 ```
 
-:::tip 
-
-백틱( `` )을 사용하면 템플릿 리터럴(template literal)을 활용하여 문자열 중간에 표현식을 삽입할 수 있다. 
-
-:::
+> [!TIP]
+> 백틱( `` )을 사용하면 템플릿 리터럴(template literal)을 활용하여 문자열 중간에 표현식을 삽입할 수 있다.
 
 ```javascript
 function sum(a, b) {
@@ -65,11 +62,8 @@ console.log("I'm a developer."); // I'm a developer.
 console.log('Hello\nWorld'); // 줄 바꿈
 ```
 
-:::note 
-
-역슬래시 `\`는 문자열 내에서 **특수 문자**를 나타내기 위한 기호로 사용된다. 
-
-:::
+> [!NOTE]
+> 역슬래시 `\`는 문자열 내에서 **특수 문자**를 나타내기 위한 기호로 사용된다.
 
 ### 문자열 길이
 
@@ -89,11 +83,8 @@ console.log(str[0]); // "H"
 console.log(str.charAt(0)); // "H"
 ```
 
-:::info 
-
-문자열은 **불변(immutable)** 이므로 중간의 글자를 직접 수정할 수 없다. 
-
-:::
+> [!NOTE]
+> 문자열은 **불변(immutable)** 이므로 중간의 글자를 직접 수정할 수 없다.
 
 ### 대·소문자 변경
 
@@ -133,11 +124,8 @@ console.log(str.substring(2, 6)); // "ring"
 console.log(str.substr(2, 4)); // "ring"
 ```
 
-:::warning 
-
-`substr`는 최신 JavaScript 표준에서 비권장(Deprecated)으로 간주되므로 `slice`를 사용하는 것이 좋다. 
-
-:::
+> [!WARNING]
+> `substr`는 최신 JavaScript 표준에서 비권장(Deprecated)으로 간주되므로 `slice`를 사용하는 것이 좋다.
 
 ### 문자열 비교
 

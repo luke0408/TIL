@@ -48,15 +48,12 @@ sidebar_position: 12
   console.log(big + num); // TypeError 발생
   ```
 
-:::tip 
-
-연산 전 **명시적 변환**이 필요하다:
-
-```javascript
-console.log(big + BigInt(num)); // 정상 동작
-```
-
-:::
+> [!TIP]
+> 연산 전 **명시적 변환**이 필요하다:
+>
+> ```javascript
+> console.log(big + BigInt(num)); // 정상 동작
+> ```
 
 - **비교 연산자**는 `Number`와 `BigInt` 간 비교 가능:
   ```javascript
@@ -88,15 +85,12 @@ console.log(big + BigInt(num)); // 정상 동작
   JSON.stringify(big); // TypeError 발생
   ```
 
-:::tip 
-
-BigInt를 문자열로 변환한 후 직렬화해야 한다:
-
-```javascript
-JSON.stringify(big.toString()); // '"10"'
-```
-
-:::
+> [!TIP]
+> BigInt를 문자열로 변환한 후 직렬화해야 한다:
+>
+> ```javascript
+> JSON.stringify(big.toString()); // '"10"'
+> ```
 
 ### 활용 예시
 

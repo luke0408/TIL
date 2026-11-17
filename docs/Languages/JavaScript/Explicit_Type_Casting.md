@@ -17,11 +17,8 @@ sidebar_position: 14
 
 명시적 타입 캐스팅(Explicit Type Casting)은 프로그래머가 코드 상에서 명확하게 타입을 변경하는 행위를 의미한다. JavaScript는 동적 타입 언어이기 때문에 암시적 타입 변환도 자주 발생하지만, 명시적 타입 변환을 통해 더욱 의도적인 코드 작성이 가능하다.
 
-:::tip 
-
-명시적 타입 캐스팅을 활용하면 예외 상황을 방지하고, 디버깅을 쉽게 하며, 타입 불일치로 인한 버그를 줄일 수 있다. 
-
-:::
+> [!TIP]
+> 명시적 타입 캐스팅을 활용하면 예외 상황을 방지하고, 디버깅을 쉽게 하며, 타입 불일치로 인한 버그를 줄일 수 있다.
 
 ### 문자열로 변환 (To String)
 
@@ -34,27 +31,26 @@ String(123); // "123"
 true.toString(); // "true"
 ```
 
-:::warning `null`과 `undefined`는 `toString()`을 직접 호출하면 오류가 발생하므로 `String()` 함수를 사용하는 것이 안전하다. :::
-
-### 숫자로 변환 (To Number)
-
-- `Number(value)`
-- `parseInt(value)`
-- `parseFloat(value)`
-
-```js
-Number('123'); // 123
-parseInt('123.45'); // 123
-parseFloat('123.45'); // 123.45
-Number(true); // 1
-Number(false); // 0
-```
-
-:::caution 
-
-`Number("")`은 0이지만, `Number("abc")`는 `NaN`이 된다. 
-
-:::
+> [!WARNING]
+> **`null`과 `undefined`는 `toString()`을 직접 호출하면 오류가 발생하므로 `String()` 함수를 사용하는 것이 안전하다. :::**
+>
+> ### 숫자로 변환 (To Number)
+>
+> - `Number(value)`
+> - `parseInt(value)`
+> - `parseFloat(value)`
+>
+> ```js
+> Number('123'); // 123
+> parseInt('123.45'); // 123
+> parseFloat('123.45'); // 123.45
+> Number(true); // 1
+> Number(false); // 0
+> ```
+>
+> :::caution
+>
+> `Number("")`은 0이지만, `Number("abc")`는 `NaN`이 된다.
 
 ### 불리언으로 변환 (To Boolean)
 
@@ -68,11 +64,8 @@ Boolean(null); // false
 Boolean({}); // true
 ```
 
-:::note 
-
-JavaScript에서 `false`로 변환되는 값은 다음과 같다: `0`, `""`, `null`, `undefined`, `NaN`, `false` 
-
-:::
+> [!NOTE]
+> JavaScript에서 `false`로 변환되는 값은 다음과 같다: `0`, `""`, `null`, `undefined`, `NaN`, `false`
 
 ### Object로 변환
 
@@ -84,11 +77,8 @@ Object('abc'); // String {"abc"}
 Object(true); // Boolean {true}
 ```
 
-:::info 
-
-이러한 변환은 일반적인 객체 사용보다 드물며, 명시적으로 객체 포장을 해야 할 필요가 있는 특수한 상황에 사용된다. 
-
-:::
+> [!NOTE]
+> 이러한 변환은 일반적인 객체 사용보다 드물며, 명시적으로 객체 포장을 해야 할 필요가 있는 특수한 상황에 사용된다.
 
 ## Reference
 

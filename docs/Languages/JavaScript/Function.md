@@ -59,11 +59,8 @@ const add = (a, b) => a + b;
 console.log(add(3, 4)); // 7
 ```
 
-:::info 
-
-화살표 함수는 `this`의 바인딩 방식이 다르며, 생성자로 사용할 수 없다. 
-
-:::
+> [!NOTE]
+> 화살표 함수는 `this`의 바인딩 방식이 다르며, 생성자로 사용할 수 없다.
 
 ### 매개변수와 기본값 (Parameters & Default Values)
 
@@ -114,11 +111,8 @@ const addThree = createAdder(3);
 console.log(addThree(4)); // 7
 ```
 
-:::tip 
-
-클로저는 데이터 은닉 및 함수형 프로그래밍에서 중요한 개념이다. 
-
-:::
+> [!TIP]
+> 클로저는 데이터 은닉 및 함수형 프로그래밍에서 중요한 개념이다.
 
 ### 함수의 `this` 바인딩
 
