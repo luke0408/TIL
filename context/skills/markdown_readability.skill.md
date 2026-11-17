@@ -1,43 +1,43 @@
-# Skill: docusaurus_markdown_readability
+# Skill: markdown_readability
 
 ## Goal
-Docusaurus에서 지원하는 Markdown 기능을 사용하되, 최우선 기준은 항상 가독성으로 둔다.
+GitHub와 Obsidian이 모두 보여 주는 Markdown 기능만 사용하고, 최우선 기준은 항상 가독성으로 둔다.
 
 ## Readability-First Principles
 1. 기능 사용 가능성보다 읽기 흐름을 우선한다.
 2. 같은 정보를 더 단순한 문법으로 표현할 수 있으면 단순한 문법을 선택한다.
-3. 장식적 기능(JSX/복잡한 HTML)은 학습 전달력이 올라갈 때만 사용한다.
+3. 장식적 기능(복잡한 HTML)은 학습 전달력이 올라갈 때만 사용한다.
 
-## Recommended Feature Usage (Docusaurus)
+## Recommended Feature Usage (GitHub · Obsidian)
 - Headings: `#`, `##`, `###`로 문서 구조를 명확히 나눈다.
 - Emphasis: `**bold**`, `_italic_`는 핵심 강조에만 제한적으로 사용한다.
 - Links/Images: 기본 Markdown 링크/이미지를 사용한다.
 - Code blocks: 예시는 fenced code block(언어 지정)으로 제공한다.
 - Blockquotes: 인용문/원문 발췌에만 사용한다.
 - Front matter: 문서 상단 YAML 메타데이터(`title`, `description`, `sidebar_position`)를 사용한다.
-- Admonitions: `note`, `tip`, `info`, `warning`, `danger`를 핵심 강조에 제한적으로 사용한다.
+- Alerts: `> [!NOTE]`, `> [!TIP]`, `> [!IMPORTANT]`, `> [!WARNING]`, `> [!CAUTION]`를 핵심 강조에 제한적으로 사용한다. Docusaurus `:::` 문법은 쓰지 않는다.
 - Details (`<details>`): 본문 흐름을 방해하는 부가 설명을 접어둘 때만 사용한다.
 
-## Admonition Readability Rules
+## Alert Readability Rules
 - 목적이 명확할 때만 사용한다. (핵심 요약, 주의사항, 실수 방지 포인트)
 - 문단을 대체하지 않는다. 기본 설명은 줄글로 유지하고, 강조 포인트만 감싼다.
 - 과도한 중첩을 피한다. (중첩이 필요하면 최대 1단계)
-- Prettier 호환을 위해 시작/종료 directive 주변에 빈 줄을 둔다.
+- 알림 상자 앞뒤에 빈 줄을 둔다. 제목이 필요하면 상자 첫 줄에 `> **제목**`을 쓴다.
 
 권장 예시:
 
 ```md
-:::tip[핵심]
-이 개념은 A를 이해한 다음 B 순서로 보는 것이 가장 빠릅니다.
-:::
+> [!TIP]
+> **핵심**
+>
+> 이 개념은 A를 이해한 다음 B 순서로 보는 것이 가장 빠릅니다.
 
-:::warning[주의]
-용어는 비슷하지만 실행 컨텍스트와 스코프는 같은 개념이 아닙니다.
-:::
+> [!WARNING]
+> 용어는 비슷하지만 실행 컨텍스트와 스코프는 같은 개념이 아닙니다.
 ```
 
 ## Use With Caution
-- Raw HTML/JSX(MDX): UI적 이점이 명확할 때만 사용한다.
+- Raw HTML: 읽기에 이점이 명확할 때만 사용한다. GitHub는 많은 HTML 속성을 지운다.
 - 중첩 구조(중첩 리스트, 중첩 details)는 최소화한다.
 
 ## Preferred Note Skeleton
@@ -66,5 +66,5 @@ sidebar_position: <숫자>
 
 ## Anti-Patterns
 - 리스트만 연속으로 배치해 문서가 체크리스트처럼 보이게 작성하지 않는다.
-- 가독성 향상 효과 없는 MDX/HTML 기능을 과도하게 추가하지 않는다.
+- 가독성 향상 효과 없는 HTML 기능을 과도하게 추가하지 않는다.
 - 본문보다 시각 효과에 집중하지 않는다.
