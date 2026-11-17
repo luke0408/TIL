@@ -1,6 +1,6 @@
 ---
 title: "Pulumi Stack"
-description: "Pulumi Stack(스택)은 하나의 프로젝트에서 여러 환경(Development, Staging, Production 등)을 관리하는 단위이다. 각 스택은 고유한 구성(Config)과 상태(State) 를 가지며, 하나의 프로젝트 내에서 다양한."
+description: "Pulumi Stack(스택)은 하나의 프로젝트에서 여러 환경(Development, Staging, Production 등)을 관리하는 단위이다."
 slug: /devops/pulumi/stack
 created_at: "2025-03-03 09:06Z"
 sidebar_position: 3
@@ -21,7 +21,7 @@ Pulumi에서 Stack은 프로젝트 내에서 **환경별 배포 단위**를 정�
 
 :::note 
 
-**Stack은 같은 프로젝트 안에서 여러 개를 만들 수 있으며, 서로 독립적으로 관리됩니다.** 예를 들어, `dev`, `staging`, `prod`와 같은 환경을 각각 스택으로 정의하여 사용할 수 있습니다. 
+**Stack은 같은 프로젝트 안에서 여러 개를 만들 수 있으며, 서로 독립적으로 관리된다.** 예를 들어, `dev`, `staging`, `prod`와 같은 환경을 각각 스택으로 정의하여 사용할 수 있다. 
 
 :::
 
@@ -39,7 +39,7 @@ Pulumi Stack을 사용하면 다음과 같은 작업이 가능하다:
 
 :::info 
 
-**스택 간 리소스가 공유되지 않습니다.** 즉, `dev` 스택에서 생성된 리소스는 `prod` 스택과 전혀 연관이 없습니다. 
+**스택 간 리소스는 공유되지 않는다.** 즉, `dev` 스택에서 생성된 리소스는 `prod` 스택과 연관이 없다. 다른 스택의 출력값이 필요하면 `StackReference`로 명시적으로 읽어 온다. 
 
 :::
 
