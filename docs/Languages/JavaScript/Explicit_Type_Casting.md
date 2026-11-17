@@ -32,24 +32,23 @@ true.toString(); // "true"
 ```
 
 > [!WARNING]
-> **`null`과 `undefined`는 `toString()`을 직접 호출하면 오류가 발생하므로 `String()` 함수를 사용하는 것이 안전하다. :::**
->
-> ### 숫자로 변환 (To Number)
->
-> - `Number(value)`
-> - `parseInt(value)`
-> - `parseFloat(value)`
->
-> ```js
-> Number('123'); // 123
-> parseInt('123.45'); // 123
-> parseFloat('123.45'); // 123.45
-> Number(true); // 1
-> Number(false); // 0
-> ```
->
-> :::caution
->
+> `null`과 `undefined`는 `toString()`을 직접 호출하면 오류가 발생하므로 `String()` 함수를 사용하는 것이 안전하다.
+
+### 숫자로 변환 (To Number)
+
+- `Number(value)`
+- `parseInt(value)`
+- `parseFloat(value)`
+
+```js
+Number('123'); // 123
+parseInt('123.45'); // 123
+parseFloat('123.45'); // 123.45
+Number(true); // 1
+Number(false); // 0
+```
+
+> [!CAUTION]
 > `Number("")`은 0이지만, `Number("abc")`는 `NaN`이 된다.
 
 ### 불리언으로 변환 (To Boolean)
