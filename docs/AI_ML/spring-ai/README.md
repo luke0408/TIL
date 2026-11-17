@@ -1,6 +1,6 @@
 ---
 title: "Spring AI"
-description: "AI Application은 AI 모델을 활용해 실제 서비스를 구현하는 응용 시스템이다. 이러한 시스템은 Front-End, Back-End(API Server), AI 모델의 유기적 상호작용으로 구성되며, 이를 효율적으로 통합하기 위해 Spring."
+description: "AI Application은 AI 모델을 활용해 실제 서비스를 구현하는 응용 시스템이다. 이러한 시스템은 Front-End, Back-End(API Server), AI 모델의 유기적 상호작용으로 구성되며, 이를 효율적으로 통합하기 위해 Spring AI와 같은 프레임워크가 사용된다."
 slug: /ai_ml/spring-ai
 created_at: "2026-02-17 17:28+09:00"
 sidebar_position: 1

@@ -1,6 +1,6 @@
 ---
 title: "Introduction to JavaScript Engine"
-description: "JavaScript 엔진은 JavaScript 코드를 실행하는 핵심 구성 요소로, 브라우저 및 런타임 환경(Node.js 등)에서 동작한다. JavaScript 코드를 해석하고 실행하며, 성능 최적화를 위해 Just-In-Time(JIT) 컴파일러를."
+description: "JavaScript 엔진은 JavaScript 코드를 실행하는 핵심 구성 요소로, 브라우저 및 런타임 환경(Node.js 등)에서 동작한다. JavaScript 코드를 해석하고 실행하며, 성능 최적화를 위해 Just-In-Time(JIT) 컴파일러를 활용한다."
 slug: /languages/javascript/introduction_to_javascript_engine
 created_at: "2025-02-14 13:42Z"
 sidebar_position: 28

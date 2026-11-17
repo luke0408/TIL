@@ -1,6 +1,6 @@
 ---
 title: "package.json – 실행 및 입출력 필드 정리"
-description: "이 노트는 package.json의 실행 및 입출력 필드들을 정리한 것이다. 이 필드들은 패키지를 어떤 방식으로 로드하고 실행할 수 있는지를 결정하며, CommonJS, ESM, 브라우저 환경, CLI 도구 등 다양한 형태를 지원한다. -->."
+description: "package.json의 실행 및 입출력 필드는 패키지의 진입점, 실행 스크립트, CLI 명령어, 브라우저 대응, 타입 선언 등을 정의한다. 이 필드들은 패키지를 어떻게 소비할지에 대한 계약을 형성한다."
 slug: /backend/npm/runtime_io_fields
 created_at: "2025-07-20 13:09Z"
 sidebar_position: 3
