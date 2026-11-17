@@ -39,7 +39,7 @@ sidebar_position: 4
 
 :::info 
 
-"리팩터링하면 머리로 이해한 것을 코드에 옮겨 담을 수 있다. 그런 다음 수정한 코드를 테스트해보면 내 생각이 맞았는지 확인할 수 있다." - 위드 커닝햄(Ward Cunningham) 
+"리팩터링하면 머리로 이해한 것을 코드에 옮겨 담을 수 있다. 그런 다음 수정한 코드를 테스트해보면 내 생각이 맞았는지 확인할 수 있다." - 워드 커닝햄(Ward Cunningham) 
 
 :::
 
@@ -86,7 +86,7 @@ sidebar_position: 4
 
 **link:** External reference
 
-- [Refactoring 2nd Edtion](https://product.kyobobook.co.kr/detail/S000001810241)
+- [Refactoring 2nd Edition](https://product.kyobobook.co.kr/detail/S000001810241)
 
 **link**: 관련 개념 노트
 
