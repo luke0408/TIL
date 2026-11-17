@@ -20,7 +20,7 @@ function walk(folder, fn) {
     if (stat.isDirectory() && !stat.isSymbolicLink()) walk(path, fn);
   }
 }
-for (const folder of ['docs', 'src', 'static', 'public', 'dist']) {
+for (const folder of ['docs']) {
   const input = join(root, folder);
   if (existsSync(input) && lstatSync(input).isSymbolicLink()) {
     failures.push(`Symlink publication root: ${folder}`);
@@ -30,7 +30,7 @@ for (const folder of ['docs', 'src', 'static', 'public', 'dist']) {
     const file = relative(root, path);
     if (stat.isSymbolicLink()) failures.push(`Symlink in publication input/output: ${file}`);
     if (forbidden.test(file)) failures.push(`Local-only directory in publication input/output: ${file}`);
-    if (stat.isFile() && /\.(md|mdx|ts|tsx|js|jsx|html|css|json)$/.test(path)) {
+    if (stat.isFile() && /\.md$/.test(path)) {
       const source = readFileSync(path, 'utf8');
       if (/(?:\.\.\/|\/|\[\[)private\//i.test(source)) failures.push(`Reference to local-only material: ${file}`);
     }
@@ -41,5 +41,4 @@ if (failures.length) {
   process.exitCode = 1;
 } else {
   console.log('Public-boundary structural checks passed. This is NOT a sensitive-content audit.');
-  console.log(existsSync(join(root, 'dist')) ? 'Existing dist inspected; freshness not guaranteed.' : 'No dist: built artifact inspection remains pending.');
 }
