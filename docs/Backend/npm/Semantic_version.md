@@ -1,6 +1,6 @@
 ---
 title: "Semantic Versioning"
-description: "Semantic Versioning(이하 SemVer)은 소프트웨어 버전을 관리하고 소통하기 위한 명확한 규약이다. SemVer은 MAJOR.MINOR.PATCH 형식을 따르며, 각 숫자는 변경의 성격과 API의 호환성 수준을 나타낸다. npm은 이."
+description: "Semantic Versioning(이하 SemVer)은 소프트웨어 버전을 관리하고 소통하기 위한 명확한 규약이다. SemVer은 MAJOR.MINOR.PATCH 형식을 따르며, 각 숫자는 변경의 성격과 API의 호환성 수준을 나타낸다."
 slug: /backend/npm/semantic_version
 created_at: "2025-07-17 14:07Z"
 sidebar_position: 4
@@ -28,11 +28,8 @@ MAJOR.MINOR.PATCH
 | MINOR | 하위 호환 기능 추가 | 기존 기능은 그대로 두고 새 기능만 추가된 경우 |
 | PATCH | 하위 호환 버그 수정 | 기존 기능 수정이나 내부 개선이지만 API는 그대로인 경우 |
 
-:::info[Information] 
-
-버전 번호는 반드시 숫자이며, 선행 0을 포함할 수 없다. 예: `01.0.0`은 유효하지 않다. 
-
-:::
+> [!NOTE]
+> 버전 번호는 반드시 숫자이며, 선행 0을 포함할 수 없다. 예: `01.0.0`은 유효하지 않다.
 
 ### 초기 개발 단계: 0.y.z
 
@@ -40,11 +37,8 @@ MAJOR.MINOR.PATCH
 - API는 예고 없이 변경될 수 있으며, MAJOR 의미가 적용되지 않는다.
 - 예: `0.1.0 → 0.2.0`에서도 API가 깨질 수 있다.
 
-:::danger[CAUTION] 
-
-안정적인 API를 공개하려면 `1.0.0` 이후 버전부터 시작해야 한다. 
-
-:::
+> [!CAUTION]
+> 안정적인 API를 공개하려면 `1.0.0` 이후 버전부터 시작해야 한다.
 
 ### 프리릴리즈 버전과 메타데이터
 
@@ -60,11 +54,8 @@ MAJOR.MINOR.PATCH
 - 기능에는 영향 없으며, 배포 버전 식별에 사용됨
 - 형식: `MAJOR.MINOR.PATCH+metadata`
 
-:::note[NOTE] 
-
-빌드 메타데이터는 버전 우선순위 비교에서 **무시**된다. 
-
-:::
+> [!NOTE]
+> 빌드 메타데이터는 버전 우선순위 비교에서 **무시**된다.
 
 ### 버전 우선순위 비교 규칙
 
@@ -76,11 +67,8 @@ MAJOR.MINOR.PATCH
 1.0.0-alpha < 1.0.0-alpha.1 < 1.0.0-beta < 1.0.0
 ```
 
-:::warning[WARNING] 
-
-동일한 버전 번호를 여러 릴리즈에 재사용하면 안 된다. 각 버전은 고유해야 하며 후퇴(revert)도 불가하다. 
-
-:::
+> [!WARNING]
+> 동일한 버전 번호를 여러 릴리즈에 재사용하면 안 된다. 각 버전은 고유해야 하며 후퇴(revert)도 불가하다.
 
 ### npm에서의 SemVer 활용 방식
 
@@ -93,11 +81,8 @@ MAJOR.MINOR.PATCH
 | `>` / `<` | 부등호 조건           | `>=2.0.0`    | 조건에 맞는 모든 버전  |
 | `*`, `x`  | 와일드카드            | `1.2.x`, `*` | 해당 범위 내 버전 전체 |
 
-:::tip[TIP] 
-
-대부분의 라이브러리는 `^`를 기본값으로 사용하며, 안전한 업그레이드를 허용한다. 
-
-:::
+> [!TIP]
+> 대부분의 라이브러리는 `^`를 기본값으로 사용하며, 안전한 업그레이드를 허용한다.
 
 #### 설치 결과 예시
 

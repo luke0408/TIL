@@ -50,7 +50,7 @@ id: http-history
   - 요청마다 **TCP 연결 재생성** → 지연(latency) 증가.
   - 캐싱, 호스트 기반 가상화 지원 부족.
 
-### HTTP/1.1 (1997, RFC 2068 → 1999, RFC 2616 → 2014, RFC 7230\~7235)
+### HTTP/1.1 (1997, RFC 2068 → 1999, RFC 2616 → 2014, RFC 7230\~7235 → 2022, RFC 9110\~9112)
 
 - **핵심 확장 기능**:
   - **Persistent Connection (Keep-Alive)**: 기본적으로 연결 유지.
@@ -77,3 +77,5 @@ id: http-history
 - [RFC 1945 - Hypertext Transfer Protocol -- HTTP/1.0](https://datatracker.ietf.org/doc/html/rfc1945)
 - [RFC 2616 - Hypertext Transfer Protocol -- HTTP/1.1](https://datatracker.ietf.org/doc/html/rfc2616)
 - [RFC 7230-7235 - HTTP/1.1 Update](https://datatracker.ietf.org/doc/html/rfc7230)
+- [RFC 9110 - HTTP Semantics](https://datatracker.ietf.org/doc/html/rfc9110)
+- [RFC 9112 - HTTP/1.1](https://datatracker.ietf.org/doc/html/rfc9112)

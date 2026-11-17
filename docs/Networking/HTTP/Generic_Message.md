@@ -71,11 +71,10 @@ Hello, world!
 - 빈 줄(CRLF) → 헤더와 본문 구분
 - `Hello, world!` → message-body
 
-:::tip CRLF의 역할
-
-- 단순 줄바꿈이 아닌 **구조적 경계 표시자**로 한 줄의 헤더 종료, 헤더 전체의 종료를 명확히 구분하여 파서가 메시지를 정확히 해석할 수 있게 함 
-
-:::
+> [!TIP]
+> **CRLF의 역할**
+>
+> - 단순 줄바꿈이 아닌 **구조적 경계 표시자**로 한 줄의 헤더 종료, 헤더 전체의 종료를 명확히 구분하여 파서가 메시지를 정확히 해석할 수 있게 함
 
 ## Reference
 
@@ -83,3 +82,4 @@ Hello, world!
 
 - [RFC 2616 - Hypertext Transfer Protocol -- HTTP/1.1 (Section 4.1)](https://datatracker.ietf.org/doc/html/rfc2616#section-4.1)
 - [RFC 7230 - HTTP/1.1 Message Syntax and Routing (Section 3)](https://datatracker.ietf.org/doc/html/rfc7230#section-3)
+- [RFC 9112 - HTTP/1.1 (Section 2) 현행 명세](https://datatracker.ietf.org/doc/html/rfc9112#section-2)

@@ -1,6 +1,6 @@
 ---
 title: "Host Header (가상 호스팅)"
-description: "Host 헤더는 HTTP/1.1에서 새롭게 필수화된 헤더로, 하나의 서버(또는 IP 주소)에서 여러 도메인 이름을 동시에 운영할 수 있도록 한다. 이를 통해 가상 호스팅(Virtual Hosting)이 가능해졌으며, 현대 웹 서버 아키텍처의 핵심."
+description: "Host 헤더는 HTTP/1.1에서 새롭게 필수화된 헤더로, 하나의 서버(또는 IP 주소)에서 여러 도메인 이름을 동시에 운영할 수 있도록 한다. 이를 통해 가상 호스팅(Virtual Hosting)이 가능해졌으며, 현대 웹 서버 아키텍처의 핵심 기반이 되었다."
 slug: /networking/http/host_header
 created_at: "2025-08-27 14:40Z"
 sidebar_position: 5
@@ -72,4 +72,5 @@ Host 헤더는 **[HTTP](./README.md)/1.1에서 새롭게 필수화된 헤더**�
 
 - [RFC 2616 - Section 14.23 Host](https://datatracker.ietf.org/doc/html/rfc2616#section-14.23)
 - [RFC 7230 - Section 5.4 Host](https://datatracker.ietf.org/doc/html/rfc7230#section-5.4)
+- [RFC 9110 - Section 7.2 Host and :authority](https://datatracker.ietf.org/doc/html/rfc9110#section-7.2)
 - [MDN - Host header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Host)

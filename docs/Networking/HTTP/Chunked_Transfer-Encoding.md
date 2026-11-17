@@ -1,6 +1,6 @@
 ---
 title: "Chunked Transfer-Encoding"
-description: "Chunked Transfer-Encoding은 HTTP/1.1에서 도입된 전송 메커니즘으로, 서버가 응답 본문의 전체 크기를 미리 알지 못하더라도 데이터를 청크 단위로 나누어 스트리밍할 수 있게 한다. 이를 통해 동적 콘텐츠 생성, 스트리밍."
+description: "Chunked Transfer-Encoding은 HTTP/1.1에서 도입된 전송 메커니즘으로, 서버가 응답 본문의 전체 크기를 미리 알지 못하더라도 데이터를 청크 단위로 나누어 스트리밍할 수 있게 한다. 이를 통해 동적 콘텐츠 생성, 스트리밍 서비스, 서버-푸시형 응답이 가능해졌다."
 slug: /networking/http/chunked_transfer-encoding
 created_at: "2025-08-27 14:53Z"
 sidebar_position: 7
@@ -19,8 +19,9 @@ Chunked Transfer-Encoding은 **HTTP/1.1에서 도입된 전송 메커니즘**으
 ### 등장 배경
 
 - **HTTP/1.0 한계**
-  - 응답 본문 크기를 반드시 `Content-Length` 헤더로 알려야 했음.
+  - 본문의 끝을 알리는 방법은 `Content-Length` 헤더 또는 연결 종료뿐이었음.
   - 동적으로 생성되는 콘텐츠(예: 실시간 로그, 스트리밍 데이터)는 크기를 사전에 알기 어려움.
+  - 크기를 모르면 서버가 연결을 끊어서 본문 끝을 알려야 함 → 연결을 재사용하는 [Keep-Alive](./Keep_Alive.md)와 함께 쓸 수 없음.
 
 ### 동작 방식
 
@@ -60,7 +61,7 @@ Hello\r\n
 
 - **오버헤드**: 각 청크마다 길이와 CRLF가 추가됨.
 - **중간 장비 문제**: 오래된 프록시나 클라이언트가 지원하지 않을 수 있음.
-- **HTTP/2 이상에서 불필요**: HTTP/2부터는 자체 프레이밍 구조를 사용 → chunked 필요 없음.
+- **HTTP/2 이상에서 사용 금지**: HTTP/2부터는 자체 프레이밍 구조(DATA 프레임)를 사용하므로 `Transfer-Encoding: chunked`를 쓰지 않는다.
 
 ## Reference
 
@@ -68,4 +69,5 @@ Hello\r\n
 
 - [RFC 2616 - Section 3.6.1 Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc2616#section-3.6.1)
 - [RFC 7230 - Section 4.1 Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc7230#section-4.1)
+- [RFC 9112 - Section 7.1 Chunked Transfer Coding](https://datatracker.ietf.org/doc/html/rfc9112#section-7.1)
 - [MDN - Transfer-Encoding](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Transfer-Encoding)

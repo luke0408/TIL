@@ -1,6 +1,6 @@
 ---
 title: "자바스크립트의 역사"
-description: "자바스크립트(JavaScript)는 1995년 탄생 이후 웹 개발의 중심 언어로 자리 잡았다. 초기에는 단순한 스크립트 언어였으나, ECMAScript(ES) 표준화와 브라우저 발전, 백엔드(Node.js) 확장을 거치며 현재는 프론트엔드와 백엔드를."
+description: "자바스크립트(JavaScript)는 1995년 탄생 이후 웹 개발의 중심 언어로 자리 잡았다. 초기에는 단순한 스크립트 언어였으나, ECMAScript(ES) 표준화와 브라우저 발전, 백엔드(Node.js) 확장을 거치며 현재는 프론트엔드와 백엔드를 아우르는 강력한 언어로 성장했다."
 slug: /languages/javascript/history_of_javascript
 created_at: "2025-02-12 11:03Z"
 sidebar_position: 2
@@ -32,11 +32,8 @@ sidebar_position: 2
 
 1997년 **ECMA 국제 표준화(ECMAScript 1, ES1)** 가 이루어졌고, 1999년 ES3가 발표되면서 **엄격한 비교(===), 예외 처리(try/catch)** 등이 추가되었다.
 
-:::note 
-
-JavaScript라는 명칭은 Java의 인기를 이용한 마케팅 전략이었으며, 실제로 Java와는 관계가 없다. 
-
-:::
+> [!NOTE]
+> JavaScript라는 명칭은 Java의 인기를 이용한 마케팅 전략이었으며, 실제로 Java와는 관계가 없다.
 
 ### **2. 정체기와 ES4의 실패 (2000 - 2008)**
 
@@ -63,11 +60,8 @@ JavaScript라는 명칭은 Java의 인기를 이용한 마케팅 전략이었으
 
 이와 함께 **Babel, TypeScript** 같은 트랜스파일러가 널리 사용되며, 최신 문법을 구버전 브라우저에서도 사용할 수 있게 되었다.
 
-:::tip 
-
-최신 ECMAScript 기능은 GitHub의 TC39 제안 시스템을 통해 누구나 기여할 수 있다. 
-
-:::
+> [!TIP]
+> 최신 ECMAScript 기능은 GitHub의 TC39 제안 시스템을 통해 누구나 기여할 수 있다.
 
 ## Reference
 

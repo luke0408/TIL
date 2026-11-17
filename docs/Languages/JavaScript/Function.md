@@ -1,6 +1,6 @@
 ---
 title: "Function"
-description: "JavaScript에서 함수(Function)는 특정 작업을 수행하는 독립적인 코드 블록이다. 코드의 재사용성을 높이고 유지보수를 용이하게 하며, JavaScript에서는 일급 객체(First-Class Citizen) 로 취급되어 다양한 방식으로."
+description: "JavaScript에서 함수(Function)는 특정 작업을 수행하는 독립적인 코드 블록이다. 코드의 재사용성을 높이고 유지보수를 용이하게 하며, JavaScript에서는 일급 객체(First-Class Citizen) 로 취급되어 다양한 방식으로 활용할 수 있다."
 slug: /languages/javascript/function
 created_at: "2025-02-10 07:49Z"
 sidebar_position: 21
@@ -59,11 +59,8 @@ const add = (a, b) => a + b;
 console.log(add(3, 4)); // 7
 ```
 
-:::info 
-
-화살표 함수는 `this`의 바인딩 방식이 다르며, 생성자로 사용할 수 없다. 
-
-:::
+> [!NOTE]
+> 화살표 함수는 `this`의 바인딩 방식이 다르며, 생성자로 사용할 수 없다.
 
 ### 매개변수와 기본값 (Parameters & Default Values)
 
@@ -114,11 +111,8 @@ const addThree = createAdder(3);
 console.log(addThree(4)); // 7
 ```
 
-:::tip 
-
-클로저는 데이터 은닉 및 함수형 프로그래밍에서 중요한 개념이다. 
-
-:::
+> [!TIP]
+> 클로저는 데이터 은닉 및 함수형 프로그래밍에서 중요한 개념이다.
 
 ### 함수의 `this` 바인딩
 

@@ -1,6 +1,6 @@
 ---
 title: "Arrow Function"
-description: "자바스크립트에서 함수를 선언하는 방법 중 하나로 화살표 함수(Arrow Function)가 있다. 기존 함수 표현식보다 간결한 문법을 제공하며, 특히 익명 함수나 단일 라인의 함수를 작성할 때 유용하다. 하지만 this, super,."
+description: "자바스크립트에서 함수를 선언하는 방법 중 하나로 화살표 함수(Arrow Function)가 있다. 기존 함수 표현식보다 간결한 문법을 제공하며, 특히 익명 함수나 단일 라인의 함수를 작성할 때 유용하다."
 slug: /languages/javascript/arrow_function
 created_at: "2025-02-10 13:37Z"
 sidebar_position: 22
@@ -31,11 +31,8 @@ console.log(f(3, 4)); // 7
 - `(a, b)`는 매개변수이다.
 - 중괄호 `{}` 안에서 로직을 작성하고 `return`을 통해 값을 반환한다.
 
-:::note 
-
-반환값이 없을 경우 `undefined`를 반환한다. 
-
-:::
+> [!NOTE]
+> 반환값이 없을 경우 `undefined`를 반환한다.
 
 ### `return` 생략 가능
 
@@ -86,11 +83,8 @@ const arrowFunction = () => {
 };
 ```
 
-:::info 
-
-화살표 함수는 생성자로 사용할 수 없다. `new` 키워드를 사용할 경우 오류가 발생한다. 
-
-:::
+> [!NOTE]
+> 화살표 함수는 생성자로 사용할 수 없다. `new` 키워드를 사용할 경우 오류가 발생한다.
 
 ## Reference
 

@@ -1,6 +1,6 @@
 ---
 title: "package.json – 기본 메타 필드 정리"
-description: "이 노트는 package.json의 기본 메타 필드들을 정리한 것이다. 이 필드들은 프로젝트의 정체성과 공개 정보(metadata)를 표현하며, 대부분 npm init으로 생성되는 항목들이다. -->."
+description: "package.json은 Node.js 프로젝트의 메타데이터를 담고 있다. 그중 기본 메타 필드는 프로젝트의 이름, 설명, 작성자, 라이선스 등의 정보를 포함하며, npm 레지스트리에 등록하거나 협업에 필요한 가장 기초적인 정보들을 정의한다."
 slug: /backend/npm/meta_fields
 created_at: "2025-07-20 13:05Z"
 sidebar_position: 2
@@ -136,11 +136,8 @@ Semantic Versioning(SemVer)을 따르는 패키지 버전이다.
 }
 ```
 
-:::tip 
-
-`homepage`, `bugs`, `repository` 필드를 함께 구성하면 npm 레지스트리 페이지에서 자동으로 GitHub 링크가 연결된다. 
-
-:::
+> [!TIP]
+> `homepage`, `bugs`, `repository` 필드를 함께 구성하면 npm 레지스트리 페이지에서 자동으로 GitHub 링크가 연결된다.
 
 ## Reference
 

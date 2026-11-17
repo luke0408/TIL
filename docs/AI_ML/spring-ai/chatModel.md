@@ -1,6 +1,6 @@
 ---
 title: "ChatModel"
-description: "ChatModel은 Spring AI 프레임워크에서 AI 모델(특히 대화형 모델)과의 상호작용을 표준화하기 위해 설계된 핵심 인터페이스이다. 이 인터페이스는 OpenAI, Azure OpenAI, Anthropic, Google Gemini 등의."
+description: "ChatModel은 Spring AI 프레임워크에서 AI 모델(특히 대화형 모델)과의 상호작용을 표준화하기 위해 설계된 핵심 인터페이스이다."
 slug: /ai_ml/spring-ai/chatmodel
 sidebar_position: 2
 ---
@@ -18,10 +18,9 @@ sidebar_position: 2
 - **응답(ChatResponse)** 을 수신하며
 - 필요 시 **대화 상태(conversation state)** 를 유지·관리한다.
 
-:::note[NOTE]
-Spring AI의 ChatModel은 “JDBC의 Statement”와 유사한 개념으로,  
-AI 모델과의 기본 요청/응답을 담당하는 저수준 API이다.
-:::
+> [!NOTE]
+> Spring AI의 ChatModel은 “JDBC의 Statement”와 유사한 개념으로,
+> AI 모델과의 기본 요청/응답을 담당하는 저수준 API이다.
 
 
 ### 2. 주요 메서드

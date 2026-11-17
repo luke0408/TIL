@@ -24,7 +24,7 @@ Classification must be based on topic intent (not file history):
   - `docs/<top-category>/README.md`
   - `docs/<top-category>/<sub-category>/README.md`
 - Each `README.md` must contain a short intro sentence describing that category concept.
-- Rationale: Docusaurus category-index convention supports `index`, `README`, or folder-name docs; this repository standardizes on `README.md`.
+- Rationale: GitHub shows a folder's `README.md` when a reader opens the folder.
 
 ## Ordering Rule (Mandatory)
 - Each note in a category must define `sidebar_position`.

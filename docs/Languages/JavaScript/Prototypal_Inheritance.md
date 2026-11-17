@@ -1,6 +1,6 @@
 ---
 title: "Prototypal Inheritance"
-description: "JavaScript에서 상속은 클래스 기반이 아닌 프로토타입 기반으로 동작한다. 이를 Prototypal Inheritance라고 하며, 객체가 다른 객체를 참조(상속)하여 속성과 메서드를 공유하는 방식이다. 이 구조는 유연하고 동적인 객체 확장을."
+description: "JavaScript에서 상속은 클래스 기반이 아닌 프로토타입 기반으로 동작한다. 이를 Prototypal Inheritance라고 하며, 객체가 다른 객체를 참조(상속)하여 속성과 메서드를 공유하는 방식이다. 이 구조는 유연하고 동적인 객체 확장을 가능하게 한다."
 slug: /languages/javascript/prototypal_inheritance
 created_at: "2025-03-30 13:17Z"
 sidebar_position: 27
@@ -25,11 +25,8 @@ rabbit.__proto__ = animal;
 console.log(rabbit.eats); // true
 ```
 
-:::note 
-
-`__proto__`는 비표준이나 대부분의 환경에서 지원된다. 표준 메서드인 `Object.setPrototypeOf()`와 `Object.getPrototypeOf()` 사용이 권장된다. 
-
-:::
+> [!NOTE]
+> `__proto__`는 비표준이나 대부분의 환경에서 지원된다. 표준 메서드인 `Object.setPrototypeOf()`와 `Object.getPrototypeOf()` 사용이 권장된다.
 
 ### Object.create를 이용한 상속
 
@@ -58,11 +55,8 @@ const rabbit = new Animal('Rabbit');
 console.log(rabbit.eats); // true
 ```
 
-:::info 
-
-`new` 키워드를 사용하면 객체는 해당 생성자의 `prototype`을 `Prototype`으로 갖는다. 
-
-:::
+> [!NOTE]
+> `new` 키워드를 사용하면 객체는 해당 생성자의 `prototype`을 `Prototype`으로 갖는다.
 
 ### 클래스와 프로토타입
 
@@ -86,11 +80,8 @@ class Rabbit extends Animal {
 }
 ```
 
-:::caution 
-
-클래스는 `strict mode`에서만 동작하며, 호이스팅되지 않는다. 클래스 선언 이전에 사용할 수 없다. 
-
-:::
+> [!CAUTION]
+> 클래스는 `strict mode`에서만 동작하며, 호이스팅되지 않는다. 클래스 선언 이전에 사용할 수 없다.
 
 ### 메서드 오버라이딩과 super
 
