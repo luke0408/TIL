@@ -83,3 +83,4 @@ Hello, world!
 
 - [RFC 2616 - Hypertext Transfer Protocol -- HTTP/1.1 (Section 4.1)](https://datatracker.ietf.org/doc/html/rfc2616#section-4.1)
 - [RFC 7230 - HTTP/1.1 Message Syntax and Routing (Section 3)](https://datatracker.ietf.org/doc/html/rfc7230#section-3)
+- [RFC 9112 - HTTP/1.1 (Section 2) 현행 명세](https://datatracker.ietf.org/doc/html/rfc9112#section-2)

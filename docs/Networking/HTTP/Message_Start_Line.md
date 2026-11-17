@@ -62,6 +62,7 @@ Status-Line = HTTP-Version SP Status-Code SP Reason-Phrase CRLF
 - **Reason-Phrase**
   - 상태 코드에 대한 짧은 텍스트 설명.
   - 예: `OK`, `Not Found`, `Internal Server Error`.
+  - 사람을 위한 설명일 뿐이므로 클라이언트는 이 값으로 처리 결과를 판단하지 않는다. 최신 명세(RFC 9112)는 빈 값도 허용한다.
 
 **예시**
 
@@ -82,3 +83,4 @@ HTTP/1.1 200 OK
 - [RFC 2616 - Section 5.1 Request-Line](https://datatracker.ietf.org/doc/html/rfc2616#section-5.1)
 - [RFC 2616 - Section 6.1 Status-Line](https://datatracker.ietf.org/doc/html/rfc2616#section-6.1)
 - [RFC 7230 - HTTP/1.1 Message Syntax and Routing](https://datatracker.ietf.org/doc/html/rfc7230)
+- [RFC 9112 - Section 3 Request Line, Section 4 Status Line](https://datatracker.ietf.org/doc/html/rfc9112)
